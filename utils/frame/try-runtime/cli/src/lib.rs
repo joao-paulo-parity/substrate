@@ -47,16 +47,6 @@ pub struct TryRuntimeCmd {
 	)]
 	pub execution: ExecutionStrategy,
 
-	/// Method for executing Wasm runtime code.
-	#[structopt(
-		long = "wasm-execution",
-		value_name = "METHOD",
-		possible_values = &WasmExecutionMethod::variants(),
-		case_insensitive = true,
-		default_value = "Interpreted"
-	)]
-	pub wasm_method: WasmExecutionMethod,
-
 	/// The state to use to run the migration.
 	#[structopt(subcommand)]
 	pub state: State,
@@ -139,7 +129,7 @@ impl TryRuntimeCmd {
 		);
 		let code_key = StorageKey(well_known_keys::CODE.to_vec());
 
-		let wasm_method = self.wasm_method;
+		let wasm_method = WasmExecutionMethod::Compiled;
 		let execution = self.execution;
 
 		let mut changes = Default::default();
