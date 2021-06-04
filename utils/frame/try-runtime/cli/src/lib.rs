@@ -47,16 +47,6 @@ pub struct TryRuntimeCmd {
 	)]
 	pub execution: ExecutionStrategy,
 
-	/// Method for executing Wasm runtime code.
-	#[structopt(
-		long = "wasm-execution",
-		value_name = "METHOD",
-		possible_values = &WasmExecutionMethod::enabled_variants(),
-		case_insensitive = true,
-		default_value = "Interpreted"
-	)]
-	pub wasm_method: WasmExecutionMethod,
-
 	/// The state to use to run the migration.
 	#[structopt(subcommand)]
 	pub state: State,
@@ -86,7 +76,7 @@ pub enum State {
 		modules: Option<Vec<String>>,
 
 		/// The url to connect to.
-		#[structopt(default_value = "http://localhost:9933", parse(try_from_str = parse_url))]
+		#[structopt(default_value = "ws://localhost:9944", parse(try_from_str = parse_url))]
 		url: String,
 	},
 }
@@ -109,11 +99,11 @@ fn parse_hash(block_number: &str) -> Result<String, String> {
 }
 
 fn parse_url(s: &str) -> Result<String, &'static str> {
-	if s.starts_with("http://") {
+	if s.starts_with("ws://") || s.starts_with("wss://") {
 		// could use Url crate as well, but lets keep it simple for now.
 		Ok(s.to_string())
 	} else {
-		Err("not a valid HTTP url: must start with 'http://'")
+		Err("not a valid WS(S) url: must start with 'ws://' or 'wss://'")
 	}
 }
 
@@ -139,7 +129,7 @@ impl TryRuntimeCmd {
 		);
 		let code_key = StorageKey(well_known_keys::CODE.to_vec());
 
-		let wasm_method = self.wasm_method;
+		let wasm_method = WasmExecutionMethod::Compiled;
 		let execution = self.execution;
 
 		let mut changes = Default::default();
@@ -166,9 +156,9 @@ impl TryRuntimeCmd {
 					block_at,
 					modules
 				} => Builder::<B>::new().mode(Mode::Online(OnlineConfig {
-					uri: url.into(),
+					transport: url.to_owned().into(),
 					state_snapshot: snapshot_path.as_ref().map(SnapshotConfig::new),
-					modules: modules.clone().unwrap_or_default(),
+					modules: modules.to_owned().unwrap_or_default(),
 					at: block_at.as_ref()
 						.map(|b| b.parse().map_err(|e| format!("Could not parse hash: {:?}", e))).transpose()?,
 					..Default::default()
