@@ -27,7 +27,7 @@ sp-staking = { version = "4.0.0-dev", default-features = false, path = "../../pr
 [dev-dependencies]
 pallet-balances = { version = "4.0.0-dev", path = "../balances" }
 pallet-timestamp = { version = "4.0.0-dev", path = "../timestamp" }
-pallet-staking-reward-curve = { version = "4.0.0-dev", path = "../staking/reward-curve" }
+pallet-staking-reward-curve = { version = "4.0.0", path = "../staking/reward-curve" , registry = "local" }
 
 sp-core = { version = "6.0.0", path = "../../primitives/core" }
 sp-io = { version = "6.0.0", default-features = false, path = "../../primitives/io" }

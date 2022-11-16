@@ -5332,7 +5332,7 @@ dependencies = [
 
 [[package]]
 name = "pallet-contracts-proc-macro"
-version = "4.0.0-dev"
+version = "4.0.0"
 dependencies = [
  "proc-macro2",
  "quote",
@@ -6111,12 +6111,11 @@ dependencies = [
 
 [[package]]
 name = "pallet-staking-reward-curve"
-version = "4.0.0-dev"
+version = "4.0.0"
 dependencies = [
  "proc-macro-crate",
  "proc-macro2",
  "quote",
- "sp-runtime",
  "syn",
 ]
 
@@ -7600,7 +7599,7 @@ dependencies = [
 
 [[package]]
 name = "sc-chain-spec-derive"
-version = "4.0.0-dev"
+version = "4.0.0"
 dependencies = [
  "proc-macro-crate",
  "proc-macro2",
@@ -9275,7 +9274,7 @@ dependencies = [
 
 [[package]]
 name = "sp-api-proc-macro"
-version = "4.0.0-dev"
+version = "4.0.0"
 dependencies = [
  "blake2",
  "proc-macro-crate",
@@ -9576,7 +9575,7 @@ dependencies = [
 
 [[package]]
 name = "sp-database"
-version = "4.0.0-dev"
+version = "4.0.0"
 dependencies = [
  "kvdb",
  "parking_lot 0.12.1",
@@ -9883,7 +9882,7 @@ dependencies = [
 
 [[package]]
 name = "sp-serializer"
-version = "4.0.0-dev"
+version = "4.0.0"
 dependencies = [
  "serde",
  "serde_json",
@@ -11060,7 +11059,7 @@ checksum = "97fee6b57c6a41524a810daee9286c02d7752c4253064d0b05472833a438f675"
 dependencies = [
  "cfg-if",
  "digest 0.10.3",
- "rand 0.8.5",
+ "rand 0.7.3",
  "static_assertions",
 ]
 
