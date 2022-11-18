@@ -2336,7 +2336,7 @@ dependencies = [
 
 [[package]]
 name = "frame-support-procedural-tools"
-version = "4.0.0-dev"
+version = "4.0.0"
 dependencies = [
  "frame-support-procedural-tools-derive",
  "proc-macro-crate",
