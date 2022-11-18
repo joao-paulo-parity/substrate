@@ -18,22 +18,6 @@
 
 //! Features to meter unbounded channels
 
-#[cfg(not(feature = "metered"))]
-mod inner {
-	// just aliased, non performance implications
-	use futures::channel::mpsc::{self, UnboundedReceiver, UnboundedSender};
-	pub type TracingUnboundedSender<T> = UnboundedSender<T>;
-	pub type TracingUnboundedReceiver<T> = UnboundedReceiver<T>;
-
-	/// Alias `mpsc::unbounded`
-	pub fn tracing_unbounded<T>(
-		_key: &'static str,
-	) -> (TracingUnboundedSender<T>, TracingUnboundedReceiver<T>) {
-		mpsc::unbounded()
-	}
-}
-
-#[cfg(feature = "metered")]
 mod inner {
 	// tracing implementation
 	use crate::metrics::UNBOUNDED_CHANNELS_COUNTER;
