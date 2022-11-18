@@ -8419,12 +8419,11 @@ dependencies = [
 
 [[package]]
 name = "sc-peerset"
-version = "4.0.0-dev"
+version = "4.0.0"
 dependencies = [
  "futures",
  "libp2p",
  "log",
- "rand 0.7.3",
  "sc-utils",
  "serde_json",
  "wasm-timer",

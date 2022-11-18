@@ -45,7 +45,7 @@ impl<T> Clone for TracingUnboundedSender<T> {
 /// Wrapper Type around `UnboundedReceiver` that decreases the global
 /// measure when a message is polled
 #[derive(Debug)]
-pub struct TracingUnboundedReceiver<T>(&'static str, UnboundedReceiver<T>);
+pub struct TracingUnboundedReceiver<T>(&'static str, pub UnboundedReceiver<T>);
 
 /// Wrapper around `mpsc::unbounded` that tracks the in- and outflow via
 /// `UNBOUNDED_CHANNELS_COUNTER`
