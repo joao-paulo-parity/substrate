@@ -10469,7 +10469,7 @@ dependencies = [
 
 [[package]]
 name = "substrate-test-utils-derive"
-version = "0.10.0-dev"
+version = "0.10.0"
 dependencies = [
  "proc-macro-crate",
  "proc-macro2",
