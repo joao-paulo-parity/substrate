@@ -48,7 +48,7 @@ sc-client-api = { version = "4.0.0-dev", path = "../api" }
 sc-consensus = { version = "0.10.0-dev", path = "../consensus/common" }
 sc-network-common = { version = "0.10.0-dev", path = "./common" }
 sc-peerset = { version = "4.0.0-dev", path = "../peerset" }
-sc-utils = { version = "4.0.0-dev", path = "../utils" }
+sc-utils = { version = "4.0.0", path = "../utils" , registry = "local" }
 sp-arithmetic = { version = "6.0.0", path = "../../primitives/arithmetic" , registry = "local" }
 sp-blockchain = { version = "4.0.0-dev", path = "../../primitives/blockchain" }
 sp-consensus = { version = "0.10.0-dev", path = "../../primitives/consensus/common" }
