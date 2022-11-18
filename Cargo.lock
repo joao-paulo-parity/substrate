@@ -8419,7 +8419,7 @@ dependencies = [
 
 [[package]]
 name = "sc-peerset"
-version = "4.0.0"
+version = "5.0.0"
 dependencies = [
  "futures",
  "libp2p",
@@ -8811,7 +8811,7 @@ dependencies = [
 
 [[package]]
 name = "sc-utils"
-version = "6.0.0"
+version = "7.0.0"
 dependencies = [
  "futures",
  "futures-timer",
