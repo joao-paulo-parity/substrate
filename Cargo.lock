@@ -8706,7 +8706,7 @@ dependencies = [
 
 [[package]]
 name = "sc-telemetry"
-version = "4.0.0-dev"
+version = "4.0.0"
 dependencies = [
  "chrono",
  "futures",
