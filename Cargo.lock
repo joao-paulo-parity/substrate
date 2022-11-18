@@ -9747,7 +9747,7 @@ dependencies = [
 
 [[package]]
 name = "sp-panic-handler"
-version = "5.0.0"
+version = "6.0.0"
 dependencies = [
  "backtrace",
  "lazy_static",
