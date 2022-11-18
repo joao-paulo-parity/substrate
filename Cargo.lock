@@ -9686,7 +9686,7 @@ dependencies = [
 
 [[package]]
 name = "sp-maybe-compressed-blob"
-version = "4.1.0-dev"
+version = "4.1.0"
 dependencies = [
  "thiserror",
  "zstd",
@@ -9747,7 +9747,7 @@ dependencies = [
 
 [[package]]
 name = "sp-panic-handler"
-version = "4.0.0"
+version = "5.0.0"
 dependencies = [
  "backtrace",
  "lazy_static",
