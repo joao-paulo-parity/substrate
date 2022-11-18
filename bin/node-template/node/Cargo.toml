@@ -23,7 +23,7 @@ sc-cli = { version = "0.10.0-dev", path = "../../../client/cli", features = ["wa
 sp-core = { version = "6.0.0", path = "../../../primitives/core" }
 sc-executor = { version = "0.10.0-dev", path = "../../../client/executor", features = ["wasmtime"] }
 sc-service = { version = "0.10.0-dev", path = "../../../client/service", features = ["wasmtime"] }
-sc-telemetry = { version = "4.0.0-dev", path = "../../../client/telemetry" }
+sc-telemetry = { version = "4.0.0", path = "../../../client/telemetry" , registry = "local" }
 sc-keystore = { version = "4.0.0-dev", path = "../../../client/keystore" }
 sc-transaction-pool = { version = "4.0.0-dev", path = "../../../client/transaction-pool" }
 sc-transaction-pool-api = { version = "4.0.0-dev", path = "../../../client/transaction-pool/api" }
