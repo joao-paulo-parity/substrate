@@ -23,7 +23,7 @@ thiserror = { version = "1.0.30", optional = true }
 sp-core-hashing-proc-macro = { version = "5.0.0", path = "../core/hashing/proc-macro" }
 sp-runtime = { version = "6.0.0", default-features = false, path = "../runtime" }
 sp-std = { version = "4.0.0", default-features = false, path = "../std" }
-sp-version-proc-macro = { version = "4.0.0-dev", default-features = false, path = "proc-macro" }
+sp-version-proc-macro = { version = "4.0.0", default-features = false, path = "proc-macro" , registry = "local" }
 
 [features]
 default = ["std"]
