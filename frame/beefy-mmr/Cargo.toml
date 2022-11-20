@@ -24,7 +24,7 @@ pallet-session = { version = "4.0.0-dev", default-features = false, path = "../s
 sp-core = { version = "6.0.0", default-features = false, path = "../../primitives/core" }
 sp-io = { version = "6.0.0", default-features = false, path = "../../primitives/io" }
 sp-runtime = { version = "6.0.0", default-features = false, path = "../../primitives/runtime" }
-sp-std = { version = "6.0.0", default-features = false, path = "../../primitives/std" , registry = "local" }
+sp-std = { version = "7.0.0", default-features = false, path = "../../primitives/std" , registry = "local" }
 
 [dev-dependencies]
 array-bytes = "4.1"

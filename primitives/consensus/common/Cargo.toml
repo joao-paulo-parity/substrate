@@ -26,7 +26,7 @@ sp-core = { version = "6.0.0", path = "../../core" }
 sp-inherents = { version = "4.0.0-dev", path = "../../inherents" }
 sp-runtime = { version = "6.0.0", path = "../../runtime" }
 sp-state-machine = { version = "0.12.0", path = "../../state-machine" }
-sp-std = { version = "6.0.0", path = "../../std" , registry = "local" }
+sp-std = { version = "7.0.0", path = "../../std" , registry = "local" }
 sp-version = { version = "5.0.0", path = "../../version" }
 
 [dev-dependencies]
