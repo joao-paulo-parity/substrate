@@ -25,7 +25,7 @@ parking_lot = "0.12.1"
 prometheus-endpoint = { package = "substrate-prometheus-endpoint", version = "0.13.0", path = "../../utils/prometheus" , registry = "local" }
 sc-executor = { version = "0.10.0-dev", path = "../executor" }
 sc-transaction-pool-api = { version = "4.0.0-dev", path = "../transaction-pool/api" }
-sc-utils = { version = "7.0.0", path = "../utils" , registry = "local" }
+sc-utils = { version = "8.0.0", path = "../utils" , registry = "local" }
 sp-api = { version = "4.0.0-dev", path = "../../primitives/api" }
 sp-blockchain = { version = "4.0.0-dev", path = "../../primitives/blockchain" }
 sp-consensus = { version = "0.10.0-dev", path = "../../primitives/consensus/common" }

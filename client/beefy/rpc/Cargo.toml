@@ -19,7 +19,7 @@ thiserror = "1.0"
 beefy-gadget = { version = "4.0.0-dev", path = "../." }
 beefy-primitives = { version = "4.0.0-dev", path = "../../../primitives/beefy" }
 sc-rpc = { version = "4.0.0-dev", path = "../../rpc" }
-sc-utils = { version = "7.0.0", path = "../../utils" , registry = "local" }
+sc-utils = { version = "8.0.0", path = "../../utils" , registry = "local" }
 sp-core = { version = "6.0.0", path = "../../../primitives/core" }
 sp-runtime = { version = "6.0.0", path = "../../../primitives/runtime" }
 
