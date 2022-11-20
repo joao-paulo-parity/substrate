@@ -9938,7 +9938,7 @@ dependencies = [
 
 [[package]]
 name = "sp-std"
-version = "5.0.0"
+version = "6.0.0"
 
 [[package]]
 name = "sp-storage"
@@ -10071,7 +10071,7 @@ dependencies = [
 
 [[package]]
 name = "sp-version-proc-macro"
-version = "6.0.0"
+version = "7.0.0"
 dependencies = [
  "parity-scale-codec",
  "proc-macro2",
