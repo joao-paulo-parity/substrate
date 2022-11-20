@@ -27,7 +27,7 @@ futures = "0.3.21"
 futures-timer = "3.0.2"
 libp2p = { version = "0.49.0", features = [ "request-response", "kad" ] }
 linked_hash_set = "0.1.3"
-prometheus-endpoint = { package = "substrate-prometheus-endpoint", version = "0.10.0-dev", path = "../../../utils/prometheus" }
+prometheus-endpoint = { package = "substrate-prometheus-endpoint", version = "0.11.0", path = "../../../utils/prometheus" , registry = "local" }
 smallvec = "1.8.0"
 sc-consensus = { version = "0.10.0-dev", path = "../../consensus/common" }
 sc-peerset = { version = "5.0.0", path = "../../peerset" , registry = "local" }
