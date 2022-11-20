@@ -5332,7 +5332,7 @@ dependencies = [
 
 [[package]]
 name = "pallet-contracts-proc-macro"
-version = "5.0.0"
+version = "6.0.0"
 dependencies = [
  "proc-macro2",
  "quote",
@@ -5779,7 +5779,7 @@ dependencies = [
 
 [[package]]
 name = "pallet-nomination-pools-test-staking"
-version = "2.0.0"
+version = "3.0.0"
 dependencies = [
  "frame-election-provider-support",
  "frame-support",
@@ -6111,7 +6111,7 @@ dependencies = [
 
 [[package]]
 name = "pallet-staking-reward-curve"
-version = "5.0.0"
+version = "6.0.0"
 dependencies = [
  "proc-macro-crate",
  "proc-macro2",
@@ -7599,7 +7599,7 @@ dependencies = [
 
 [[package]]
 name = "sc-chain-spec-derive"
-version = "5.0.0"
+version = "6.0.0"
 dependencies = [
  "proc-macro-crate",
  "proc-macro2",
@@ -8705,7 +8705,7 @@ dependencies = [
 
 [[package]]
 name = "sc-telemetry"
-version = "5.0.0"
+version = "6.0.0"
 dependencies = [
  "chrono",
  "futures",

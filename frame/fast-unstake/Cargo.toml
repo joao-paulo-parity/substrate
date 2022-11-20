@@ -29,7 +29,7 @@ frame-election-provider-support = { default-features = false, path = "../electio
 frame-benchmarking = { version = "4.0.0-dev", default-features = false, optional = true, path = "../benchmarking" }
 
 [dev-dependencies]
-pallet-staking-reward-curve = { version = "5.0.0", path = "../staking/reward-curve" , registry = "local" }
+pallet-staking-reward-curve = { version = "6.0.0", path = "../staking/reward-curve" , registry = "local" }
 sp-core = { version = "6.0.0", default-features = false, path = "../../primitives/core" }
 substrate-test-utils = { version = "4.0.0-dev", path = "../../test-utils" }
 sp-tracing = { version = "5.0.0", path = "../../primitives/tracing" }

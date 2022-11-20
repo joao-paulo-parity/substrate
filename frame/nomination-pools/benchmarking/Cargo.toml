@@ -35,7 +35,7 @@ sp-std = { version = "5.0.0", default-features = false, path = "../../../primiti
 [dev-dependencies]
 pallet-balances = { version = "4.0.0-dev", default-features = false, path = "../../balances" }
 pallet-timestamp = { version = "4.0.0-dev", path = "../../timestamp" }
-pallet-staking-reward-curve = { version = "5.0.0", path = "../../staking/reward-curve" , registry = "local" }
+pallet-staking-reward-curve = { version = "6.0.0", path = "../../staking/reward-curve" , registry = "local" }
 sp-core = { version = "6.0.0", path = "../../../primitives/core" }
 sp-io = { version = "6.0.0", path = "../../../primitives/io" }
 
