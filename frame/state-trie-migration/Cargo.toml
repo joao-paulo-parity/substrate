@@ -26,7 +26,7 @@ remote-externalities = { optional = true, path = "../../utils/frame/remote-exter
 sp-core = { default-features = false, path = "../../primitives/core" }
 sp-io = { default-features = false, path = "../../primitives/io" }
 sp-runtime = { default-features = false, path = "../../primitives/runtime" }
-sp-std = { default-features = false, path = "../../primitives/std" }
+sp-std = { default-features = false, path = "../../primitives/std" , version = "5.0.0", registry = "local" }
 substrate-state-trie-migration-rpc = { optional = true, path = "../../utils/frame/rpc/state-trie-migration-rpc" }
 
 [dev-dependencies]

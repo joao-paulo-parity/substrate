@@ -28,7 +28,7 @@ sp-application-crypto = { version = "6.0.0", default-features = false, path = ".
 sp-arithmetic = { version = "6.0.0", default-features = false, path = "../arithmetic" , registry = "local" }
 sp-core = { version = "6.0.0", default-features = false, path = "../core" }
 sp-io = { version = "6.0.0", default-features = false, path = "../io" }
-sp-std = { version = "4.0.0", default-features = false, path = "../std" }
+sp-std = { version = "5.0.0", default-features = false, path = "../std" , registry = "local" }
 sp-weights = { version = "4.0.0", default-features = false, path = "../weights" }
 
 [dev-dependencies]

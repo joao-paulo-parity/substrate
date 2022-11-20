@@ -15,7 +15,7 @@ targets = ["x86_64-unknown-linux-gnu"]
 [dependencies]
 codec = { package = "parity-scale-codec", version = "3.0.0", default-features = false }
 scale-info = { version = "2.1.1", default-features = false, features = ["derive"] }
-sp-std = { version = "4.0.0", default-features = false, path = "../../primitives/std" }
+sp-std = { version = "5.0.0", default-features = false, path = "../../primitives/std" , registry = "local" }
 # Needed for various traits. In our case, `OnFinalize`.
 sp-runtime = { version = "6.0.0", default-features = false, path = "../../primitives/runtime" }
 # Needed for type-safe access to storage DB.
@@ -26,7 +26,7 @@ frame-benchmarking = { version = "4.0.0-dev", default-features = false, path = "
 
 [dev-dependencies]
 sp-core = { version = "6.0.0", path = "../../primitives/core" }
-sp-std = { version = "4.0.0", path = "../../primitives/std" }
+sp-std = { version = "5.0.0", path = "../../primitives/std" , registry = "local" }
 sp-io = { version = "6.0.0", path = "../../primitives/io" }
 pallet-balances = { version = "4.0.0-dev", path = "../balances" }
 
