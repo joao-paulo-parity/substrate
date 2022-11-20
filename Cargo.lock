@@ -2104,7 +2104,7 @@ checksum = "3f9eec918d3f24069decb9af1554cad7c880e2da24a9afd88aca000531ab82c1"
 
 [[package]]
 name = "fork-tree"
-version = "4.0.0"
+version = "5.0.0"
 dependencies = [
  "parity-scale-codec",
 ]
@@ -2203,7 +2203,7 @@ dependencies = [
 
 [[package]]
 name = "frame-election-provider-solution-type"
-version = "4.0.0"
+version = "5.0.0"
 dependencies = [
  "frame-election-provider-support",
  "frame-support",
@@ -2347,7 +2347,7 @@ dependencies = [
 
 [[package]]
 name = "frame-support-procedural-tools-derive"
-version = "4.0.0"
+version = "5.0.0"
 dependencies = [
  "proc-macro2",
  "quote",
