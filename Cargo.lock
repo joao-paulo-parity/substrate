@@ -9574,7 +9574,7 @@ dependencies = [
 
 [[package]]
 name = "sp-database"
-version = "5.0.0"
+version = "6.0.0"
 dependencies = [
  "kvdb",
  "parking_lot 0.12.1",
@@ -9582,7 +9582,7 @@ dependencies = [
 
 [[package]]
 name = "sp-debug-derive"
-version = "6.0.0"
+version = "7.0.0"
 dependencies = [
  "proc-macro2",
  "quote",
@@ -9685,7 +9685,7 @@ dependencies = [
 
 [[package]]
 name = "sp-maybe-compressed-blob"
-version = "5.0.0"
+version = "6.0.0"
 dependencies = [
  "thiserror",
  "zstd",
@@ -9746,7 +9746,7 @@ dependencies = [
 
 [[package]]
 name = "sp-panic-handler"
-version = "7.0.0"
+version = "8.0.0"
 dependencies = [
  "backtrace",
  "lazy_static",
@@ -9816,7 +9816,7 @@ dependencies = [
 
 [[package]]
 name = "sp-runtime-interface-proc-macro"
-version = "6.0.0"
+version = "7.0.0"
 dependencies = [
  "Inflector",
  "proc-macro-crate",
@@ -9881,7 +9881,7 @@ dependencies = [
 
 [[package]]
 name = "sp-serializer"
-version = "5.0.0"
+version = "6.0.0"
 dependencies = [
  "serde",
  "serde_json",

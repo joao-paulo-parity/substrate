@@ -20,7 +20,7 @@ scale-info = { version = "2.1.1", default-features = false, features = ["derive"
 sp-core = { version = "6.0.0", optional = true, path = "../core" }
 sp-inherents = { version = "4.0.0-dev", default-features = false, path = "../inherents" }
 sp-runtime = { version = "6.0.0", default-features = false, path = "../runtime" }
-sp-std = { version = "5.0.0", default-features = false, path = "../std" , registry = "local" }
+sp-std = { version = "6.0.0", default-features = false, path = "../std" , registry = "local" }
 sp-trie = { version = "6.0.0", optional = true, path = "../trie" }
 
 [features]

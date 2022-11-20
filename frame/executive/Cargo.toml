@@ -23,7 +23,7 @@ frame-try-runtime = { version = "0.10.0-dev", default-features = false, path = "
 sp-core = { version = "6.0.0", default-features = false, path = "../../primitives/core" }
 sp-io = { version = "6.0.0", default-features = false, path = "../../primitives/io" }
 sp-runtime = { version = "6.0.0", default-features = false, path = "../../primitives/runtime" }
-sp-std = { version = "5.0.0", default-features = false, path = "../../primitives/std" , registry = "local" }
+sp-std = { version = "6.0.0", default-features = false, path = "../../primitives/std" , registry = "local" }
 sp-tracing = { version = "5.0.0", default-features = false, path = "../../primitives/tracing" }
 
 [dev-dependencies]

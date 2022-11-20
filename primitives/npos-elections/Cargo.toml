@@ -19,7 +19,7 @@ serde = { version = "1.0.136", features = ["derive"], optional = true }
 sp-arithmetic = { version = "6.0.0", default-features = false, path = "../arithmetic" , registry = "local" }
 sp-core = { version = "6.0.0", default-features = false, path = "../core" }
 sp-runtime = { version = "6.0.0", default-features = false, path = "../runtime" }
-sp-std = { version = "5.0.0", default-features = false, path = "../std" , registry = "local" }
+sp-std = { version = "6.0.0", default-features = false, path = "../std" , registry = "local" }
 
 [dev-dependencies]
 rand = "0.7.3"
