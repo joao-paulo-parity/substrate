@@ -21,7 +21,7 @@ serde = { version = "1.0.136", optional = true, features = ["derive"] }
 smallvec = "1.8.0"
 sp-arithmetic = { version = "6.0.0", default-features = false, path = "../arithmetic" , registry = "local" }
 sp-core = { version = "6.0.0", default-features = false, path = "../core" }
-sp-debug-derive = { version = "7.0.0", default-features = false, path = "../debug-derive" , registry = "local" }
+sp-debug-derive = { version = "8.0.0", default-features = false, path = "../debug-derive" , registry = "local" }
 sp-std = { version = "6.0.0", default-features = false, path = "../std" , registry = "local" }
 
 [features]
