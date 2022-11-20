@@ -27,7 +27,7 @@ parking_lot = "0.12.1"
 rand = "0.8.4"
 serde_json = "1.0.85"
 thiserror = "1.0"
-fork-tree = { version = "4.0.0", path = "../../utils/fork-tree" , registry = "local" }
+fork-tree = { version = "5.0.0", path = "../../utils/fork-tree" , registry = "local" }
 prometheus-endpoint = { package = "substrate-prometheus-endpoint", version = "0.13.0", path = "../../utils/prometheus" , registry = "local" }
 sc-block-builder = { version = "0.10.0-dev", path = "../block-builder" }
 sc-chain-spec = { version = "4.0.0-dev", path = "../../client/chain-spec" }
