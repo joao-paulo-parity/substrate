@@ -22,7 +22,7 @@ futures = "0.3.21"
 hash-db = { version = "0.15.2", default-features = false }
 log = "0.4.17"
 parking_lot = "0.12.1"
-prometheus-endpoint = { package = "substrate-prometheus-endpoint", version = "0.14.0", path = "../../utils/prometheus" , registry = "local" }
+prometheus-endpoint = { package = "substrate-prometheus-endpoint", version = "0.15.0", path = "../../utils/prometheus" , registry = "local" }
 sc-executor = { version = "0.10.0-dev", path = "../executor" }
 sc-transaction-pool-api = { version = "4.0.0-dev", path = "../transaction-pool/api" }
 sc-utils = { version = "9.0.0", path = "../utils" , registry = "local" }

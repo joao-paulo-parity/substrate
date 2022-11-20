@@ -26,7 +26,7 @@ log = "0.4.17"
 prost = "0.11"
 rand = "0.7.2"
 thiserror = "1.0"
-prometheus-endpoint = { package = "substrate-prometheus-endpoint", version = "0.14.0", path = "../../utils/prometheus" , registry = "local" }
+prometheus-endpoint = { package = "substrate-prometheus-endpoint", version = "0.15.0", path = "../../utils/prometheus" , registry = "local" }
 sc-client-api = { version = "4.0.0-dev", path = "../api" }
 sc-network-common = { version = "0.10.0-dev", path = "../network/common" }
 sp-api = { version = "4.0.0-dev", path = "../../primitives/api" }
