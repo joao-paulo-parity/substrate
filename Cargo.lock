@@ -8753,7 +8753,7 @@ dependencies = [
 
 [[package]]
 name = "sc-tracing-proc-macro"
-version = "6.0.0"
+version = "7.0.0"
 dependencies = [
  "proc-macro-crate",
  "proc-macro2",
@@ -8811,7 +8811,7 @@ dependencies = [
 
 [[package]]
 name = "sc-utils"
-version = "9.0.0"
+version = "10.0.0"
 dependencies = [
  "futures",
  "futures-timer",
@@ -9273,7 +9273,7 @@ dependencies = [
 
 [[package]]
 name = "sp-api-proc-macro"
-version = "6.0.0"
+version = "7.0.0"
 dependencies = [
  "blake2",
  "proc-macro-crate",
