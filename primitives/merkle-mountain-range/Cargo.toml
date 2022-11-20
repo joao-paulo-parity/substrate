@@ -18,7 +18,7 @@ log = { version = "0.4.17", default-features = false }
 serde = { version = "1.0.136", features = ["derive"], optional = true }
 sp-api = { version = "4.0.0-dev", default-features = false, path = "../api" }
 sp-core = { version = "6.0.0", default-features = false, path = "../core" }
-sp-debug-derive = { version = "6.0.0", default-features = false, path = "../debug-derive" , registry = "local" }
+sp-debug-derive = { version = "7.0.0", default-features = false, path = "../debug-derive" , registry = "local" }
 sp-runtime = { version = "6.0.0", default-features = false, path = "../runtime" }
 sp-std = { version = "5.0.0", default-features = false, path = "../std" , registry = "local" }
 
