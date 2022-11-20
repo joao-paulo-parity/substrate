@@ -36,7 +36,7 @@ sc-keystore = { version = "4.0.0-dev", path = "../keystore" }
 sc-network = { version = "0.10.0-dev", path = "../network" }
 sc-network-common = { version = "0.10.0-dev", path = "../network/common" }
 sc-service = { version = "0.10.0-dev", default-features = false, path = "../service" }
-sc-telemetry = { version = "6.0.0", path = "../telemetry" , registry = "local" }
+sc-telemetry = { version = "7.0.0", path = "../telemetry" , registry = "local" }
 sc-tracing = { version = "4.0.0-dev", path = "../tracing" }
 sc-utils = { version = "9.0.0", path = "../utils" , registry = "local" }
 sp-blockchain = { version = "4.0.0-dev", path = "../../primitives/blockchain" }

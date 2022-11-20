@@ -28,7 +28,7 @@ codec = { package = "parity-scale-codec", version = "3.0.0", features = ["derive
 scale-info = "2.1.1"
 frame-election-provider-support = { version = "4.0.0-dev", path = "../../election-provider-support" }
 pallet-balances = { version = "4.0.0-dev", path = "../../balances" }
-pallet-staking-reward-curve = { version = "6.0.0", path = "../../staking/reward-curve" , registry = "local" }
+pallet-staking-reward-curve = { version = "7.0.0", path = "../../staking/reward-curve" , registry = "local" }
 pallet-timestamp = { version = "4.0.0-dev", path = "../../timestamp" }
 sp-core = { version = "6.0.0", path = "../../../primitives/core" }
 sp-io = { version = "6.0.0", path = "../../../primitives/io" }
