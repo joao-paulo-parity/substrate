@@ -63,7 +63,7 @@ node-template-runtime = { version = "4.0.0-dev", path = "../runtime" }
 try-runtime-cli = { version = "0.10.0-dev", optional = true, path = "../../../utils/frame/try-runtime/cli" }
 
 [build-dependencies]
-substrate-build-script-utils = { version = "6.0.0", path = "../../../utils/build-script-utils" , registry = "local" }
+substrate-build-script-utils = { version = "7.0.0", path = "../../../utils/build-script-utils" , registry = "local" }
 
 [features]
 default = []
