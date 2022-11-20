@@ -29,7 +29,7 @@ sc-keystore = { version = "4.0.0-dev", path = "../keystore" }
 sc-network = { version = "0.10.0-dev", path = "../network" }
 sc-network-common = { version = "0.10.0-dev", path = "../network/common" }
 sc-network-gossip = { version = "0.10.0-dev", path = "../network-gossip" }
-sc-utils = { version = "8.0.0", path = "../utils" , registry = "local" }
+sc-utils = { version = "9.0.0", path = "../utils" , registry = "local" }
 sp-api = { version = "4.0.0-dev", path = "../../primitives/api" }
 sp-application-crypto = { version = "6.0.0", path = "../../primitives/application-crypto" }
 sp-arithmetic = { version = "6.0.0", path = "../../primitives/arithmetic" , registry = "local" }
