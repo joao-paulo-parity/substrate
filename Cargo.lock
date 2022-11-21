@@ -8431,7 +8431,7 @@ dependencies = [
 
 [[package]]
 name = "sc-proposer-metrics"
-version = "0.10.0-dev"
+version = "0.10.0"
 dependencies = [
  "log",
  "substrate-prometheus-endpoint",
@@ -8500,7 +8500,7 @@ dependencies = [
 
 [[package]]
 name = "sc-rpc-server"
-version = "4.0.0-dev"
+version = "4.0.0"
 dependencies = [
  "futures",
  "jsonrpsee",
