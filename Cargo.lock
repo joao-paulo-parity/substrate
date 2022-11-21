@@ -2347,7 +2347,7 @@ dependencies = [
 
 [[package]]
 name = "frame-support-procedural-tools-derive"
-version = "7.0.0"
+version = "8.0.0"
 dependencies = [
  "proc-macro2",
  "quote",
