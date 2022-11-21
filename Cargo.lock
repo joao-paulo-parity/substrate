@@ -2323,7 +2323,7 @@ dependencies = [
 
 [[package]]
 name = "frame-support-procedural"
-version = "4.0.0-dev"
+version = "4.0.0"
 dependencies = [
  "Inflector",
  "cfg-expr",
@@ -10457,7 +10457,7 @@ dependencies = [
 
 [[package]]
 name = "substrate-test-utils"
-version = "4.0.0-dev"
+version = "4.0.0"
 dependencies = [
  "futures",
  "sc-service",
@@ -10487,7 +10487,7 @@ dependencies = [
 
 [[package]]
 name = "substrate-wasm-builder"
-version = "5.0.0-dev"
+version = "5.0.0"
 dependencies = [
  "ansi_term",
  "build-helper",
