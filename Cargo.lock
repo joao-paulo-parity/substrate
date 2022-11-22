@@ -8208,7 +8208,7 @@ dependencies = [
 
 [[package]]
 name = "sc-keystore"
-version = "4.0.0-dev"
+version = "4.0.0"
 dependencies = [
  "array-bytes",
  "async-trait",
