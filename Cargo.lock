@@ -5927,7 +5927,7 @@ dependencies = [
 
 [[package]]
 name = "pallet-randomness-collective-flip"
-version = "4.0.0-dev"
+version = "4.0.0"
 dependencies = [
  "frame-support",
  "frame-system",
