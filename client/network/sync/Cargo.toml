@@ -45,5 +45,5 @@ async-std = { version = "1.11.0", features = ["attributes"] , registry = "local"
 quickcheck = { version = "1.0.3", default-features = false , registry = "local" }
 sc-block-builder = { version = "0.10.0-dev", path = "../../block-builder" , registry = "local" }
 sp-test-primitives = { version = "2.0.0", path = "../../../primitives/test-primitives" , registry = "local" }
-sp-tracing = { version = "5.0.0", path = "../../../primitives/tracing" , registry = "local" }
+sp-tracing = { version = "6.0.0", path = "../../../primitives/tracing" , registry = "local" }
 substrate-test-runtime-client = { version = "2.0.0", path = "../../../test-utils/runtime/client" , registry = "local" }

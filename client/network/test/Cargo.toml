@@ -34,6 +34,6 @@ sp-consensus = { version = "0.10.0-dev", path = "../../../primitives/consensus/c
 sp-consensus-babe = { version = "0.10.0-dev", path = "../../../primitives/consensus/babe" , registry = "local" }
 sp-core = { version = "6.0.0", path = "../../../primitives/core" , registry = "local" }
 sp-runtime = { version = "6.0.0", path = "../../../primitives/runtime" , registry = "local" }
-sp-tracing = { version = "5.0.0", path = "../../../primitives/tracing" , registry = "local" }
+sp-tracing = { version = "6.0.0", path = "../../../primitives/tracing" , registry = "local" }
 substrate-test-runtime = { version = "2.0.0", path = "../../../test-utils/runtime" , registry = "local" }
 substrate-test-runtime-client = { version = "2.0.0", path = "../../../test-utils/runtime/client" , registry = "local" }

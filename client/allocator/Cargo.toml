@@ -17,4 +17,4 @@ targets = ["x86_64-unknown-linux-gnu"]
 log = { version = "0.4.17", registry = "local" }
 thiserror = { version = "1.0.30", registry = "local" }
 sp-core = { version = "6.0.0", path = "../../primitives/core" , registry = "local" }
-sp-wasm-interface = { version = "6.0.0", path = "../../primitives/wasm-interface" , registry = "local" }
+sp-wasm-interface = { version = "7.0.0", path = "../../primitives/wasm-interface" , registry = "local" }

@@ -39,5 +39,5 @@ async-trait = { version = "0.1.56", registry = "local" }
 
 [dev-dependencies]
 quickcheck = { version = "1.0.3", default-features = false , registry = "local" }
-sp-tracing = { version = "5.0.0", path = "../../primitives/tracing" , registry = "local" }
+sp-tracing = { version = "6.0.0", path = "../../primitives/tracing" , registry = "local" }
 substrate-test-runtime-client = { version = "2.0.0", path = "../../test-utils/runtime/client" , registry = "local" }

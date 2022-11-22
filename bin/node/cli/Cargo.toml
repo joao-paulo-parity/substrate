@@ -118,7 +118,7 @@ sc-consensus-babe = { version = "0.10.0-dev", path = "../../../client/consensus/
 sc-consensus-epochs = { version = "0.10.0-dev", path = "../../../client/consensus/epochs" , registry = "local" }
 sc-service-test = { version = "2.0.0", path = "../../../client/service/test" , registry = "local" }
 sc-block-builder = { version = "0.10.0-dev", path = "../../../client/block-builder" , registry = "local" }
-sp-tracing = { version = "5.0.0", path = "../../../primitives/tracing" , registry = "local" }
+sp-tracing = { version = "6.0.0", path = "../../../primitives/tracing" , registry = "local" }
 sp-blockchain = { version = "4.0.0-dev", path = "../../../primitives/blockchain" , registry = "local" }
 futures = { version = "0.3.21", registry = "local" }
 tempfile = { version = "3.1.0", registry = "local" }

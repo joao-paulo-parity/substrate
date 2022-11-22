@@ -32,7 +32,7 @@ sp-consensus = { version = "0.10.0-dev", path = "../../../primitives/consensus/c
 sc-basic-authorship = { version = "0.10.0-dev", path = "../../../client/basic-authorship" , registry = "local" }
 sp-inherents = { version = "4.0.0-dev", path = "../../../primitives/inherents" , registry = "local" }
 sp-timestamp = { version = "4.0.0-dev", default-features = false, path = "../../../primitives/timestamp" , registry = "local" }
-sp-tracing = { version = "5.0.0", path = "../../../primitives/tracing" , registry = "local" }
+sp-tracing = { version = "6.0.0", path = "../../../primitives/tracing" , registry = "local" }
 hash-db = { version = "0.15.2", registry = "local" }
 tempfile = { version = "3.1.0", registry = "local" }
 fs_extra = { version = "1", registry = "local" }

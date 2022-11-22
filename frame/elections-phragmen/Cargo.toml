@@ -30,7 +30,7 @@ sp-std = { version = "7.0.0", default-features = false, path = "../../primitives
 [dev-dependencies]
 pallet-balances = { version = "4.0.0-dev", path = "../balances" , registry = "local" }
 sp-core = { version = "6.0.0", path = "../../primitives/core" , registry = "local" }
-sp-tracing = { path = "../../primitives/tracing" , registry = "local" }
+sp-tracing = { path = "../../primitives/tracing" , registry = "local" , version = "6.0.0" }
 substrate-test-utils = { version = "4.0.0-dev", path = "../../test-utils" , registry = "local" }
 
 [features]

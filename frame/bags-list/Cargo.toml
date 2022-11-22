@@ -34,12 +34,12 @@ frame-benchmarking = { version = "4.0.0-dev", path = "../benchmarking", optional
 pallet-balances = { version = "4.0.0-dev", path = "../balances", optional = true, default-features = false , registry = "local" }
 sp-core = { version = "6.0.0", path = "../../primitives/core", optional = true, default-features = false , registry = "local" }
 sp-io = { version = "6.0.0", path = "../../primitives/io", optional = true, default-features = false , registry = "local" }
-sp-tracing = { version = "5.0.0", path = "../../primitives/tracing", optional = true, default-features = false , registry = "local" }
+sp-tracing = { version = "6.0.0", path = "../../primitives/tracing", optional = true, default-features = false , registry = "local" }
 
 [dev-dependencies]
 sp-core = { version = "6.0.0", path = "../../primitives/core", registry = "local" }
 sp-io = { version = "6.0.0", path = "../../primitives/io", registry = "local" }
-sp-tracing = { version = "5.0.0", path = "../../primitives/tracing" , registry = "local" }
+sp-tracing = { version = "6.0.0", path = "../../primitives/tracing" , registry = "local" }
 pallet-balances = { version = "4.0.0-dev", path = "../balances" , registry = "local" }
 frame-election-provider-support = { version = "4.0.0-dev", path = "../election-provider-support" , registry = "local" }
 frame-benchmarking = { version = "4.0.0-dev", path = "../benchmarking" , registry = "local" }

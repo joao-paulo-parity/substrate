@@ -33,7 +33,7 @@ substrate-state-trie-migration-rpc = { optional = true, path = "../../utils/fram
 parking_lot = { version = "0.12.1", registry = "local" }
 tokio = { version = "1.17.0", features = ["macros"] , registry = "local" }
 pallet-balances = { path = "../balances" , registry = "local" }
-sp-tracing = { path = "../../primitives/tracing" , registry = "local" }
+sp-tracing = { path = "../../primitives/tracing" , registry = "local" , version = "6.0.0" }
 
 [features]
 default = ["std"]

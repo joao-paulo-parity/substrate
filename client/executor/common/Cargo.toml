@@ -23,7 +23,7 @@ wasmi = { version = "0.13", registry = "local" }
 sc-allocator = { version = "4.1.0-dev", path = "../../allocator" , registry = "local" }
 sp-maybe-compressed-blob = { version = "8.0.0", path = "../../../primitives/maybe-compressed-blob" , registry = "local" }
 sp-sandbox = { version = "0.10.0-dev", path = "../../../primitives/sandbox" , registry = "local" }
-sp-wasm-interface = { version = "6.0.0", path = "../../../primitives/wasm-interface" , registry = "local" }
+sp-wasm-interface = { version = "7.0.0", path = "../../../primitives/wasm-interface" , registry = "local" }
 
 [features]
 default = []

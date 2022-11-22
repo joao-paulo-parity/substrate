@@ -31,7 +31,7 @@ sp-api = { version = "4.0.0-dev", path = "../../primitives/api" , registry = "lo
 sp-blockchain = { version = "4.0.0-dev", path = "../../primitives/blockchain" , registry = "local" }
 sp-core = { version = "6.0.0", path = "../../primitives/core" , registry = "local" }
 sp-runtime = { version = "6.0.0", path = "../../primitives/runtime" , registry = "local" }
-sp-tracing = { version = "5.0.0", path = "../../primitives/tracing" , registry = "local" }
+sp-tracing = { version = "6.0.0", path = "../../primitives/tracing" , registry = "local" }
 sp-transaction-pool = { version = "4.0.0-dev", path = "../../primitives/transaction-pool" , registry = "local" }
 
 [dev-dependencies]

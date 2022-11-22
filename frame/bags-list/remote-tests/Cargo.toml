@@ -23,7 +23,7 @@ frame-support = { path = "../../support", version = "4.0.0-dev" , registry = "lo
 # core
 sp-storage = { path = "../../../primitives/storage", version = "6.0.0", registry = "local" }
 sp-core = { path = "../../../primitives/core", version = "6.0.0", registry = "local" }
-sp-tracing = { path = "../../../primitives/tracing", version = "5.0.0", registry = "local" }
+sp-tracing = { path = "../../../primitives/tracing", version = "6.0.0", registry = "local" }
 sp-runtime = { path = "../../../primitives/runtime", version = "6.0.0", registry = "local" }
 sp-std = { path = "../../../primitives/std", version = "7.0.0", registry = "local" }
 

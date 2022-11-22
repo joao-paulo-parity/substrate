@@ -8502,7 +8502,7 @@ dependencies = [
 
 [[package]]
 name = "sc-proposer-metrics"
-version = "0.10.0"
+version = "0.11.0"
 dependencies = [
  "log",
  "substrate-prometheus-endpoint",
@@ -8571,7 +8571,7 @@ dependencies = [
 
 [[package]]
 name = "sc-rpc-server"
-version = "4.0.0"
+version = "5.0.0"
 dependencies = [
  "futures",
  "jsonrpsee",
@@ -9625,7 +9625,7 @@ dependencies = [
 
 [[package]]
 name = "sp-core-hashing"
-version = "4.0.0"
+version = "5.0.0"
 dependencies = [
  "blake2",
  "byteorder",
@@ -10068,7 +10068,7 @@ dependencies = [
 
 [[package]]
 name = "sp-tracing"
-version = "5.0.0"
+version = "6.0.0"
 dependencies = [
  "parity-scale-codec",
  "sp-std",
@@ -10156,7 +10156,7 @@ dependencies = [
 
 [[package]]
 name = "sp-wasm-interface"
-version = "6.0.0"
+version = "7.0.0"
 dependencies = [
  "impl-trait-for-tuples",
  "log",

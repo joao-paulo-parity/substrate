@@ -21,7 +21,7 @@ sp-api = { version = "4.0.0-dev", default-features = false, path = "../../primit
 sp-std = { version = "7.0.0", default-features = false, path = "../../primitives/std" , registry = "local" }
 sp-io = { version = "6.0.0", default-features = false, path = "../../primitives/io" , registry = "local" }
 sp-runtime = { version = "6.0.0", default-features = false, path = "../../primitives/runtime" , registry = "local" }
-sp-tracing = { version = "5.0.0", default-features = false, path = "../../primitives/tracing" , registry = "local" }
+sp-tracing = { version = "6.0.0", default-features = false, path = "../../primitives/tracing" , registry = "local" }
 sp-core = { version = "6.0.0", default-features = false, path = "../../primitives/core" , registry = "local" }
 sp-arithmetic = { version = "6.0.0", default-features = false, path = "../../primitives/arithmetic" , registry = "local" }
 sp-inherents = { version = "4.0.0-dev", default-features = false, path = "../../primitives/inherents" , registry = "local" }

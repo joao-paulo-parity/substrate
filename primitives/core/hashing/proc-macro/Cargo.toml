@@ -19,4 +19,4 @@ proc-macro = true
 proc-macro2 = { version = "1.0.37", registry = "local" }
 quote = { version = "1.0.6", registry = "local" }
 syn = { version = "1.0.98", features = ["full", "parsing"] , registry = "local" }
-sp-core-hashing = { version = "4.0.0", default-features = false, path = "../" , registry = "local" }
+sp-core-hashing = { version = "5.0.0", default-features = false, path = "../" , registry = "local" }
