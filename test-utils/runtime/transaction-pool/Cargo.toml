@@ -12,12 +12,12 @@ publish = false
 targets = ["x86_64-unknown-linux-gnu"]
 
 [dependencies]
-codec = { package = "parity-scale-codec", version = "3.0.0" }
-futures = "0.3.21"
-parking_lot = "0.12.1"
-thiserror = "1.0"
-sc-transaction-pool = { version = "4.0.0-dev", path = "../../../client/transaction-pool" }
-sc-transaction-pool-api = { version = "4.0.0-dev", path = "../../../client/transaction-pool/api" }
-sp-blockchain = { version = "4.0.0-dev", path = "../../../primitives/blockchain" }
-sp-runtime = { version = "6.0.0", path = "../../../primitives/runtime" }
-substrate-test-runtime-client = { version = "2.0.0", path = "../client" }
+codec = { package = "parity-scale-codec", version = "3.0.0" , registry = "local" }
+futures = { version = "0.3.21", registry = "local" }
+parking_lot = { version = "0.12.1", registry = "local" }
+thiserror = { version = "1.0", registry = "local" }
+sc-transaction-pool = { version = "4.0.0-dev", path = "../../../client/transaction-pool" , registry = "local" }
+sc-transaction-pool-api = { version = "4.0.0-dev", path = "../../../client/transaction-pool/api" , registry = "local" }
+sp-blockchain = { version = "4.0.0-dev", path = "../../../primitives/blockchain" , registry = "local" }
+sp-runtime = { version = "6.0.0", path = "../../../primitives/runtime" , registry = "local" }
+substrate-test-runtime-client = { version = "2.0.0", path = "../client" , registry = "local" }

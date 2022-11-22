@@ -13,13 +13,13 @@ homepage = "https://substrate.io"
 targets = ["x86_64-unknown-linux-gnu"]
 
 [dependencies]
-ansi_term = "0.12.1"
-build-helper = "0.1.1"
-cargo_metadata = "0.14.2"
-strum = { version = "0.24.1", features = ["derive"] }
-tempfile = "3.1.0"
-toml = "0.5.4"
-walkdir = "2.3.2"
+ansi_term = { version = "0.12.1", registry = "local" }
+build-helper = { version = "0.1.1", registry = "local" }
+cargo_metadata = { version = "0.14.2", registry = "local" }
+strum = { version = "0.24.1", features = ["derive"] , registry = "local" }
+tempfile = { version = "3.1.0", registry = "local" }
+toml = { version = "0.5.4", registry = "local" }
+walkdir = { version = "2.3.2", registry = "local" }
 sp-maybe-compressed-blob = { version = "7.0.0", path = "../../primitives/maybe-compressed-blob" , registry = "local" }
-filetime = "0.2.16"
-wasm-opt = "0.110"
+filetime = { version = "0.2.16", registry = "local" }
+wasm-opt = { version = "0.110", registry = "local" }

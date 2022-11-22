@@ -14,18 +14,18 @@ readme = "README.md"
 targets = ["x86_64-unknown-linux-gnu"]
 
 [dependencies]
-futures = "0.3.19"
-libc = "0.2"
-log = "0.4.17"
-rand = "0.7.3"
-rand_pcg = "0.2.1"
-regex = "1"
-serde = { version = "1.0.136", features = ["derive"] }
-serde_json = "1.0.85"
+futures = { version = "0.3.19", registry = "local" }
+libc = { version = "0.2", registry = "local" }
+log = { version = "0.4.17", registry = "local" }
+rand = { version = "0.7.3", registry = "local" }
+rand_pcg = { version = "0.2.1", registry = "local" }
+regex = { version = "1", registry = "local" }
+serde = { version = "1.0.136", features = ["derive"] , registry = "local" }
+serde_json = { version = "1.0.85", registry = "local" }
 sc-telemetry = { version = "7.0.0", path = "../telemetry" , registry = "local" }
-sp-core = { version = "6.0.0", path = "../../primitives/core" }
-sp-io = { version = "6.0.0", path = "../../primitives/io" }
+sp-core = { version = "6.0.0", path = "../../primitives/core" , registry = "local" }
+sp-io = { version = "6.0.0", path = "../../primitives/io" , registry = "local" }
 sp-std = { version = "7.0.0", path = "../../primitives/std" , registry = "local" }
 
 [dev-dependencies]
-sp-runtime = { version = "6.0.0", path = "../../primitives/runtime" }
+sp-runtime = { version = "6.0.0", path = "../../primitives/runtime" , registry = "local" }

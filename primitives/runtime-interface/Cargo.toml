@@ -14,25 +14,25 @@ readme = "README.md"
 targets = ["x86_64-unknown-linux-gnu"]
 
 [dependencies]
-bytes = { version = "1.1.0", default-features = false }
-sp-wasm-interface = { version = "6.0.0", path = "../wasm-interface", default-features = false }
+bytes = { version = "1.1.0", default-features = false , registry = "local" }
+sp-wasm-interface = { version = "6.0.0", path = "../wasm-interface", default-features = false , registry = "local" }
 sp-std = { version = "7.0.0", default-features = false, path = "../std" , registry = "local" }
-sp-tracing = { version = "5.0.0", default-features = false, path = "../tracing" }
+sp-tracing = { version = "5.0.0", default-features = false, path = "../tracing" , registry = "local" }
 sp-runtime-interface-proc-macro = { version = "8.0.0", path = "proc-macro" , registry = "local" }
-sp-externalities = { version = "0.12.0", default-features = false, path = "../externalities" }
-codec = { package = "parity-scale-codec", version = "3.0.0", default-features = false, features = ["bytes"] }
-static_assertions = "1.0.0"
-primitive-types = { version = "0.12.0", default-features = false }
-sp-storage = { version = "6.0.0", default-features = false, path = "../storage" }
-impl-trait-for-tuples = "0.2.2"
+sp-externalities = { version = "0.12.0", default-features = false, path = "../externalities" , registry = "local" }
+codec = { package = "parity-scale-codec", version = "3.0.0", default-features = false, features = ["bytes"] , registry = "local" }
+static_assertions = { version = "1.0.0", registry = "local" }
+primitive-types = { version = "0.12.0", default-features = false , registry = "local" }
+sp-storage = { version = "6.0.0", default-features = false, path = "../storage" , registry = "local" }
+impl-trait-for-tuples = { version = "0.2.2", registry = "local" }
 
 [dev-dependencies]
-sp-runtime-interface-test-wasm = { version = "2.0.0", path = "test-wasm" }
-sp-state-machine = { version = "0.12.0", path = "../state-machine" }
-sp-core = { version = "6.0.0", path = "../core" }
-sp-io = { version = "6.0.0", path = "../io" }
-rustversion = "1.0.6"
-trybuild = "1.0.60"
+sp-runtime-interface-test-wasm = { version = "2.0.0", path = "test-wasm" , registry = "local" }
+sp-state-machine = { version = "0.12.0", path = "../state-machine" , registry = "local" }
+sp-core = { version = "6.0.0", path = "../core" , registry = "local" }
+sp-io = { version = "6.0.0", path = "../io" , registry = "local" }
+rustversion = { version = "1.0.6", registry = "local" }
+trybuild = { version = "1.0.60", registry = "local" }
 
 [features]
 default = [ "std" ]

@@ -14,16 +14,16 @@ readme = "README.md"
 targets = ["x86_64-unknown-linux-gnu"]
 
 [dependencies]
-codec = { package = "parity-scale-codec", version = "3.0.0" }
-environmental = "1.1.3"
-thiserror = "1.0.30"
-wasm-instrument = "0.3"
-wasmer = { version = "2.2", features = ["singlepass"], optional = true }
-wasmi = "0.13"
-sc-allocator = { version = "4.1.0-dev", path = "../../allocator" }
+codec = { package = "parity-scale-codec", version = "3.0.0" , registry = "local" }
+environmental = { version = "1.1.3", registry = "local" }
+thiserror = { version = "1.0.30", registry = "local" }
+wasm-instrument = { version = "0.3", registry = "local" }
+wasmer = { version = "2.2", features = ["singlepass"], optional = true , registry = "local" }
+wasmi = { version = "0.13", registry = "local" }
+sc-allocator = { version = "4.1.0-dev", path = "../../allocator" , registry = "local" }
 sp-maybe-compressed-blob = { version = "7.0.0", path = "../../../primitives/maybe-compressed-blob" , registry = "local" }
-sp-sandbox = { version = "0.10.0-dev", path = "../../../primitives/sandbox" }
-sp-wasm-interface = { version = "6.0.0", path = "../../../primitives/wasm-interface" }
+sp-sandbox = { version = "0.10.0-dev", path = "../../../primitives/sandbox" , registry = "local" }
+sp-wasm-interface = { version = "6.0.0", path = "../../../primitives/wasm-interface" , registry = "local" }
 
 [features]
 default = []

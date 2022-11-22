@@ -13,28 +13,28 @@ readme = "README.md"
 targets = ["x86_64-unknown-linux-gnu"]
 
 [dependencies]
-codec = { package = "parity-scale-codec", version = "3.0.0", default-features = false }
-scale-info = { version = "2.0.0", default-features = false, features = ["derive"] }
-frame-benchmarking = { version = "4.0.0-dev", default-features = false, path = "../../benchmarking" }
-frame-election-provider-support = { version = "4.0.0-dev", default-features = false, path = "../../election-provider-support" }
-frame-support = { version = "4.0.0-dev", default-features = false, path = "../../support" }
-frame-system = { version = "4.0.0-dev", default-features = false, path = "../../system" }
-pallet-babe = { version = "4.0.0-dev", default-features = false, path = "../../babe" }
-pallet-balances = { version = "4.0.0-dev", default-features = false, path = "../../balances" }
-pallet-grandpa = { version = "4.0.0-dev", default-features = false, path = "../../grandpa" }
-pallet-im-online = { version = "4.0.0-dev", default-features = false, path = "../../im-online" }
-pallet-offences = { version = "4.0.0-dev", default-features = false, path = "../../offences" }
-pallet-session = { version = "4.0.0-dev", default-features = false, path = "../../session" }
-pallet-staking = { version = "4.0.0-dev", default-features = false, path = "../../staking" }
-sp-runtime = { version = "6.0.0", default-features = false, path = "../../../primitives/runtime" }
-sp-staking = { version = "4.0.0-dev", default-features = false, path = "../../../primitives/staking" }
+codec = { package = "parity-scale-codec", version = "3.0.0", default-features = false , registry = "local" }
+scale-info = { version = "2.0.0", default-features = false, features = ["derive"] , registry = "local" }
+frame-benchmarking = { version = "4.0.0-dev", default-features = false, path = "../../benchmarking" , registry = "local" }
+frame-election-provider-support = { version = "4.0.0-dev", default-features = false, path = "../../election-provider-support" , registry = "local" }
+frame-support = { version = "4.0.0-dev", default-features = false, path = "../../support" , registry = "local" }
+frame-system = { version = "4.0.0-dev", default-features = false, path = "../../system" , registry = "local" }
+pallet-babe = { version = "4.0.0-dev", default-features = false, path = "../../babe" , registry = "local" }
+pallet-balances = { version = "4.0.0-dev", default-features = false, path = "../../balances" , registry = "local" }
+pallet-grandpa = { version = "4.0.0-dev", default-features = false, path = "../../grandpa" , registry = "local" }
+pallet-im-online = { version = "4.0.0-dev", default-features = false, path = "../../im-online" , registry = "local" }
+pallet-offences = { version = "4.0.0-dev", default-features = false, path = "../../offences" , registry = "local" }
+pallet-session = { version = "4.0.0-dev", default-features = false, path = "../../session" , registry = "local" }
+pallet-staking = { version = "4.0.0-dev", default-features = false, path = "../../staking" , registry = "local" }
+sp-runtime = { version = "6.0.0", default-features = false, path = "../../../primitives/runtime" , registry = "local" }
+sp-staking = { version = "4.0.0-dev", default-features = false, path = "../../../primitives/staking" , registry = "local" }
 sp-std = { version = "7.0.0", default-features = false, path = "../../../primitives/std" , registry = "local" }
 
 [dev-dependencies]
 pallet-staking-reward-curve = { version = "7.0.0", path = "../../staking/reward-curve" , registry = "local" }
-pallet-timestamp = { version = "4.0.0-dev", path = "../../timestamp" }
-sp-core = { version = "6.0.0", path = "../../../primitives/core" }
-sp-io = { version = "6.0.0", path = "../../../primitives/io" }
+pallet-timestamp = { version = "4.0.0-dev", path = "../../timestamp" , registry = "local" }
+sp-core = { version = "6.0.0", path = "../../../primitives/core" , registry = "local" }
+sp-io = { version = "6.0.0", path = "../../../primitives/io" , registry = "local" }
 
 [features]
 default = ["std"]

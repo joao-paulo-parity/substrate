@@ -13,38 +13,38 @@ readme = "README.md"
 targets = ["x86_64-unknown-linux-gnu"]
 
 [dependencies]
-serde = { version = "1.0.136", optional = true, features = ["derive"] }
-codec = { package = "parity-scale-codec", version = "3.0.0", default-features = false, features = ["derive", "max-encoded-len"] }
-scale-info = { version = "2.1.1", default-features = false, features = ["derive"] }
-frame-metadata = { version = "15.0.0", default-features = false, features = ["v14"] }
-sp-api = { version = "4.0.0-dev", default-features = false, path = "../../primitives/api" }
+serde = { version = "1.0.136", optional = true, features = ["derive"] , registry = "local" }
+codec = { package = "parity-scale-codec", version = "3.0.0", default-features = false, features = ["derive", "max-encoded-len"] , registry = "local" }
+scale-info = { version = "2.1.1", default-features = false, features = ["derive"] , registry = "local" }
+frame-metadata = { version = "15.0.0", default-features = false, features = ["v14"] , registry = "local" }
+sp-api = { version = "4.0.0-dev", default-features = false, path = "../../primitives/api" , registry = "local" }
 sp-std = { version = "7.0.0", default-features = false, path = "../../primitives/std" , registry = "local" }
-sp-io = { version = "6.0.0", default-features = false, path = "../../primitives/io" }
-sp-runtime = { version = "6.0.0", default-features = false, path = "../../primitives/runtime" }
-sp-tracing = { version = "5.0.0", default-features = false, path = "../../primitives/tracing" }
-sp-core = { version = "6.0.0", default-features = false, path = "../../primitives/core" }
+sp-io = { version = "6.0.0", default-features = false, path = "../../primitives/io" , registry = "local" }
+sp-runtime = { version = "6.0.0", default-features = false, path = "../../primitives/runtime" , registry = "local" }
+sp-tracing = { version = "5.0.0", default-features = false, path = "../../primitives/tracing" , registry = "local" }
+sp-core = { version = "6.0.0", default-features = false, path = "../../primitives/core" , registry = "local" }
 sp-arithmetic = { version = "6.0.0", default-features = false, path = "../../primitives/arithmetic" , registry = "local" }
-sp-inherents = { version = "4.0.0-dev", default-features = false, path = "../../primitives/inherents" }
-sp-staking = { version = "4.0.0-dev", default-features = false, path = "../../primitives/staking" }
-sp-weights = { version = "4.0.0", default-features = false, path = "../../primitives/weights" }
-tt-call = "1.0.8"
-frame-support-procedural = { version = "4.0.0-dev", default-features = false, path = "./procedural" }
-paste = "1.0"
-once_cell = { version = "1", default-features = false, optional = true }
-sp-state-machine = { version = "0.12.0", default-features = false, optional = true, path = "../../primitives/state-machine" }
-bitflags = "1.3"
-impl-trait-for-tuples = "0.2.2"
-smallvec = "1.8.0"
-log = { version = "0.4.17", default-features = false }
-sp-core-hashing-proc-macro = { version = "5.0.0", path = "../../primitives/core/hashing/proc-macro" }
-k256 = { version = "0.11.5", default-features = false, features = ["ecdsa"] }
+sp-inherents = { version = "4.0.0-dev", default-features = false, path = "../../primitives/inherents" , registry = "local" }
+sp-staking = { version = "4.0.0-dev", default-features = false, path = "../../primitives/staking" , registry = "local" }
+sp-weights = { version = "4.0.0", default-features = false, path = "../../primitives/weights" , registry = "local" }
+tt-call = { version = "1.0.8", registry = "local" }
+frame-support-procedural = { version = "4.0.0-dev", default-features = false, path = "./procedural" , registry = "local" }
+paste = { version = "1.0", registry = "local" }
+once_cell = { version = "1", default-features = false, optional = true , registry = "local" }
+sp-state-machine = { version = "0.12.0", default-features = false, optional = true, path = "../../primitives/state-machine" , registry = "local" }
+bitflags = { version = "1.3", registry = "local" }
+impl-trait-for-tuples = { version = "0.2.2", registry = "local" }
+smallvec = { version = "1.8.0", registry = "local" }
+log = { version = "0.4.17", default-features = false , registry = "local" }
+sp-core-hashing-proc-macro = { version = "5.0.0", path = "../../primitives/core/hashing/proc-macro" , registry = "local" }
+k256 = { version = "0.11.5", default-features = false, features = ["ecdsa"] , registry = "local" }
 
 [dev-dependencies]
-serde_json = "1.0.85"
-assert_matches = "1.3.0"
-pretty_assertions = "1.2.1"
-frame-system = { version = "4.0.0-dev", path = "../system" }
-parity-util-mem = { version = "0.12.0", default-features = false, features = ["primitive-types"] }
+serde_json = { version = "1.0.85", registry = "local" }
+assert_matches = { version = "1.3.0", registry = "local" }
+pretty_assertions = { version = "1.2.1", registry = "local" }
+frame-system = { version = "4.0.0-dev", path = "../system" , registry = "local" }
+parity-util-mem = { version = "0.12.0", default-features = false, features = ["primitive-types"] , registry = "local" }
 
 [features]
 default = ["std"]

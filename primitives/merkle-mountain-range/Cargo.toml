@@ -12,18 +12,18 @@ description = "Merkle Mountain Range primitives."
 targets = ["x86_64-unknown-linux-gnu"]
 
 [dependencies]
-codec = { package = "parity-scale-codec", version = "3.0.0", default-features = false }
-scale-info = { version = "2.1.1", default-features = false, features = ["derive"] }
-log = { version = "0.4.17", default-features = false }
-serde = { version = "1.0.136", features = ["derive"], optional = true }
-sp-api = { version = "4.0.0-dev", default-features = false, path = "../api" }
-sp-core = { version = "6.0.0", default-features = false, path = "../core" }
+codec = { package = "parity-scale-codec", version = "3.0.0", default-features = false , registry = "local" }
+scale-info = { version = "2.1.1", default-features = false, features = ["derive"] , registry = "local" }
+log = { version = "0.4.17", default-features = false , registry = "local" }
+serde = { version = "1.0.136", features = ["derive"], optional = true , registry = "local" }
+sp-api = { version = "4.0.0-dev", default-features = false, path = "../api" , registry = "local" }
+sp-core = { version = "6.0.0", default-features = false, path = "../core" , registry = "local" }
 sp-debug-derive = { version = "8.0.0", default-features = false, path = "../debug-derive" , registry = "local" }
-sp-runtime = { version = "6.0.0", default-features = false, path = "../runtime" }
+sp-runtime = { version = "6.0.0", default-features = false, path = "../runtime" , registry = "local" }
 sp-std = { version = "7.0.0", default-features = false, path = "../std" , registry = "local" }
 
 [dev-dependencies]
-array-bytes = "4.1"
+array-bytes = { version = "4.1", registry = "local" }
 
 [features]
 default = ["std"]

@@ -13,14 +13,14 @@ publish = false
 targets = ["x86_64-unknown-linux-gnu"]
 
 [dependencies]
-codec = { package = "parity-scale-codec", version = "3.0.0" }
-jsonrpsee = { version = "0.15.1", features = ["server", "macros"] }
-serde = { version = "1.0.136", features = ["derive"] }
-sp-api = { version = "4.0.0-dev", path = "../../../primitives/api" }
-sp-blockchain = { version = "4.0.0-dev", path = "../../../primitives/blockchain" }
-sp-core = { version = "6.0.0", path = "../../../primitives/core" }
-sp-mmr-primitives = { version = "4.0.0-dev", path = "../../../primitives/merkle-mountain-range" }
-sp-runtime = { version = "6.0.0", path = "../../../primitives/runtime" }
+codec = { package = "parity-scale-codec", version = "3.0.0" , registry = "local" }
+jsonrpsee = { version = "0.15.1", features = ["server", "macros"] , registry = "local" }
+serde = { version = "1.0.136", features = ["derive"] , registry = "local" }
+sp-api = { version = "4.0.0-dev", path = "../../../primitives/api" , registry = "local" }
+sp-blockchain = { version = "4.0.0-dev", path = "../../../primitives/blockchain" , registry = "local" }
+sp-core = { version = "6.0.0", path = "../../../primitives/core" , registry = "local" }
+sp-mmr-primitives = { version = "4.0.0-dev", path = "../../../primitives/merkle-mountain-range" , registry = "local" }
+sp-runtime = { version = "6.0.0", path = "../../../primitives/runtime" , registry = "local" }
 
 [dev-dependencies]
-serde_json = "1.0.85"
+serde_json = { version = "1.0.85", registry = "local" }

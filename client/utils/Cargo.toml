@@ -10,16 +10,16 @@ description = "I/O for Substrate runtimes"
 readme = "README.md"
 
 [dependencies]
-futures = "0.3.21"
-futures-timer = "3.0.2"
-lazy_static = "1.4.0"
-log = "0.4"
-parking_lot = "0.12.1"
-prometheus = { version = "0.13.0", default-features = false }
+futures = { version = "0.3.21", registry = "local" }
+futures-timer = { version = "3.0.2", registry = "local" }
+lazy_static = { version = "1.4.0", registry = "local" }
+log = { version = "0.4", registry = "local" }
+parking_lot = { version = "0.12.1", registry = "local" }
+prometheus = { version = "0.13.0", default-features = false , registry = "local" }
 
 [features]
 default = ["metered"]
 metered = []
 
 [dev-dependencies]
-tokio-test = "0.4.2"
+tokio-test = { version = "0.4.2", registry = "local" }

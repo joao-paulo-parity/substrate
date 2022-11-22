@@ -11,10 +11,10 @@ readme = "README.md"
 publish = false
 
 [dependencies]
-honggfuzz = "0.5"
-rand = { version = "0.8", features = ["std", "small_rng"] }
-frame-election-provider-support = { version = "4.0.0-dev", features = ["fuzz"], path = "../../election-provider-support" }
-pallet-bags-list = { version = "4.0.0-dev", features = ["fuzz"], path = ".." }
+honggfuzz = { version = "0.5", registry = "local" }
+rand = { version = "0.8", features = ["std", "small_rng"] , registry = "local" }
+frame-election-provider-support = { version = "4.0.0-dev", features = ["fuzz"], path = "../../election-provider-support" , registry = "local" }
+pallet-bags-list = { version = "4.0.0-dev", features = ["fuzz"], path = ".." , registry = "local" }
 
 [[bin]]
 name = "bags-list"

@@ -12,15 +12,15 @@ publish = false
 targets = ["x86_64-unknown-linux-gnu"]
 
 [dependencies]
-codec = { package = "parity-scale-codec", version = "3.0.0" }
-futures = "0.3.21"
-sc-block-builder = { version = "0.10.0-dev", path = "../../../client/block-builder" }
-sc-client-api = { version = "4.0.0-dev", path = "../../../client/api" }
-sc-consensus = { version = "0.10.0-dev", path = "../../../client/consensus/common" }
-sp-api = { version = "4.0.0-dev", path = "../../../primitives/api" }
-sp-blockchain = { version = "4.0.0-dev", path = "../../../primitives/blockchain" }
-sp-consensus = { version = "0.10.0-dev", path = "../../../primitives/consensus/common" }
-sp-core = { version = "6.0.0", path = "../../../primitives/core" }
-sp-runtime = { version = "6.0.0", path = "../../../primitives/runtime" }
-substrate-test-client = { version = "2.0.0", path = "../../client" }
-substrate-test-runtime = { version = "2.0.0", path = "../../runtime" }
+codec = { package = "parity-scale-codec", version = "3.0.0" , registry = "local" }
+futures = { version = "0.3.21", registry = "local" }
+sc-block-builder = { version = "0.10.0-dev", path = "../../../client/block-builder" , registry = "local" }
+sc-client-api = { version = "4.0.0-dev", path = "../../../client/api" , registry = "local" }
+sc-consensus = { version = "0.10.0-dev", path = "../../../client/consensus/common" , registry = "local" }
+sp-api = { version = "4.0.0-dev", path = "../../../primitives/api" , registry = "local" }
+sp-blockchain = { version = "4.0.0-dev", path = "../../../primitives/blockchain" , registry = "local" }
+sp-consensus = { version = "0.10.0-dev", path = "../../../primitives/consensus/common" , registry = "local" }
+sp-core = { version = "6.0.0", path = "../../../primitives/core" , registry = "local" }
+sp-runtime = { version = "6.0.0", path = "../../../primitives/runtime" , registry = "local" }
+substrate-test-client = { version = "2.0.0", path = "../../client" , registry = "local" }
+substrate-test-runtime = { version = "2.0.0", path = "../../runtime" , registry = "local" }

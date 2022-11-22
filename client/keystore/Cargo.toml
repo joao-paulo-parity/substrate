@@ -14,14 +14,14 @@ readme = "README.md"
 targets = ["x86_64-unknown-linux-gnu"]
 
 [dependencies]
-array-bytes = "4.1"
-async-trait = "0.1.57"
-parking_lot = "0.12.1"
-serde_json = "1.0.85"
-thiserror = "1.0"
-sp-application-crypto = { version = "6.0.0", path = "../../primitives/application-crypto" }
-sp-core = { version = "6.0.0", path = "../../primitives/core" }
-sp-keystore = { version = "0.12.0", path = "../../primitives/keystore" }
+array-bytes = { version = "4.1", registry = "local" }
+async-trait = { version = "0.1.57", registry = "local" }
+parking_lot = { version = "0.12.1", registry = "local" }
+serde_json = { version = "1.0.85", registry = "local" }
+thiserror = { version = "1.0", registry = "local" }
+sp-application-crypto = { version = "6.0.0", path = "../../primitives/application-crypto" , registry = "local" }
+sp-core = { version = "6.0.0", path = "../../primitives/core" , registry = "local" }
+sp-keystore = { version = "0.12.0", path = "../../primitives/keystore" , registry = "local" }
 
 [dev-dependencies]
-tempfile = "3.1.0"
+tempfile = { version = "3.1.0", registry = "local" }

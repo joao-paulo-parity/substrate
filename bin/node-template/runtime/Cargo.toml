@@ -13,45 +13,45 @@ repository = "https://github.com/substrate-developer-hub/substrate-node-template
 targets = ["x86_64-unknown-linux-gnu"]
 
 [dependencies]
-codec = { package = "parity-scale-codec", version = "3.0.0", default-features = false, features = ["derive"] }
-scale-info = { version = "2.1.1", default-features = false, features = ["derive"] }
+codec = { package = "parity-scale-codec", version = "3.0.0", default-features = false, features = ["derive"] , registry = "local" }
+scale-info = { version = "2.1.1", default-features = false, features = ["derive"] , registry = "local" }
 
-pallet-aura = { version = "4.0.0-dev", default-features = false, path = "../../../frame/aura" }
-pallet-balances = { version = "4.0.0-dev", default-features = false, path = "../../../frame/balances" }
-frame-support = { version = "4.0.0-dev", default-features = false, path = "../../../frame/support" }
-pallet-grandpa = { version = "4.0.0-dev", default-features = false, path = "../../../frame/grandpa" }
-pallet-randomness-collective-flip = { version = "4.0.0-dev", default-features = false, path = "../../../frame/randomness-collective-flip" }
-pallet-sudo = { version = "4.0.0-dev", default-features = false, path = "../../../frame/sudo" }
-frame-system = { version = "4.0.0-dev", default-features = false, path = "../../../frame/system" }
-frame-try-runtime = { version = "0.10.0-dev", default-features = false, path = "../../../frame/try-runtime", optional = true }
-pallet-timestamp = { version = "4.0.0-dev", default-features = false, path = "../../../frame/timestamp" }
-pallet-transaction-payment = { version = "4.0.0-dev", default-features = false, path = "../../../frame/transaction-payment" }
-frame-executive = { version = "4.0.0-dev", default-features = false, path = "../../../frame/executive" }
-sp-api = { version = "4.0.0-dev", default-features = false, path = "../../../primitives/api" }
-sp-block-builder = { version = "4.0.0-dev", default-features = false, path = "../../../primitives/block-builder"}
-sp-consensus-aura = { version = "0.10.0-dev", default-features = false, path = "../../../primitives/consensus/aura" }
-sp-core = { version = "6.0.0", default-features = false, path = "../../../primitives/core" }
-sp-inherents = { version = "4.0.0-dev", default-features = false, path = "../../../primitives/inherents"}
-sp-offchain = { version = "4.0.0-dev", default-features = false, path = "../../../primitives/offchain" }
-sp-runtime = { version = "6.0.0", default-features = false, path = "../../../primitives/runtime" }
-sp-session = { version = "4.0.0-dev", default-features = false, path = "../../../primitives/session" }
+pallet-aura = { version = "4.0.0-dev", default-features = false, path = "../../../frame/aura" , registry = "local" }
+pallet-balances = { version = "4.0.0-dev", default-features = false, path = "../../../frame/balances" , registry = "local" }
+frame-support = { version = "4.0.0-dev", default-features = false, path = "../../../frame/support" , registry = "local" }
+pallet-grandpa = { version = "4.0.0-dev", default-features = false, path = "../../../frame/grandpa" , registry = "local" }
+pallet-randomness-collective-flip = { version = "4.0.0-dev", default-features = false, path = "../../../frame/randomness-collective-flip" , registry = "local" }
+pallet-sudo = { version = "4.0.0-dev", default-features = false, path = "../../../frame/sudo" , registry = "local" }
+frame-system = { version = "4.0.0-dev", default-features = false, path = "../../../frame/system" , registry = "local" }
+frame-try-runtime = { version = "0.10.0-dev", default-features = false, path = "../../../frame/try-runtime", optional = true , registry = "local" }
+pallet-timestamp = { version = "4.0.0-dev", default-features = false, path = "../../../frame/timestamp" , registry = "local" }
+pallet-transaction-payment = { version = "4.0.0-dev", default-features = false, path = "../../../frame/transaction-payment" , registry = "local" }
+frame-executive = { version = "4.0.0-dev", default-features = false, path = "../../../frame/executive" , registry = "local" }
+sp-api = { version = "4.0.0-dev", default-features = false, path = "../../../primitives/api" , registry = "local" }
+sp-block-builder = { version = "4.0.0-dev", default-features = false, path = "../../../primitives/block-builder", registry = "local" }
+sp-consensus-aura = { version = "0.10.0-dev", default-features = false, path = "../../../primitives/consensus/aura" , registry = "local" }
+sp-core = { version = "6.0.0", default-features = false, path = "../../../primitives/core" , registry = "local" }
+sp-inherents = { version = "4.0.0-dev", default-features = false, path = "../../../primitives/inherents", registry = "local" }
+sp-offchain = { version = "4.0.0-dev", default-features = false, path = "../../../primitives/offchain" , registry = "local" }
+sp-runtime = { version = "6.0.0", default-features = false, path = "../../../primitives/runtime" , registry = "local" }
+sp-session = { version = "4.0.0-dev", default-features = false, path = "../../../primitives/session" , registry = "local" }
 sp-std = { version = "7.0.0", default-features = false, path = "../../../primitives/std" , registry = "local" }
-sp-transaction-pool = { version = "4.0.0-dev", default-features = false, path = "../../../primitives/transaction-pool" }
-sp-version = { version = "5.0.0", default-features = false, path = "../../../primitives/version" }
+sp-transaction-pool = { version = "4.0.0-dev", default-features = false, path = "../../../primitives/transaction-pool" , registry = "local" }
+sp-version = { version = "5.0.0", default-features = false, path = "../../../primitives/version" , registry = "local" }
 
 # Used for the node template's RPCs
-frame-system-rpc-runtime-api = { version = "4.0.0-dev", default-features = false, path = "../../../frame/system/rpc/runtime-api/" }
-pallet-transaction-payment-rpc-runtime-api = { version = "4.0.0-dev", default-features = false, path = "../../../frame/transaction-payment/rpc/runtime-api/" }
+frame-system-rpc-runtime-api = { version = "4.0.0-dev", default-features = false, path = "../../../frame/system/rpc/runtime-api/" , registry = "local" }
+pallet-transaction-payment-rpc-runtime-api = { version = "4.0.0-dev", default-features = false, path = "../../../frame/transaction-payment/rpc/runtime-api/" , registry = "local" }
 
 # Used for runtime benchmarking
-frame-benchmarking = { version = "4.0.0-dev", default-features = false, path = "../../../frame/benchmarking", optional = true }
-frame-system-benchmarking = { version = "4.0.0-dev", default-features = false, path = "../../../frame/system/benchmarking", optional = true }
+frame-benchmarking = { version = "4.0.0-dev", default-features = false, path = "../../../frame/benchmarking", optional = true , registry = "local" }
+frame-system-benchmarking = { version = "4.0.0-dev", default-features = false, path = "../../../frame/system/benchmarking", optional = true , registry = "local" }
 
 # Local Dependencies
-pallet-template = { version = "4.0.0-dev", default-features = false, path = "../pallets/template" }
+pallet-template = { version = "4.0.0-dev", default-features = false, path = "../pallets/template" , registry = "local" }
 
 [build-dependencies]
-substrate-wasm-builder = { version = "5.0.0-dev", path = "../../../utils/wasm-builder" }
+substrate-wasm-builder = { version = "5.0.0-dev", path = "../../../utils/wasm-builder" , registry = "local" }
 
 [features]
 default = ["std"]

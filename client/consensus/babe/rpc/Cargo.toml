@@ -13,27 +13,27 @@ readme = "README.md"
 targets = ["x86_64-unknown-linux-gnu"]
 
 [dependencies]
-jsonrpsee = { version = "0.15.1", features = ["server", "macros"] }
-futures = "0.3.21"
-serde = { version = "1.0.136", features = ["derive"] }
-thiserror = "1.0"
-sc-consensus-babe = { version = "0.10.0-dev", path = "../" }
-sc-consensus-epochs = { version = "0.10.0-dev", path = "../../epochs" }
-sc-rpc-api = { version = "0.10.0-dev", path = "../../../rpc-api" }
-sp-api = { version = "4.0.0-dev", path = "../../../../primitives/api" }
-sp-application-crypto = { version = "6.0.0", path = "../../../../primitives/application-crypto" }
-sp-blockchain = { version = "4.0.0-dev", path = "../../../../primitives/blockchain" }
-sp-consensus = { version = "0.10.0-dev", path = "../../../../primitives/consensus/common" }
-sp-consensus-babe = { version = "0.10.0-dev", path = "../../../../primitives/consensus/babe" }
-sp-core = { version = "6.0.0", path = "../../../../primitives/core" }
-sp-keystore = { version = "0.12.0", path = "../../../../primitives/keystore" }
-sp-runtime = { version = "6.0.0", path = "../../../../primitives/runtime" }
+jsonrpsee = { version = "0.15.1", features = ["server", "macros"] , registry = "local" }
+futures = { version = "0.3.21", registry = "local" }
+serde = { version = "1.0.136", features = ["derive"] , registry = "local" }
+thiserror = { version = "1.0", registry = "local" }
+sc-consensus-babe = { version = "0.10.0-dev", path = "../" , registry = "local" }
+sc-consensus-epochs = { version = "0.10.0-dev", path = "../../epochs" , registry = "local" }
+sc-rpc-api = { version = "0.10.0-dev", path = "../../../rpc-api" , registry = "local" }
+sp-api = { version = "4.0.0-dev", path = "../../../../primitives/api" , registry = "local" }
+sp-application-crypto = { version = "6.0.0", path = "../../../../primitives/application-crypto" , registry = "local" }
+sp-blockchain = { version = "4.0.0-dev", path = "../../../../primitives/blockchain" , registry = "local" }
+sp-consensus = { version = "0.10.0-dev", path = "../../../../primitives/consensus/common" , registry = "local" }
+sp-consensus-babe = { version = "0.10.0-dev", path = "../../../../primitives/consensus/babe" , registry = "local" }
+sp-core = { version = "6.0.0", path = "../../../../primitives/core" , registry = "local" }
+sp-keystore = { version = "0.12.0", path = "../../../../primitives/keystore" , registry = "local" }
+sp-runtime = { version = "6.0.0", path = "../../../../primitives/runtime" , registry = "local" }
 
 [dev-dependencies]
-serde_json = "1.0.85"
-tempfile = "3.1.0"
-tokio = "1.17.0"
-sc-consensus = { version = "0.10.0-dev", path = "../../../consensus/common" }
-sc-keystore = { version = "4.0.0-dev", path = "../../../keystore" }
-sp-keyring = { version = "6.0.0", path = "../../../../primitives/keyring" }
-substrate-test-runtime-client = { version = "2.0.0", path = "../../../../test-utils/runtime/client" }
+serde_json = { version = "1.0.85", registry = "local" }
+tempfile = { version = "3.1.0", registry = "local" }
+tokio = { version = "1.17.0", registry = "local" }
+sc-consensus = { version = "0.10.0-dev", path = "../../../consensus/common" , registry = "local" }
+sc-keystore = { version = "4.0.0-dev", path = "../../../keystore" , registry = "local" }
+sp-keyring = { version = "6.0.0", path = "../../../../primitives/keyring" , registry = "local" }
+substrate-test-runtime-client = { version = "2.0.0", path = "../../../../test-utils/runtime/client" , registry = "local" }

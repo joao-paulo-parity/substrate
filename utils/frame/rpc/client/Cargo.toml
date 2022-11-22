@@ -13,13 +13,13 @@ readme = "README.md"
 targets = ["x86_64-unknown-linux-gnu"]
 
 [dependencies]
-jsonrpsee = { version = "0.15.1", features = ["ws-client"] }
-sc-rpc-api = { version = "0.10.0-dev", path = "../../../../client/rpc-api" }
-async-trait = "0.1.57"
-serde = "1"
-sp-runtime = { version = "6.0.0", path = "../../../../primitives/runtime" }
-log = "0.4"
+jsonrpsee = { version = "0.15.1", features = ["ws-client"] , registry = "local" }
+sc-rpc-api = { version = "0.10.0-dev", path = "../../../../client/rpc-api" , registry = "local" }
+async-trait = { version = "0.1.57", registry = "local" }
+serde = { version = "1", registry = "local" }
+sp-runtime = { version = "6.0.0", path = "../../../../primitives/runtime" , registry = "local" }
+log = { version = "0.4", registry = "local" }
 
 [dev-dependencies]
-tokio = { version = "1.17.0", features = ["macros", "rt-multi-thread", "sync"] }
-sp-core = { path = "../../../../primitives/core" }
+tokio = { version = "1.17.0", features = ["macros", "rt-multi-thread", "sync"] , registry = "local" }
+sp-core = { path = "../../../../primitives/core" , registry = "local" }

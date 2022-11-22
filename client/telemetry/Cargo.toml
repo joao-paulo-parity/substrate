@@ -14,14 +14,14 @@ readme = "README.md"
 targets = ["x86_64-unknown-linux-gnu"]
 
 [dependencies]
-chrono = "0.4.19"
-futures = "0.3.21"
-libp2p = { version = "0.49.0", default-features = false, features = ["dns-async-std", "tcp-async-io", "wasm-ext", "websocket"] }
-log = "0.4.17"
-parking_lot = "0.12.1"
-pin-project = "1.0.12"
-rand = "0.7.2"
-serde = { version = "1.0.136", features = ["derive"] }
-serde_json = "1.0.85"
-thiserror = "1.0.30"
-wasm-timer = "0.2.5"
+chrono = { version = "0.4.19", registry = "local" }
+futures = { version = "0.3.21", registry = "local" }
+libp2p = { version = "0.49.0", default-features = false, features = ["dns-async-std", "tcp-async-io", "wasm-ext", "websocket"] , registry = "local" }
+log = { version = "0.4.17", registry = "local" }
+parking_lot = { version = "0.12.1", registry = "local" }
+pin-project = { version = "1.0.12", registry = "local" }
+rand = { version = "0.7.2", registry = "local" }
+serde = { version = "1.0.136", features = ["derive"] , registry = "local" }
+serde_json = { version = "1.0.85", registry = "local" }
+thiserror = { version = "1.0.30", registry = "local" }
+wasm-timer = { version = "0.2.5", registry = "local" }

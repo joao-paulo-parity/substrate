@@ -12,34 +12,34 @@ publish = false
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-array-bytes = "4.1"
-clap = { version = "4.0.9", features = ["derive"] }
-log = "0.4.17"
-node-primitives = { version = "2.0.0", path = "../primitives" }
-node-testing = { version = "3.0.0-dev", path = "../testing" }
-kitchensink-runtime = { version = "3.0.0-dev", path = "../runtime" }
-sc-client-api = { version = "4.0.0-dev", path = "../../../client/api/" }
-sp-runtime = { version = "6.0.0", path = "../../../primitives/runtime" }
-sp-state-machine = { version = "0.12.0", path = "../../../primitives/state-machine" }
-serde = "1.0.136"
-serde_json = "1.0.85"
-derive_more = { version = "0.99.17", default-features = false, features = ["display"] }
-kvdb = "0.12.0"
-kvdb-rocksdb = "0.16.0"
-sp-trie = { version = "6.0.0", path = "../../../primitives/trie" }
-sp-core = { version = "6.0.0", path = "../../../primitives/core" }
-sp-consensus = { version = "0.10.0-dev", path = "../../../primitives/consensus/common" }
-sc-basic-authorship = { version = "0.10.0-dev", path = "../../../client/basic-authorship" }
-sp-inherents = { version = "4.0.0-dev", path = "../../../primitives/inherents" }
-sp-timestamp = { version = "4.0.0-dev", default-features = false, path = "../../../primitives/timestamp" }
-sp-tracing = { version = "5.0.0", path = "../../../primitives/tracing" }
-hash-db = "0.15.2"
-tempfile = "3.1.0"
-fs_extra = "1"
-rand = { version = "0.7.2", features = ["small_rng"] }
-lazy_static = "1.4.0"
-parity-util-mem = { version = "0.12.0", default-features = false, features = ["primitive-types"] }
-parity-db = "0.4.2"
-sc-transaction-pool = { version = "4.0.0-dev", path = "../../../client/transaction-pool" }
-sc-transaction-pool-api = { version = "4.0.0-dev", path = "../../../client/transaction-pool/api" }
-futures = { version = "0.3.21", features = ["thread-pool"] }
+array-bytes = { version = "4.1", registry = "local" }
+clap = { version = "4.0.9", features = ["derive"] , registry = "local" }
+log = { version = "0.4.17", registry = "local" }
+node-primitives = { version = "2.0.0", path = "../primitives" , registry = "local" }
+node-testing = { version = "3.0.0-dev", path = "../testing" , registry = "local" }
+kitchensink-runtime = { version = "3.0.0-dev", path = "../runtime" , registry = "local" }
+sc-client-api = { version = "4.0.0-dev", path = "../../../client/api/" , registry = "local" }
+sp-runtime = { version = "6.0.0", path = "../../../primitives/runtime" , registry = "local" }
+sp-state-machine = { version = "0.12.0", path = "../../../primitives/state-machine" , registry = "local" }
+serde = { version = "1.0.136", registry = "local" }
+serde_json = { version = "1.0.85", registry = "local" }
+derive_more = { version = "0.99.17", default-features = false, features = ["display"] , registry = "local" }
+kvdb = { version = "0.12.0", registry = "local" }
+kvdb-rocksdb = { version = "0.16.0", registry = "local" }
+sp-trie = { version = "6.0.0", path = "../../../primitives/trie" , registry = "local" }
+sp-core = { version = "6.0.0", path = "../../../primitives/core" , registry = "local" }
+sp-consensus = { version = "0.10.0-dev", path = "../../../primitives/consensus/common" , registry = "local" }
+sc-basic-authorship = { version = "0.10.0-dev", path = "../../../client/basic-authorship" , registry = "local" }
+sp-inherents = { version = "4.0.0-dev", path = "../../../primitives/inherents" , registry = "local" }
+sp-timestamp = { version = "4.0.0-dev", default-features = false, path = "../../../primitives/timestamp" , registry = "local" }
+sp-tracing = { version = "5.0.0", path = "../../../primitives/tracing" , registry = "local" }
+hash-db = { version = "0.15.2", registry = "local" }
+tempfile = { version = "3.1.0", registry = "local" }
+fs_extra = { version = "1", registry = "local" }
+rand = { version = "0.7.2", features = ["small_rng"] , registry = "local" }
+lazy_static = { version = "1.4.0", registry = "local" }
+parity-util-mem = { version = "0.12.0", default-features = false, features = ["primitive-types"] , registry = "local" }
+parity-db = { version = "0.4.2", registry = "local" }
+sc-transaction-pool = { version = "4.0.0-dev", path = "../../../client/transaction-pool" , registry = "local" }
+sc-transaction-pool-api = { version = "4.0.0-dev", path = "../../../client/transaction-pool/api" , registry = "local" }
+futures = { version = "0.3.21", features = ["thread-pool"] , registry = "local" }

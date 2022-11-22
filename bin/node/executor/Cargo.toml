@@ -12,37 +12,37 @@ repository = "https://github.com/paritytech/substrate/"
 targets = ["x86_64-unknown-linux-gnu"]
 
 [dependencies]
-codec = { package = "parity-scale-codec", version = "3.0.0" }
-scale-info = { version = "2.1.1", features = ["derive"] }
-frame-benchmarking = { version = "4.0.0-dev", path = "../../../frame/benchmarking" }
-node-primitives = { version = "2.0.0", path = "../primitives" }
-kitchensink-runtime = { version = "3.0.0-dev", path = "../runtime" }
-sc-executor = { version = "0.10.0-dev", path = "../../../client/executor" }
-sp-core = { version = "6.0.0", path = "../../../primitives/core" }
-sp-keystore = { version = "0.12.0", path = "../../../primitives/keystore" }
-sp-state-machine = { version = "0.12.0", path = "../../../primitives/state-machine" }
-sp-tracing = { version = "5.0.0", path = "../../../primitives/tracing" }
-sp-trie = { version = "6.0.0", path = "../../../primitives/trie" }
+codec = { package = "parity-scale-codec", version = "3.0.0" , registry = "local" }
+scale-info = { version = "2.1.1", features = ["derive"] , registry = "local" }
+frame-benchmarking = { version = "4.0.0-dev", path = "../../../frame/benchmarking" , registry = "local" }
+node-primitives = { version = "2.0.0", path = "../primitives" , registry = "local" }
+kitchensink-runtime = { version = "3.0.0-dev", path = "../runtime" , registry = "local" }
+sc-executor = { version = "0.10.0-dev", path = "../../../client/executor" , registry = "local" }
+sp-core = { version = "6.0.0", path = "../../../primitives/core" , registry = "local" }
+sp-keystore = { version = "0.12.0", path = "../../../primitives/keystore" , registry = "local" }
+sp-state-machine = { version = "0.12.0", path = "../../../primitives/state-machine" , registry = "local" }
+sp-tracing = { version = "5.0.0", path = "../../../primitives/tracing" , registry = "local" }
+sp-trie = { version = "6.0.0", path = "../../../primitives/trie" , registry = "local" }
 
 [dev-dependencies]
-criterion = "0.3.0"
-futures = "0.3.21"
-wat = "1.0"
-frame-support = { version = "4.0.0-dev", path = "../../../frame/support" }
-frame-system = { version = "4.0.0-dev", path = "../../../frame/system" }
-node-testing = { version = "3.0.0-dev", path = "../testing" }
-pallet-balances = { version = "4.0.0-dev", path = "../../../frame/balances" }
-pallet-contracts = { version = "4.0.0-dev", path = "../../../frame/contracts" }
-pallet-im-online = { version = "4.0.0-dev", path = "../../../frame/im-online" }
-pallet-sudo = { version = "4.0.0-dev", path = "../../../frame/sudo" }
-pallet-timestamp = { version = "4.0.0-dev", path = "../../../frame/timestamp" }
-pallet-treasury = { version = "4.0.0-dev", path = "../../../frame/treasury" }
-pallet-transaction-payment = { version = "4.0.0-dev", path = "../../../frame/transaction-payment" }
-sp-application-crypto = { version = "6.0.0", path = "../../../primitives/application-crypto" }
-sp-consensus-babe = { version = "0.10.0-dev", path = "../../../primitives/consensus/babe" }
-sp-externalities = { version = "0.12.0", path = "../../../primitives/externalities" }
-sp-keyring = { version = "6.0.0", path = "../../../primitives/keyring" }
-sp-runtime = { version = "6.0.0", path = "../../../primitives/runtime" }
+criterion = { version = "0.3.0", registry = "local" }
+futures = { version = "0.3.21", registry = "local" }
+wat = { version = "1.0", registry = "local" }
+frame-support = { version = "4.0.0-dev", path = "../../../frame/support" , registry = "local" }
+frame-system = { version = "4.0.0-dev", path = "../../../frame/system" , registry = "local" }
+node-testing = { version = "3.0.0-dev", path = "../testing" , registry = "local" }
+pallet-balances = { version = "4.0.0-dev", path = "../../../frame/balances" , registry = "local" }
+pallet-contracts = { version = "4.0.0-dev", path = "../../../frame/contracts" , registry = "local" }
+pallet-im-online = { version = "4.0.0-dev", path = "../../../frame/im-online" , registry = "local" }
+pallet-sudo = { version = "4.0.0-dev", path = "../../../frame/sudo" , registry = "local" }
+pallet-timestamp = { version = "4.0.0-dev", path = "../../../frame/timestamp" , registry = "local" }
+pallet-treasury = { version = "4.0.0-dev", path = "../../../frame/treasury" , registry = "local" }
+pallet-transaction-payment = { version = "4.0.0-dev", path = "../../../frame/transaction-payment" , registry = "local" }
+sp-application-crypto = { version = "6.0.0", path = "../../../primitives/application-crypto" , registry = "local" }
+sp-consensus-babe = { version = "0.10.0-dev", path = "../../../primitives/consensus/babe" , registry = "local" }
+sp-externalities = { version = "0.12.0", path = "../../../primitives/externalities" , registry = "local" }
+sp-keyring = { version = "6.0.0", path = "../../../primitives/keyring" , registry = "local" }
+sp-runtime = { version = "6.0.0", path = "../../../primitives/runtime" , registry = "local" }
 
 [features]
 wasmtime = ["sc-executor/wasmtime"]

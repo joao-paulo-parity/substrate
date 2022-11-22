@@ -10,28 +10,28 @@ readme = "README.md"
 homepage = "https://substrate.io"
 
 [dependencies]
-finality-grandpa = { version = "0.16.0", features = ["derive-codec"] }
-futures = "0.3.16"
-jsonrpsee = { version = "0.15.1", features = ["server", "macros"] }
-log = "0.4.8"
-parity-scale-codec = { version = "3.0.0", features = ["derive"] }
-serde = { version = "1.0.105", features = ["derive"] }
-serde_json = "1.0.50"
-thiserror = "1.0"
-sc-client-api = { version = "4.0.0-dev", path = "../../api" }
-sc-finality-grandpa = { version = "0.10.0-dev", path = "../" }
-sc-rpc = { version = "4.0.0-dev", path = "../../rpc" }
-sp-blockchain = { version = "4.0.0-dev", path = "../../../primitives/blockchain" }
-sp-core = { version = "6.0.0", path = "../../../primitives/core" }
-sp-runtime = { version = "6.0.0", path = "../../../primitives/runtime" }
+finality-grandpa = { version = "0.16.0", features = ["derive-codec"] , registry = "local" }
+futures = { version = "0.3.16", registry = "local" }
+jsonrpsee = { version = "0.15.1", features = ["server", "macros"] , registry = "local" }
+log = { version = "0.4.8", registry = "local" }
+parity-scale-codec = { version = "3.0.0", features = ["derive"] , registry = "local" }
+serde = { version = "1.0.105", features = ["derive"] , registry = "local" }
+serde_json = { version = "1.0.50", registry = "local" }
+thiserror = { version = "1.0", registry = "local" }
+sc-client-api = { version = "4.0.0-dev", path = "../../api" , registry = "local" }
+sc-finality-grandpa = { version = "0.10.0-dev", path = "../" , registry = "local" }
+sc-rpc = { version = "4.0.0-dev", path = "../../rpc" , registry = "local" }
+sp-blockchain = { version = "4.0.0-dev", path = "../../../primitives/blockchain" , registry = "local" }
+sp-core = { version = "6.0.0", path = "../../../primitives/core" , registry = "local" }
+sp-runtime = { version = "6.0.0", path = "../../../primitives/runtime" , registry = "local" }
 
 [dev-dependencies]
-sc-block-builder = { version = "0.10.0-dev", path = "../../block-builder" }
+sc-block-builder = { version = "0.10.0-dev", path = "../../block-builder" , registry = "local" }
 sc-rpc = { version = "4.0.0-dev", features = [
 	"test-helpers",
-], path = "../../rpc" }
-sp-core = { version = "6.0.0", path = "../../../primitives/core" }
-sp-finality-grandpa = { version = "4.0.0-dev", path = "../../../primitives/finality-grandpa" }
-sp-keyring = { version = "6.0.0", path = "../../../primitives/keyring" }
-substrate-test-runtime-client = { version = "2.0.0", path = "../../../test-utils/runtime/client" }
-tokio = { version = "1.17.0", features = ["macros"] }
+], path = "../../rpc" , registry = "local" }
+sp-core = { version = "6.0.0", path = "../../../primitives/core" , registry = "local" }
+sp-finality-grandpa = { version = "4.0.0-dev", path = "../../../primitives/finality-grandpa" , registry = "local" }
+sp-keyring = { version = "6.0.0", path = "../../../primitives/keyring" , registry = "local" }
+substrate-test-runtime-client = { version = "2.0.0", path = "../../../test-utils/runtime/client" , registry = "local" }
+tokio = { version = "1.17.0", features = ["macros"] , registry = "local" }

@@ -14,31 +14,31 @@ readme = "README.md"
 targets = ["x86_64-unknown-linux-gnu"]
 
 [dependencies]
-codec = { package = "parity-scale-codec", version = "3.0.0", default-features = false, features = ["derive", "max-encoded-len"] }
-either = { version = "1.5", default-features = false }
-hash256-std-hasher = { version = "0.15.2", default-features = false }
-impl-trait-for-tuples = "0.2.2"
-log = { version = "0.4.17", default-features = false }
-parity-util-mem = { version = "0.12.0", default-features = false, features = ["primitive-types"] }
-paste = "1.0"
-rand = { version = "0.7.2", optional = true }
-scale-info = { version = "2.1.1", default-features = false, features = ["derive"] }
-serde = { version = "1.0.136", features = ["derive"], optional = true }
-sp-application-crypto = { version = "6.0.0", default-features = false, path = "../application-crypto" }
+codec = { package = "parity-scale-codec", version = "3.0.0", default-features = false, features = ["derive", "max-encoded-len"] , registry = "local" }
+either = { version = "1.5", default-features = false , registry = "local" }
+hash256-std-hasher = { version = "0.15.2", default-features = false , registry = "local" }
+impl-trait-for-tuples = { version = "0.2.2", registry = "local" }
+log = { version = "0.4.17", default-features = false , registry = "local" }
+parity-util-mem = { version = "0.12.0", default-features = false, features = ["primitive-types"] , registry = "local" }
+paste = { version = "1.0", registry = "local" }
+rand = { version = "0.7.2", optional = true , registry = "local" }
+scale-info = { version = "2.1.1", default-features = false, features = ["derive"] , registry = "local" }
+serde = { version = "1.0.136", features = ["derive"], optional = true , registry = "local" }
+sp-application-crypto = { version = "6.0.0", default-features = false, path = "../application-crypto" , registry = "local" }
 sp-arithmetic = { version = "6.0.0", default-features = false, path = "../arithmetic" , registry = "local" }
-sp-core = { version = "6.0.0", default-features = false, path = "../core" }
-sp-io = { version = "6.0.0", default-features = false, path = "../io" }
+sp-core = { version = "6.0.0", default-features = false, path = "../core" , registry = "local" }
+sp-io = { version = "6.0.0", default-features = false, path = "../io" , registry = "local" }
 sp-std = { version = "7.0.0", default-features = false, path = "../std" , registry = "local" }
-sp-weights = { version = "4.0.0", default-features = false, path = "../weights" }
+sp-weights = { version = "4.0.0", default-features = false, path = "../weights" , registry = "local" }
 
 [dev-dependencies]
-rand = "0.7.2"
-serde_json = "1.0.85"
-zstd = { version = "0.11.2", default-features = false }
-sp-api = { version = "4.0.0-dev", path = "../api" }
-sp-state-machine = { version = "0.12.0", path = "../state-machine" }
-sp-tracing = { version = "5.0.0", path = "../../primitives/tracing" }
-substrate-test-runtime-client = { version = "2.0.0", path = "../../test-utils/runtime/client" }
+rand = { version = "0.7.2", registry = "local" }
+serde_json = { version = "1.0.85", registry = "local" }
+zstd = { version = "0.11.2", default-features = false , registry = "local" }
+sp-api = { version = "4.0.0-dev", path = "../api" , registry = "local" }
+sp-state-machine = { version = "0.12.0", path = "../state-machine" , registry = "local" }
+sp-tracing = { version = "5.0.0", path = "../../primitives/tracing" , registry = "local" }
+substrate-test-runtime-client = { version = "2.0.0", path = "../../test-utils/runtime/client" , registry = "local" }
 
 [features]
 runtime-benchmarks = []

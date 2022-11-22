@@ -13,33 +13,33 @@ readme = "README.md"
 targets = ["x86_64-unknown-linux-gnu"]
 
 [dependencies]
-ansi_term = "0.12.1"
-atty = "0.2.13"
-chrono = "0.4.19"
-lazy_static = "1.4.0"
-libc = "0.2.121"
-log = { version = "0.4.17" }
-once_cell = "1.8.0"
-parking_lot = "0.12.1"
-regex = "1.6.0"
-rustc-hash = "1.1.0"
-serde = "1.0.136"
-thiserror = "1.0.30"
-tracing = "0.1.29"
-tracing-log = "0.1.3"
-tracing-subscriber = { version = "0.2.25", features = ["parking_lot"] }
-sc-client-api = { version = "4.0.0-dev", path = "../api" }
-sc-rpc-server = { version = "4.0.0-dev", path = "../rpc-servers" }
+ansi_term = { version = "0.12.1", registry = "local" }
+atty = { version = "0.2.13", registry = "local" }
+chrono = { version = "0.4.19", registry = "local" }
+lazy_static = { version = "1.4.0", registry = "local" }
+libc = { version = "0.2.121", registry = "local" }
+log = { version = "0.4.17" , registry = "local" }
+once_cell = { version = "1.8.0", registry = "local" }
+parking_lot = { version = "0.12.1", registry = "local" }
+regex = { version = "1.6.0", registry = "local" }
+rustc-hash = { version = "1.1.0", registry = "local" }
+serde = { version = "1.0.136", registry = "local" }
+thiserror = { version = "1.0.30", registry = "local" }
+tracing = { version = "0.1.29", registry = "local" }
+tracing-log = { version = "0.1.3", registry = "local" }
+tracing-subscriber = { version = "0.2.25", features = ["parking_lot"] , registry = "local" }
+sc-client-api = { version = "4.0.0-dev", path = "../api" , registry = "local" }
+sc-rpc-server = { version = "4.0.0-dev", path = "../rpc-servers" , registry = "local" }
 sc-tracing-proc-macro = { version = "7.0.0", path = "./proc-macro" , registry = "local" }
-sp-api = { version = "4.0.0-dev", path = "../../primitives/api" }
-sp-blockchain = { version = "4.0.0-dev", path = "../../primitives/blockchain" }
-sp-core = { version = "6.0.0", path = "../../primitives/core" }
-sp-rpc = { version = "6.0.0", path = "../../primitives/rpc" }
-sp-runtime = { version = "6.0.0", path = "../../primitives/runtime" }
-sp-tracing = { version = "5.0.0", path = "../../primitives/tracing" }
+sp-api = { version = "4.0.0-dev", path = "../../primitives/api" , registry = "local" }
+sp-blockchain = { version = "4.0.0-dev", path = "../../primitives/blockchain" , registry = "local" }
+sp-core = { version = "6.0.0", path = "../../primitives/core" , registry = "local" }
+sp-rpc = { version = "6.0.0", path = "../../primitives/rpc" , registry = "local" }
+sp-runtime = { version = "6.0.0", path = "../../primitives/runtime" , registry = "local" }
+sp-tracing = { version = "5.0.0", path = "../../primitives/tracing" , registry = "local" }
 
 [dev-dependencies]
-criterion = "0.3"
+criterion = { version = "0.3", registry = "local" }
 
 [[bench]]
 name = "bench"

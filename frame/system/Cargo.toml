@@ -13,22 +13,22 @@ readme = "README.md"
 targets = ["x86_64-unknown-linux-gnu"]
 
 [dependencies]
-codec = { package = "parity-scale-codec", version = "3.0.0", default-features = false, features = ["derive"] }
-log = { version = "0.4.17", default-features = false }
-scale-info = { version = "2.1.1", default-features = false, features = ["derive"] }
-serde = { version = "1.0.136", features = ["derive"], optional = true }
-frame-support = { version = "4.0.0-dev", default-features = false, path = "../support" }
-sp-core = { version = "6.0.0", default-features = false, path = "../../primitives/core" }
-sp-io = { version = "6.0.0", default-features = false, path = "../../primitives/io" }
-sp-runtime = { version = "6.0.0", default-features = false, path = "../../primitives/runtime" }
+codec = { package = "parity-scale-codec", version = "3.0.0", default-features = false, features = ["derive"] , registry = "local" }
+log = { version = "0.4.17", default-features = false , registry = "local" }
+scale-info = { version = "2.1.1", default-features = false, features = ["derive"] , registry = "local" }
+serde = { version = "1.0.136", features = ["derive"], optional = true , registry = "local" }
+frame-support = { version = "4.0.0-dev", default-features = false, path = "../support" , registry = "local" }
+sp-core = { version = "6.0.0", default-features = false, path = "../../primitives/core" , registry = "local" }
+sp-io = { version = "6.0.0", default-features = false, path = "../../primitives/io" , registry = "local" }
+sp-runtime = { version = "6.0.0", default-features = false, path = "../../primitives/runtime" , registry = "local" }
 sp-std = { version = "7.0.0", default-features = false, path = "../../primitives/std" , registry = "local" }
-sp-version = { version = "5.0.0", default-features = false, path = "../../primitives/version" }
-sp-weights = { version = "4.0.0", default-features = false, path = "../../primitives/weights" }
+sp-version = { version = "5.0.0", default-features = false, path = "../../primitives/version" , registry = "local" }
+sp-weights = { version = "4.0.0", default-features = false, path = "../../primitives/weights" , registry = "local" }
 
 [dev-dependencies]
-criterion = "0.3.3"
-sp-externalities = { version = "0.12.0", path = "../../primitives/externalities" }
-substrate-test-runtime-client = { version = "2.0.0", path = "../../test-utils/runtime/client" }
+criterion = { version = "0.3.3", registry = "local" }
+sp-externalities = { version = "0.12.0", path = "../../primitives/externalities" , registry = "local" }
+substrate-test-runtime-client = { version = "2.0.0", path = "../../test-utils/runtime/client" , registry = "local" }
 
 [features]
 default = ["std"]

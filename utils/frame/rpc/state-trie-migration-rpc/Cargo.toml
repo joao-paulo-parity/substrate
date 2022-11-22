@@ -13,24 +13,24 @@ readme = "README.md"
 targets = ["x86_64-unknown-linux-gnu"]
 
 [dependencies]
-scale-info = { version = "2.1.1", default-features = false, features = ["derive"] }
-codec = { package = "parity-scale-codec", version = "3.0.0", default-features = false }
-serde = { version = "1", features = ["derive"] }
-log = { version = "0.4.17", default-features = false }
+scale-info = { version = "2.1.1", default-features = false, features = ["derive"] , registry = "local" }
+codec = { package = "parity-scale-codec", version = "3.0.0", default-features = false , registry = "local" }
+serde = { version = "1", features = ["derive"] , registry = "local" }
+log = { version = "0.4.17", default-features = false , registry = "local" }
 
 sp-std = { path = "../../../../primitives/std" , version = "7.0.0", registry = "local" }
-sp-io = { path = "../../../../primitives/io" }
-sp-core = { path = "../../../../primitives/core" }
-sp-state-machine = { path = "../../../../primitives/state-machine" }
-sp-trie = { path = "../../../../primitives/trie" }
-trie-db = "0.24.0"
+sp-io = { path = "../../../../primitives/io" , registry = "local" }
+sp-core = { path = "../../../../primitives/core" , registry = "local" }
+sp-state-machine = { path = "../../../../primitives/state-machine" , registry = "local" }
+sp-trie = { path = "../../../../primitives/trie" , registry = "local" }
+trie-db = { version = "0.24.0", registry = "local" }
 
-jsonrpsee = { version = "0.15.1", features = ["server", "macros"] }
+jsonrpsee = { version = "0.15.1", features = ["server", "macros"] , registry = "local" }
 
 # Substrate Dependencies
-sc-client-api = { version = "4.0.0-dev", path = "../../../../client/api" }
-sc-rpc-api = { version = "0.10.0-dev", path = "../../../../client/rpc-api" }
-sp-runtime = { version = "6.0.0", path = "../../../../primitives/runtime" }
+sc-client-api = { version = "4.0.0-dev", path = "../../../../client/api" , registry = "local" }
+sc-rpc-api = { version = "0.10.0-dev", path = "../../../../client/rpc-api" , registry = "local" }
+sp-runtime = { version = "6.0.0", path = "../../../../primitives/runtime" , registry = "local" }
 
 [dev-dependencies]
-serde_json = "1"
+serde_json = { version = "1", registry = "local" }

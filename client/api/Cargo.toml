@@ -16,29 +16,29 @@ targets = ["x86_64-unknown-linux-gnu"]
 [dependencies]
 codec = { package = "parity-scale-codec", version = "3.0.0", default-features = false, features = [
 	"derive",
-] }
-fnv = "1.0.6"
-futures = "0.3.21"
-hash-db = { version = "0.15.2", default-features = false }
-log = "0.4.17"
-parking_lot = "0.12.1"
+] , registry = "local" }
+fnv = { version = "1.0.6", registry = "local" }
+futures = { version = "0.3.21", registry = "local" }
+hash-db = { version = "0.15.2", default-features = false , registry = "local" }
+log = { version = "0.4.17", registry = "local" }
+parking_lot = { version = "0.12.1", registry = "local" }
 prometheus-endpoint = { package = "substrate-prometheus-endpoint", version = "0.16.0", path = "../../utils/prometheus" , registry = "local" }
-sc-executor = { version = "0.10.0-dev", path = "../executor" }
-sc-transaction-pool-api = { version = "4.0.0-dev", path = "../transaction-pool/api" }
+sc-executor = { version = "0.10.0-dev", path = "../executor" , registry = "local" }
+sc-transaction-pool-api = { version = "4.0.0-dev", path = "../transaction-pool/api" , registry = "local" }
 sc-utils = { version = "10.0.0", path = "../utils" , registry = "local" }
-sp-api = { version = "4.0.0-dev", path = "../../primitives/api" }
-sp-blockchain = { version = "4.0.0-dev", path = "../../primitives/blockchain" }
-sp-consensus = { version = "0.10.0-dev", path = "../../primitives/consensus/common" }
-sp-core = { version = "6.0.0", default-features = false, path = "../../primitives/core" }
+sp-api = { version = "4.0.0-dev", path = "../../primitives/api" , registry = "local" }
+sp-blockchain = { version = "4.0.0-dev", path = "../../primitives/blockchain" , registry = "local" }
+sp-consensus = { version = "0.10.0-dev", path = "../../primitives/consensus/common" , registry = "local" }
+sp-core = { version = "6.0.0", default-features = false, path = "../../primitives/core" , registry = "local" }
 sp-database = { version = "7.0.0", path = "../../primitives/database" , registry = "local" }
-sp-externalities = { version = "0.12.0", path = "../../primitives/externalities" }
-sp-keystore = { version = "0.12.0", default-features = false, path = "../../primitives/keystore" }
-sp-runtime = { version = "6.0.0", default-features = false, path = "../../primitives/runtime" }
-sp-state-machine = { version = "0.12.0", path = "../../primitives/state-machine" }
-sp-storage = { version = "6.0.0", path = "../../primitives/storage" }
-sp-trie = { version = "6.0.0", path = "../../primitives/trie" }
+sp-externalities = { version = "0.12.0", path = "../../primitives/externalities" , registry = "local" }
+sp-keystore = { version = "0.12.0", default-features = false, path = "../../primitives/keystore" , registry = "local" }
+sp-runtime = { version = "6.0.0", default-features = false, path = "../../primitives/runtime" , registry = "local" }
+sp-state-machine = { version = "0.12.0", path = "../../primitives/state-machine" , registry = "local" }
+sp-storage = { version = "6.0.0", path = "../../primitives/storage" , registry = "local" }
+sp-trie = { version = "6.0.0", path = "../../primitives/trie" , registry = "local" }
 
 [dev-dependencies]
-thiserror = "1.0.30"
-sp-test-primitives = { version = "2.0.0", path = "../../primitives/test-primitives" }
-substrate-test-runtime = { version = "2.0.0", path = "../../test-utils/runtime" }
+thiserror = { version = "1.0.30", registry = "local" }
+sp-test-primitives = { version = "2.0.0", path = "../../primitives/test-primitives" , registry = "local" }
+substrate-test-runtime = { version = "2.0.0", path = "../../test-utils/runtime" , registry = "local" }

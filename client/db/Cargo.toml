@@ -15,34 +15,34 @@ targets = ["x86_64-unknown-linux-gnu"]
 [dependencies]
 codec = { package = "parity-scale-codec", version = "3.0.0", features = [
 	"derive",
-] }
-hash-db = "0.15.2"
-kvdb = "0.12.0"
-kvdb-memorydb = "0.12.0"
-kvdb-rocksdb = { version = "0.16.0", optional = true }
-linked-hash-map = "0.5.4"
-log = "0.4.17"
-parity-db = "0.4.2"
-parking_lot = "0.12.1"
-sc-client-api = { version = "4.0.0-dev", path = "../api" }
-sc-state-db = { version = "0.10.0-dev", path = "../state-db" }
+] , registry = "local" }
+hash-db = { version = "0.15.2", registry = "local" }
+kvdb = { version = "0.12.0", registry = "local" }
+kvdb-memorydb = { version = "0.12.0", registry = "local" }
+kvdb-rocksdb = { version = "0.16.0", optional = true , registry = "local" }
+linked-hash-map = { version = "0.5.4", registry = "local" }
+log = { version = "0.4.17", registry = "local" }
+parity-db = { version = "0.4.2", registry = "local" }
+parking_lot = { version = "0.12.1", registry = "local" }
+sc-client-api = { version = "4.0.0-dev", path = "../api" , registry = "local" }
+sc-state-db = { version = "0.10.0-dev", path = "../state-db" , registry = "local" }
 sp-arithmetic = { version = "6.0.0", path = "../../primitives/arithmetic" , registry = "local" }
-sp-blockchain = { version = "4.0.0-dev", path = "../../primitives/blockchain" }
-sp-core = { version = "6.0.0", path = "../../primitives/core" }
+sp-blockchain = { version = "4.0.0-dev", path = "../../primitives/blockchain" , registry = "local" }
+sp-core = { version = "6.0.0", path = "../../primitives/core" , registry = "local" }
 sp-database = { version = "7.0.0", path = "../../primitives/database" , registry = "local" }
-sp-runtime = { version = "6.0.0", path = "../../primitives/runtime" }
-sp-state-machine = { version = "0.12.0", path = "../../primitives/state-machine" }
-sp-trie = { version = "6.0.0", path = "../../primitives/trie" }
+sp-runtime = { version = "6.0.0", path = "../../primitives/runtime" , registry = "local" }
+sp-state-machine = { version = "0.12.0", path = "../../primitives/state-machine" , registry = "local" }
+sp-trie = { version = "6.0.0", path = "../../primitives/trie" , registry = "local" }
 
 [dev-dependencies]
-criterion = "0.3.3"
-kvdb-rocksdb = "0.16.0"
-rand = "0.8.4"
-tempfile = "3.1.0"
-quickcheck = { version = "1.0.3", default-features = false }
-kitchensink-runtime = { path = "../../bin/node/runtime" }
-sp-tracing = { version = "5.0.0", path = "../../primitives/tracing" }
-substrate-test-runtime-client = { version = "2.0.0", path = "../../test-utils/runtime/client" }
+criterion = { version = "0.3.3", registry = "local" }
+kvdb-rocksdb = { version = "0.16.0", registry = "local" }
+rand = { version = "0.8.4", registry = "local" }
+tempfile = { version = "3.1.0", registry = "local" }
+quickcheck = { version = "1.0.3", default-features = false , registry = "local" }
+kitchensink-runtime = { path = "../../bin/node/runtime" , registry = "local" }
+sp-tracing = { version = "5.0.0", path = "../../primitives/tracing" , registry = "local" }
+substrate-test-runtime-client = { version = "2.0.0", path = "../../test-utils/runtime/client" , registry = "local" }
 
 [features]
 default = []

@@ -13,17 +13,17 @@ readme = "README.md"
 targets = ["x86_64-unknown-linux-gnu"]
 
 [dependencies]
-async-trait = { version = "0.1.57", optional = true }
-codec = { package = "parity-scale-codec", version = "3.0.0", default-features = false }
-scale-info = { version = "2.1.1", default-features = false, features = ["derive"] }
-sp-api = { version = "4.0.0-dev", default-features = false, path = "../../api" }
-sp-application-crypto = { version = "6.0.0", default-features = false, path = "../../application-crypto" }
-sp-consensus = { version = "0.10.0-dev", optional = true, path = "../common" }
-sp-consensus-slots = { version = "0.10.0-dev", default-features = false, path = "../slots" }
-sp-inherents = { version = "4.0.0-dev", default-features = false, path = "../../inherents" }
-sp-runtime = { version = "6.0.0", default-features = false, path = "../../runtime" }
+async-trait = { version = "0.1.57", optional = true , registry = "local" }
+codec = { package = "parity-scale-codec", version = "3.0.0", default-features = false , registry = "local" }
+scale-info = { version = "2.1.1", default-features = false, features = ["derive"] , registry = "local" }
+sp-api = { version = "4.0.0-dev", default-features = false, path = "../../api" , registry = "local" }
+sp-application-crypto = { version = "6.0.0", default-features = false, path = "../../application-crypto" , registry = "local" }
+sp-consensus = { version = "0.10.0-dev", optional = true, path = "../common" , registry = "local" }
+sp-consensus-slots = { version = "0.10.0-dev", default-features = false, path = "../slots" , registry = "local" }
+sp-inherents = { version = "4.0.0-dev", default-features = false, path = "../../inherents" , registry = "local" }
+sp-runtime = { version = "6.0.0", default-features = false, path = "../../runtime" , registry = "local" }
 sp-std = { version = "7.0.0", default-features = false, path = "../../std" , registry = "local" }
-sp-timestamp = { version = "4.0.0-dev", default-features = false, path = "../../timestamp" }
+sp-timestamp = { version = "4.0.0-dev", default-features = false, path = "../../timestamp" , registry = "local" }
 
 [features]
 default = ["std"]

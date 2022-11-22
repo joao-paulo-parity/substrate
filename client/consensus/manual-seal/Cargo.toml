@@ -13,36 +13,36 @@ readme = "README.md"
 targets = ["x86_64-unknown-linux-gnu"]
 
 [dependencies]
-jsonrpsee = { version = "0.15.1", features = ["server", "macros"] }
-assert_matches = "1.3.0"
-async-trait = "0.1.57"
-codec = { package = "parity-scale-codec", version = "3.0.0" }
-futures = "0.3.21"
-log = "0.4.17"
-serde = { version = "1.0", features = ["derive"] }
-thiserror = "1.0"
+jsonrpsee = { version = "0.15.1", features = ["server", "macros"] , registry = "local" }
+assert_matches = { version = "1.3.0", registry = "local" }
+async-trait = { version = "0.1.57", registry = "local" }
+codec = { package = "parity-scale-codec", version = "3.0.0" , registry = "local" }
+futures = { version = "0.3.21", registry = "local" }
+log = { version = "0.4.17", registry = "local" }
+serde = { version = "1.0", features = ["derive"] , registry = "local" }
+thiserror = { version = "1.0", registry = "local" }
 prometheus-endpoint = { package = "substrate-prometheus-endpoint", version = "0.16.0", path = "../../../utils/prometheus" , registry = "local" }
-sc-client-api = { version = "4.0.0-dev", path = "../../api" }
-sc-consensus = { version = "0.10.0-dev", path = "../../consensus/common" }
-sc-consensus-aura = { version = "0.10.0-dev", path = "../../consensus/aura" }
-sc-consensus-babe = { version = "0.10.0-dev", path = "../../consensus/babe" }
-sc-consensus-epochs = { version = "0.10.0-dev", path = "../../consensus/epochs" }
-sc-transaction-pool = { version = "4.0.0-dev", path = "../../transaction-pool" }
-sc-transaction-pool-api = { version = "4.0.0-dev", path = "../../../client/transaction-pool/api" }
-sp-api = { version = "4.0.0-dev", path = "../../../primitives/api" }
-sp-blockchain = { version = "4.0.0-dev", path = "../../../primitives/blockchain" }
-sp-consensus = { version = "0.10.0-dev", path = "../../../primitives/consensus/common" }
-sp-consensus-aura = { version = "0.10.0-dev", path = "../../../primitives/consensus/aura" }
-sp-consensus-babe = { version = "0.10.0-dev", path = "../../../primitives/consensus/babe" }
-sp-consensus-slots = { version = "0.10.0-dev", path = "../../../primitives/consensus/slots" }
-sp-core = { version = "6.0.0", path = "../../../primitives/core" }
-sp-inherents = { version = "4.0.0-dev", path = "../../../primitives/inherents" }
-sp-keystore = { version = "0.12.0", path = "../../../primitives/keystore" }
-sp-runtime = { version = "6.0.0", path = "../../../primitives/runtime" }
-sp-timestamp = { version = "4.0.0-dev", path = "../../../primitives/timestamp" }
+sc-client-api = { version = "4.0.0-dev", path = "../../api" , registry = "local" }
+sc-consensus = { version = "0.10.0-dev", path = "../../consensus/common" , registry = "local" }
+sc-consensus-aura = { version = "0.10.0-dev", path = "../../consensus/aura" , registry = "local" }
+sc-consensus-babe = { version = "0.10.0-dev", path = "../../consensus/babe" , registry = "local" }
+sc-consensus-epochs = { version = "0.10.0-dev", path = "../../consensus/epochs" , registry = "local" }
+sc-transaction-pool = { version = "4.0.0-dev", path = "../../transaction-pool" , registry = "local" }
+sc-transaction-pool-api = { version = "4.0.0-dev", path = "../../../client/transaction-pool/api" , registry = "local" }
+sp-api = { version = "4.0.0-dev", path = "../../../primitives/api" , registry = "local" }
+sp-blockchain = { version = "4.0.0-dev", path = "../../../primitives/blockchain" , registry = "local" }
+sp-consensus = { version = "0.10.0-dev", path = "../../../primitives/consensus/common" , registry = "local" }
+sp-consensus-aura = { version = "0.10.0-dev", path = "../../../primitives/consensus/aura" , registry = "local" }
+sp-consensus-babe = { version = "0.10.0-dev", path = "../../../primitives/consensus/babe" , registry = "local" }
+sp-consensus-slots = { version = "0.10.0-dev", path = "../../../primitives/consensus/slots" , registry = "local" }
+sp-core = { version = "6.0.0", path = "../../../primitives/core" , registry = "local" }
+sp-inherents = { version = "4.0.0-dev", path = "../../../primitives/inherents" , registry = "local" }
+sp-keystore = { version = "0.12.0", path = "../../../primitives/keystore" , registry = "local" }
+sp-runtime = { version = "6.0.0", path = "../../../primitives/runtime" , registry = "local" }
+sp-timestamp = { version = "4.0.0-dev", path = "../../../primitives/timestamp" , registry = "local" }
 
 [dev-dependencies]
-tokio = { version = "1.17.0", features = ["rt-multi-thread", "macros"] }
-sc-basic-authorship = { version = "0.10.0-dev", path = "../../basic-authorship" }
-substrate-test-runtime-client = { version = "2.0.0", path = "../../../test-utils/runtime/client" }
-substrate-test-runtime-transaction-pool = { version = "2.0.0", path = "../../../test-utils/runtime/transaction-pool" }
+tokio = { version = "1.17.0", features = ["rt-multi-thread", "macros"] , registry = "local" }
+sc-basic-authorship = { version = "0.10.0-dev", path = "../../basic-authorship" , registry = "local" }
+substrate-test-runtime-client = { version = "2.0.0", path = "../../../test-utils/runtime/client" , registry = "local" }
+substrate-test-runtime-transaction-pool = { version = "2.0.0", path = "../../../test-utils/runtime/transaction-pool" , registry = "local" }

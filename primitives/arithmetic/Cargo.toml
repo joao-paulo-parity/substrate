@@ -17,20 +17,20 @@ targets = ["x86_64-unknown-linux-gnu"]
 codec = { package = "parity-scale-codec", version = "3.0.0", default-features = false, features = [
 	"derive",
 	"max-encoded-len",
-] }
-integer-sqrt = "0.1.2"
-num-traits = { version = "0.2.8", default-features = false }
-scale-info = { version = "2.1.1", default-features = false, features = ["derive"] }
-serde = { version = "1.0.136", features = ["derive"], optional = true }
-static_assertions = "1.1.0"
+] , registry = "local" }
+integer-sqrt = { version = "0.1.2", registry = "local" }
+num-traits = { version = "0.2.8", default-features = false , registry = "local" }
+scale-info = { version = "2.1.1", default-features = false, features = ["derive"] , registry = "local" }
+serde = { version = "1.0.136", features = ["derive"], optional = true , registry = "local" }
+static_assertions = { version = "1.1.0", registry = "local" }
 sp-debug-derive = { version = "8.0.0", default-features = false, path = "../debug-derive" , registry = "local" }
 sp-std = { version = "7.0.0", default-features = false, path = "../std" , registry = "local" }
 
 [dev-dependencies]
-criterion = "0.3"
-primitive-types = "0.12.0"
-sp-core = { version = "6.0.0", features = ["full_crypto"], path = "../core" }
-rand = "0.7.2"
+criterion = { version = "0.3", registry = "local" }
+primitive-types = { version = "0.12.0", registry = "local" }
+sp-core = { version = "6.0.0", features = ["full_crypto"], path = "../core" , registry = "local" }
+rand = { version = "0.7.2", registry = "local" }
 
 [features]
 default = ["std"]

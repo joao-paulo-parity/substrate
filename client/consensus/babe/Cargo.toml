@@ -14,47 +14,47 @@ readme = "README.md"
 targets = ["x86_64-unknown-linux-gnu"]
 
 [dependencies]
-async-trait = "0.1.57"
-codec = { package = "parity-scale-codec", version = "3.0.0", features = ["derive"] }
-futures = "0.3.21"
-log = "0.4.17"
-merlin = "2.0"
-num-bigint = "0.4.3"
-num-rational = "0.4.1"
-num-traits = "0.2.8"
-parking_lot = "0.12.1"
-schnorrkel = { version = "0.9.1", features = ["preaudit_deprecated"] }
-serde = { version = "1.0.136", features = ["derive"] }
-thiserror = "1.0"
+async-trait = { version = "0.1.57", registry = "local" }
+codec = { package = "parity-scale-codec", version = "3.0.0", features = ["derive"] , registry = "local" }
+futures = { version = "0.3.21", registry = "local" }
+log = { version = "0.4.17", registry = "local" }
+merlin = { version = "2.0", registry = "local" }
+num-bigint = { version = "0.4.3", registry = "local" }
+num-rational = { version = "0.4.1", registry = "local" }
+num-traits = { version = "0.2.8", registry = "local" }
+parking_lot = { version = "0.12.1", registry = "local" }
+schnorrkel = { version = "0.9.1", features = ["preaudit_deprecated"] , registry = "local" }
+serde = { version = "1.0.136", features = ["derive"] , registry = "local" }
+thiserror = { version = "1.0", registry = "local" }
 fork-tree = { version = "6.0.0", path = "../../../utils/fork-tree" , registry = "local" }
 prometheus-endpoint = { package = "substrate-prometheus-endpoint", version = "0.16.0", path = "../../../utils/prometheus" , registry = "local" }
-sc-client-api = { version = "4.0.0-dev", path = "../../api" }
-sc-consensus = { version = "0.10.0-dev", path = "../../../client/consensus/common" }
-sc-consensus-epochs = { version = "0.10.0-dev", path = "../epochs" }
-sc-consensus-slots = { version = "0.10.0-dev", path = "../slots" }
-sc-keystore = { version = "4.0.0-dev", path = "../../keystore" }
+sc-client-api = { version = "4.0.0-dev", path = "../../api" , registry = "local" }
+sc-consensus = { version = "0.10.0-dev", path = "../../../client/consensus/common" , registry = "local" }
+sc-consensus-epochs = { version = "0.10.0-dev", path = "../epochs" , registry = "local" }
+sc-consensus-slots = { version = "0.10.0-dev", path = "../slots" , registry = "local" }
+sc-keystore = { version = "4.0.0-dev", path = "../../keystore" , registry = "local" }
 sc-telemetry = { version = "7.0.0", path = "../../telemetry" , registry = "local" }
-sp-api = { version = "4.0.0-dev", path = "../../../primitives/api" }
-sp-application-crypto = { version = "6.0.0", path = "../../../primitives/application-crypto" }
-sp-block-builder = { version = "4.0.0-dev", path = "../../../primitives/block-builder" }
-sp-blockchain = { version = "4.0.0-dev", path = "../../../primitives/blockchain" }
-sp-consensus = { version = "0.10.0-dev", path = "../../../primitives/consensus/common" }
-sp-consensus-babe = { version = "0.10.0-dev", path = "../../../primitives/consensus/babe" }
-sp-consensus-slots = { version = "0.10.0-dev", path = "../../../primitives/consensus/slots" }
-sp-consensus-vrf = { version = "0.10.0-dev", path = "../../../primitives/consensus/vrf" }
-sp-core = { version = "6.0.0", path = "../../../primitives/core" }
-sp-inherents = { version = "4.0.0-dev", path = "../../../primitives/inherents" }
-sp-io = { version = "6.0.0", path = "../../../primitives/io" }
-sp-keystore = { version = "0.12.0", path = "../../../primitives/keystore" }
-sp-runtime = { version = "6.0.0", path = "../../../primitives/runtime" }
-sp-version = { version = "5.0.0", path = "../../../primitives/version" }
+sp-api = { version = "4.0.0-dev", path = "../../../primitives/api" , registry = "local" }
+sp-application-crypto = { version = "6.0.0", path = "../../../primitives/application-crypto" , registry = "local" }
+sp-block-builder = { version = "4.0.0-dev", path = "../../../primitives/block-builder" , registry = "local" }
+sp-blockchain = { version = "4.0.0-dev", path = "../../../primitives/blockchain" , registry = "local" }
+sp-consensus = { version = "0.10.0-dev", path = "../../../primitives/consensus/common" , registry = "local" }
+sp-consensus-babe = { version = "0.10.0-dev", path = "../../../primitives/consensus/babe" , registry = "local" }
+sp-consensus-slots = { version = "0.10.0-dev", path = "../../../primitives/consensus/slots" , registry = "local" }
+sp-consensus-vrf = { version = "0.10.0-dev", path = "../../../primitives/consensus/vrf" , registry = "local" }
+sp-core = { version = "6.0.0", path = "../../../primitives/core" , registry = "local" }
+sp-inherents = { version = "4.0.0-dev", path = "../../../primitives/inherents" , registry = "local" }
+sp-io = { version = "6.0.0", path = "../../../primitives/io" , registry = "local" }
+sp-keystore = { version = "0.12.0", path = "../../../primitives/keystore" , registry = "local" }
+sp-runtime = { version = "6.0.0", path = "../../../primitives/runtime" , registry = "local" }
+sp-version = { version = "5.0.0", path = "../../../primitives/version" , registry = "local" }
 
 [dev-dependencies]
-rand_chacha = "0.2.2"
-sc-block-builder = { version = "0.10.0-dev", path = "../../block-builder" }
-sp-keyring = { version = "6.0.0", path = "../../../primitives/keyring" }
-sc-network = { version = "0.10.0-dev", path = "../../network" }
-sc-network-test = { version = "0.8.0", path = "../../network/test" }
-sp-timestamp = { version = "4.0.0-dev", path = "../../../primitives/timestamp" }
-sp-tracing = { version = "5.0.0", path = "../../../primitives/tracing" }
-substrate-test-runtime-client = { version = "2.0.0", path = "../../../test-utils/runtime/client" }
+rand_chacha = { version = "0.2.2", registry = "local" }
+sc-block-builder = { version = "0.10.0-dev", path = "../../block-builder" , registry = "local" }
+sp-keyring = { version = "6.0.0", path = "../../../primitives/keyring" , registry = "local" }
+sc-network = { version = "0.10.0-dev", path = "../../network" , registry = "local" }
+sc-network-test = { version = "0.8.0", path = "../../network/test" , registry = "local" }
+sp-timestamp = { version = "4.0.0-dev", path = "../../../primitives/timestamp" , registry = "local" }
+sp-tracing = { version = "5.0.0", path = "../../../primitives/tracing" , registry = "local" }
+substrate-test-runtime-client = { version = "2.0.0", path = "../../../test-utils/runtime/client" , registry = "local" }

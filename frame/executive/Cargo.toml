@@ -15,25 +15,25 @@ targets = ["x86_64-unknown-linux-gnu"]
 [dependencies]
 codec = { package = "parity-scale-codec", version = "3.0.0", default-features = false, features = [
 	"derive",
-] }
-scale-info = { version = "2.1.1", default-features = false, features = ["derive"] }
-frame-support = { version = "4.0.0-dev", default-features = false, path = "../support" }
-frame-system = { version = "4.0.0-dev", default-features = false, path = "../system" }
-frame-try-runtime = { version = "0.10.0-dev", default-features = false, path = "../try-runtime", optional = true }
-sp-core = { version = "6.0.0", default-features = false, path = "../../primitives/core" }
-sp-io = { version = "6.0.0", default-features = false, path = "../../primitives/io" }
-sp-runtime = { version = "6.0.0", default-features = false, path = "../../primitives/runtime" }
+] , registry = "local" }
+scale-info = { version = "2.1.1", default-features = false, features = ["derive"] , registry = "local" }
+frame-support = { version = "4.0.0-dev", default-features = false, path = "../support" , registry = "local" }
+frame-system = { version = "4.0.0-dev", default-features = false, path = "../system" , registry = "local" }
+frame-try-runtime = { version = "0.10.0-dev", default-features = false, path = "../try-runtime", optional = true , registry = "local" }
+sp-core = { version = "6.0.0", default-features = false, path = "../../primitives/core" , registry = "local" }
+sp-io = { version = "6.0.0", default-features = false, path = "../../primitives/io" , registry = "local" }
+sp-runtime = { version = "6.0.0", default-features = false, path = "../../primitives/runtime" , registry = "local" }
 sp-std = { version = "7.0.0", default-features = false, path = "../../primitives/std" , registry = "local" }
-sp-tracing = { version = "5.0.0", default-features = false, path = "../../primitives/tracing" }
+sp-tracing = { version = "5.0.0", default-features = false, path = "../../primitives/tracing" , registry = "local" }
 
 [dev-dependencies]
-array-bytes = "4.1"
-pallet-balances = { version = "4.0.0-dev", path = "../balances" }
-pallet-transaction-payment = { version = "4.0.0-dev", path = "../transaction-payment" }
-sp-core = { version = "6.0.0", path = "../../primitives/core" }
-sp-inherents = { version = "4.0.0-dev", path = "../../primitives/inherents" }
-sp-io = { version = "6.0.0", path = "../../primitives/io" }
-sp-version = { version = "5.0.0", path = "../../primitives/version" }
+array-bytes = { version = "4.1", registry = "local" }
+pallet-balances = { version = "4.0.0-dev", path = "../balances" , registry = "local" }
+pallet-transaction-payment = { version = "4.0.0-dev", path = "../transaction-payment" , registry = "local" }
+sp-core = { version = "6.0.0", path = "../../primitives/core" , registry = "local" }
+sp-inherents = { version = "4.0.0-dev", path = "../../primitives/inherents" , registry = "local" }
+sp-io = { version = "6.0.0", path = "../../primitives/io" , registry = "local" }
+sp-version = { version = "5.0.0", path = "../../primitives/version" , registry = "local" }
 
 [features]
 default = ["std"]

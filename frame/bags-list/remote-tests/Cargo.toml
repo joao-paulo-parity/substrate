@@ -14,21 +14,21 @@ targets = ["x86_64-unknown-linux-gnu"]
 
 [dependencies]
 # frame
-pallet-staking = { path = "../../staking", version = "4.0.0-dev" }
-pallet-bags-list = { path = "../../bags-list", version = "4.0.0-dev" }
-frame-election-provider-support = { path = "../../election-provider-support", version = "4.0.0-dev" }
-frame-system = { path = "../../system", version = "4.0.0-dev" }
-frame-support = { path = "../../support", version = "4.0.0-dev" }
+pallet-staking = { path = "../../staking", version = "4.0.0-dev" , registry = "local" }
+pallet-bags-list = { path = "../../bags-list", version = "4.0.0-dev" , registry = "local" }
+frame-election-provider-support = { path = "../../election-provider-support", version = "4.0.0-dev" , registry = "local" }
+frame-system = { path = "../../system", version = "4.0.0-dev" , registry = "local" }
+frame-support = { path = "../../support", version = "4.0.0-dev" , registry = "local" }
 
 # core
-sp-storage = { path = "../../../primitives/storage", version = "6.0.0"}
-sp-core = { path = "../../../primitives/core", version = "6.0.0"}
-sp-tracing = { path = "../../../primitives/tracing", version = "5.0.0"}
-sp-runtime = { path = "../../../primitives/runtime", version = "6.0.0"}
+sp-storage = { path = "../../../primitives/storage", version = "6.0.0", registry = "local" }
+sp-core = { path = "../../../primitives/core", version = "6.0.0", registry = "local" }
+sp-tracing = { path = "../../../primitives/tracing", version = "5.0.0", registry = "local" }
+sp-runtime = { path = "../../../primitives/runtime", version = "6.0.0", registry = "local" }
 sp-std = { path = "../../../primitives/std", version = "7.0.0", registry = "local" }
 
 # utils
-remote-externalities = { path = "../../../utils/frame/remote-externalities", version = "0.10.0-dev" }
+remote-externalities = { path = "../../../utils/frame/remote-externalities", version = "0.10.0-dev" , registry = "local" }
 
 # others
-log = "0.4.17"
+log = { version = "0.4.17", registry = "local" }

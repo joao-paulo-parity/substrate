@@ -13,12 +13,12 @@ documentation = "https://docs.rs/sp-core-hashing"
 targets = ["x86_64-unknown-linux-gnu"]
 
 [dependencies]
-blake2 = { version = "0.10.4", default-features = false }
-byteorder = { version = "1.3.2", default-features = false }
-digest = { version = "0.10.3", default-features = false }
-sha2 = { version = "0.10.2", default-features = false }
-sha3 = { version = "0.10.0", default-features = false }
-twox-hash = { version = "1.6.3", default-features = false, features = ["digest_0_10"] }
+blake2 = { version = "0.10.4", default-features = false , registry = "local" }
+byteorder = { version = "1.3.2", default-features = false , registry = "local" }
+digest = { version = "0.10.3", default-features = false , registry = "local" }
+sha2 = { version = "0.10.2", default-features = false , registry = "local" }
+sha3 = { version = "0.10.0", default-features = false , registry = "local" }
+twox-hash = { version = "1.6.3", default-features = false, features = ["digest_0_10"] , registry = "local" }
 sp-std = { version = "7.0.0", default-features = false, path = "../../std" , registry = "local" }
 
 [features]

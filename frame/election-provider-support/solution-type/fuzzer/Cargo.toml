@@ -13,19 +13,19 @@ publish = false
 targets = ["x86_64-unknown-linux-gnu"]
 
 [dependencies]
-clap = { version = "4.0.9", features = ["derive"] }
-honggfuzz = "0.5"
-rand = { version = "0.8", features = ["std", "small_rng"] }
+clap = { version = "4.0.9", features = ["derive"] , registry = "local" }
+honggfuzz = { version = "0.5", registry = "local" }
+rand = { version = "0.8", features = ["std", "small_rng"] , registry = "local" }
 
-codec = { package = "parity-scale-codec", version = "3.0.0", default-features = false, features = ["derive"] }
-scale-info = { version = "2.1.1", default-features = false, features = ["derive"] }
+codec = { package = "parity-scale-codec", version = "3.0.0", default-features = false, features = ["derive"] , registry = "local" }
+scale-info = { version = "2.1.1", default-features = false, features = ["derive"] , registry = "local" }
 frame-election-provider-solution-type = { version = "6.0.0", path = ".." , registry = "local" }
-frame-election-provider-support = { version = "4.0.0-dev", path = "../.." }
+frame-election-provider-support = { version = "4.0.0-dev", path = "../.." , registry = "local" }
 sp-arithmetic = { version = "6.0.0", path = "../../../../primitives/arithmetic" , registry = "local" }
-sp-runtime = { version = "6.0.0", path = "../../../../primitives/runtime" }
+sp-runtime = { version = "6.0.0", path = "../../../../primitives/runtime" , registry = "local" }
 # used by generate_solution_type:
-sp-npos-elections = { version = "4.0.0-dev", default-features = false, path = "../../../../primitives/npos-elections" }
-frame-support = { version = "4.0.0-dev", path = "../../../support" }
+sp-npos-elections = { version = "4.0.0-dev", default-features = false, path = "../../../../primitives/npos-elections" , registry = "local" }
+frame-support = { version = "4.0.0-dev", path = "../../../support" , registry = "local" }
 
 [[bin]]
 name = "compact"

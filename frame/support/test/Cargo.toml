@@ -12,23 +12,23 @@ repository = "https://github.com/paritytech/substrate/"
 targets = ["x86_64-unknown-linux-gnu"]
 
 [dependencies]
-serde = { version = "1.0.136", default-features = false, features = ["derive"] }
-codec = { package = "parity-scale-codec", version = "3.0.0", default-features = false, features = ["derive"] }
-scale-info = { version = "2.1.1", default-features = false, features = ["derive"] }
+serde = { version = "1.0.136", default-features = false, features = ["derive"] , registry = "local" }
+codec = { package = "parity-scale-codec", version = "3.0.0", default-features = false, features = ["derive"] , registry = "local" }
+scale-info = { version = "2.1.1", default-features = false, features = ["derive"] , registry = "local" }
 sp-arithmetic = { version = "6.0.0", default-features = false, path = "../../../primitives/arithmetic" , registry = "local" }
-sp-io = { version = "6.0.0", path = "../../../primitives/io", default-features = false }
-sp-state-machine = { version = "0.12.0", optional = true, path = "../../../primitives/state-machine" }
-frame-support = { version = "4.0.0-dev", default-features = false, path = "../" }
-sp-runtime = { version = "6.0.0", default-features = false, path = "../../../primitives/runtime" }
-sp-core = { version = "6.0.0", default-features = false, path = "../../../primitives/core" }
+sp-io = { version = "6.0.0", path = "../../../primitives/io", default-features = false , registry = "local" }
+sp-state-machine = { version = "0.12.0", optional = true, path = "../../../primitives/state-machine" , registry = "local" }
+frame-support = { version = "4.0.0-dev", default-features = false, path = "../" , registry = "local" }
+sp-runtime = { version = "6.0.0", default-features = false, path = "../../../primitives/runtime" , registry = "local" }
+sp-core = { version = "6.0.0", default-features = false, path = "../../../primitives/core" , registry = "local" }
 sp-std = { version = "7.0.0", default-features = false, path = "../../../primitives/std" , registry = "local" }
-sp-version = { version = "5.0.0", default-features = false, path = "../../../primitives/version" }
-trybuild = { version = "1.0.60", features = [ "diff" ] }
-pretty_assertions = "1.2.1"
-rustversion = "1.0.6"
-frame-system = { version = "4.0.0-dev", default-features = false, path = "../../system" }
+sp-version = { version = "5.0.0", default-features = false, path = "../../../primitives/version" , registry = "local" }
+trybuild = { version = "1.0.60", features = [ "diff" ] , registry = "local" }
+pretty_assertions = { version = "1.2.1", registry = "local" }
+rustversion = { version = "1.0.6", registry = "local" }
+frame-system = { version = "4.0.0-dev", default-features = false, path = "../../system" , registry = "local" }
 # The "std" feature for this pallet is never activated on purpose, in order to test construct_runtime error message
-test-pallet = { package = "frame-support-test-pallet", default-features = false, path = "pallet" }
+test-pallet = { package = "frame-support-test-pallet", default-features = false, path = "pallet" , registry = "local" }
 
 [features]
 default = ["std"]

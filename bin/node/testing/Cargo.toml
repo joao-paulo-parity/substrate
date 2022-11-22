@@ -13,36 +13,36 @@ publish = false
 targets = ["x86_64-unknown-linux-gnu"]
 
 [dependencies]
-codec = { package = "parity-scale-codec", version = "3.0.0" }
-fs_extra = "1"
-futures = "0.3.21"
-log = "0.4.17"
-tempfile = "3.1.0"
-frame-system = { version = "4.0.0-dev", path = "../../../frame/system" }
-node-executor = { version = "3.0.0-dev", path = "../executor" }
-node-primitives = { version = "2.0.0", path = "../primitives" }
-kitchensink-runtime = { version = "3.0.0-dev", path = "../runtime" }
-pallet-asset-tx-payment = { version = "4.0.0-dev", path = "../../../frame/transaction-payment/asset-tx-payment" }
-pallet-transaction-payment = { version = "4.0.0-dev", path = "../../../frame/transaction-payment" }
-sc-block-builder = { version = "0.10.0-dev", path = "../../../client/block-builder" }
-sc-client-api = { version = "4.0.0-dev", path = "../../../client/api" }
-sc-client-db = { version = "0.10.0-dev", features = ["rocksdb"], path = "../../../client/db" }
-sc-consensus = { version = "0.10.0-dev", path = "../../../client/consensus/common" }
+codec = { package = "parity-scale-codec", version = "3.0.0" , registry = "local" }
+fs_extra = { version = "1", registry = "local" }
+futures = { version = "0.3.21", registry = "local" }
+log = { version = "0.4.17", registry = "local" }
+tempfile = { version = "3.1.0", registry = "local" }
+frame-system = { version = "4.0.0-dev", path = "../../../frame/system" , registry = "local" }
+node-executor = { version = "3.0.0-dev", path = "../executor" , registry = "local" }
+node-primitives = { version = "2.0.0", path = "../primitives" , registry = "local" }
+kitchensink-runtime = { version = "3.0.0-dev", path = "../runtime" , registry = "local" }
+pallet-asset-tx-payment = { version = "4.0.0-dev", path = "../../../frame/transaction-payment/asset-tx-payment" , registry = "local" }
+pallet-transaction-payment = { version = "4.0.0-dev", path = "../../../frame/transaction-payment" , registry = "local" }
+sc-block-builder = { version = "0.10.0-dev", path = "../../../client/block-builder" , registry = "local" }
+sc-client-api = { version = "4.0.0-dev", path = "../../../client/api" , registry = "local" }
+sc-client-db = { version = "0.10.0-dev", features = ["rocksdb"], path = "../../../client/db" , registry = "local" }
+sc-consensus = { version = "0.10.0-dev", path = "../../../client/consensus/common" , registry = "local" }
 sc-executor = { version = "0.10.0-dev", features = [
 	"wasmtime",
-], path = "../../../client/executor" }
+], path = "../../../client/executor" , registry = "local" }
 sc-service = { version = "0.10.0-dev", features = [
 	"test-helpers",
 	"rocksdb",
-], path = "../../../client/service" }
-sp-api = { version = "4.0.0-dev", path = "../../../primitives/api" }
-sp-block-builder = { version = "4.0.0-dev", path = "../../../primitives/block-builder" }
-sp-blockchain = { version = "4.0.0-dev", path = "../../../primitives/blockchain" }
-sp-consensus = { version = "0.10.0-dev", path = "../../../primitives/consensus/common" }
-sp-core = { version = "6.0.0", path = "../../../primitives/core" }
-sp-inherents = { version = "4.0.0-dev", path = "../../../primitives/inherents" }
-sp-io = { version = "6.0.0", path = "../../../primitives/io" }
-sp-keyring = { version = "6.0.0", path = "../../../primitives/keyring" }
-sp-runtime = { version = "6.0.0", path = "../../../primitives/runtime" }
-sp-timestamp = { version = "4.0.0-dev", default-features = false, path = "../../../primitives/timestamp" }
-substrate-test-client = { version = "2.0.0", path = "../../../test-utils/client" }
+], path = "../../../client/service" , registry = "local" }
+sp-api = { version = "4.0.0-dev", path = "../../../primitives/api" , registry = "local" }
+sp-block-builder = { version = "4.0.0-dev", path = "../../../primitives/block-builder" , registry = "local" }
+sp-blockchain = { version = "4.0.0-dev", path = "../../../primitives/blockchain" , registry = "local" }
+sp-consensus = { version = "0.10.0-dev", path = "../../../primitives/consensus/common" , registry = "local" }
+sp-core = { version = "6.0.0", path = "../../../primitives/core" , registry = "local" }
+sp-inherents = { version = "4.0.0-dev", path = "../../../primitives/inherents" , registry = "local" }
+sp-io = { version = "6.0.0", path = "../../../primitives/io" , registry = "local" }
+sp-keyring = { version = "6.0.0", path = "../../../primitives/keyring" , registry = "local" }
+sp-runtime = { version = "6.0.0", path = "../../../primitives/runtime" , registry = "local" }
+sp-timestamp = { version = "4.0.0-dev", default-features = false, path = "../../../primitives/timestamp" , registry = "local" }
+substrate-test-client = { version = "2.0.0", path = "../../../test-utils/client" , registry = "local" }

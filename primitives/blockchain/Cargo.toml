@@ -14,14 +14,14 @@ readme = "README.md"
 targets = ["x86_64-unknown-linux-gnu"]
 
 [dependencies]
-codec = { package = "parity-scale-codec", version = "3.0.0", default-features = false, features = ["derive"] }
-futures = "0.3.21"
-log = "0.4.17"
-lru = "0.8.1"
-parking_lot = "0.12.1"
-thiserror = "1.0.30"
-sp-api = { version = "4.0.0-dev", path = "../api" }
-sp-consensus = { version = "0.10.0-dev", path = "../consensus/common" }
+codec = { package = "parity-scale-codec", version = "3.0.0", default-features = false, features = ["derive"] , registry = "local" }
+futures = { version = "0.3.21", registry = "local" }
+log = { version = "0.4.17", registry = "local" }
+lru = { version = "0.8.1", registry = "local" }
+parking_lot = { version = "0.12.1", registry = "local" }
+thiserror = { version = "1.0.30", registry = "local" }
+sp-api = { version = "4.0.0-dev", path = "../api" , registry = "local" }
+sp-consensus = { version = "0.10.0-dev", path = "../consensus/common" , registry = "local" }
 sp-database = { version = "7.0.0", path = "../database" , registry = "local" }
-sp-runtime = { version = "6.0.0", path = "../runtime" }
-sp-state-machine = { version = "0.12.0", path = "../state-machine" }
+sp-runtime = { version = "6.0.0", path = "../runtime" , registry = "local" }
+sp-state-machine = { version = "0.12.0", path = "../state-machine" , registry = "local" }

@@ -14,29 +14,29 @@ readme = "README.md"
 targets = ["x86_64-unknown-linux-gnu"]
 
 [dependencies]
-codec = { package = "parity-scale-codec", version = "3.0.0", default-features = false }
-hash-db = { version = "0.15.2", default-features = false }
-log = { version = "0.4.17", optional = true }
-num-traits = { version = "0.2.8", default-features = false }
-parking_lot = { version = "0.12.1", optional = true }
-rand = { version = "0.7.2", optional = true }
-smallvec = "1.8.0"
-thiserror = { version = "1.0.30", optional = true }
-tracing = { version = "0.1.29", optional = true }
-trie-root = { version = "0.17.0", default-features = false }
-sp-core = { version = "6.0.0", default-features = false, path = "../core" }
-sp-externalities = { version = "0.12.0", default-features = false, path = "../externalities" }
+codec = { package = "parity-scale-codec", version = "3.0.0", default-features = false , registry = "local" }
+hash-db = { version = "0.15.2", default-features = false , registry = "local" }
+log = { version = "0.4.17", optional = true , registry = "local" }
+num-traits = { version = "0.2.8", default-features = false , registry = "local" }
+parking_lot = { version = "0.12.1", optional = true , registry = "local" }
+rand = { version = "0.7.2", optional = true , registry = "local" }
+smallvec = { version = "1.8.0", registry = "local" }
+thiserror = { version = "1.0.30", optional = true , registry = "local" }
+tracing = { version = "0.1.29", optional = true , registry = "local" }
+trie-root = { version = "0.17.0", default-features = false , registry = "local" }
+sp-core = { version = "6.0.0", default-features = false, path = "../core" , registry = "local" }
+sp-externalities = { version = "0.12.0", default-features = false, path = "../externalities" , registry = "local" }
 sp-panic-handler = { version = "9.0.0", optional = true, path = "../panic-handler" , registry = "local" }
 sp-std = { version = "7.0.0", default-features = false, path = "../std" , registry = "local" }
-sp-trie = { version = "6.0.0", default-features = false, path = "../trie" }
+sp-trie = { version = "6.0.0", default-features = false, path = "../trie" , registry = "local" }
 
 [dev-dependencies]
-array-bytes = "4.1"
-pretty_assertions = "1.2.1"
-rand = "0.7.2"
-sp-runtime = { version = "6.0.0", path = "../runtime" }
-trie-db = "0.24.0"
-assert_matches = "1.5"
+array-bytes = { version = "4.1", registry = "local" }
+pretty_assertions = { version = "1.2.1", registry = "local" }
+rand = { version = "0.7.2", registry = "local" }
+sp-runtime = { version = "6.0.0", path = "../runtime" , registry = "local" }
+trie-db = { version = "0.24.0", registry = "local" }
+assert_matches = { version = "1.5", registry = "local" }
 
 [features]
 default = ["std"]

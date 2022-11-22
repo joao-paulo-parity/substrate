@@ -9,16 +9,16 @@ description = "A no-std/Substrate compatible library to construct binary merkle 
 homepage = "https://substrate.io"
 
 [dependencies]
-array-bytes = { version = "4.1", optional = true }
-log = { version = "0.4", default-features = false, optional = true }
+array-bytes = { version = "4.1", optional = true , registry = "local" }
+log = { version = "0.4", default-features = false, optional = true , registry = "local" }
 
-beefy-primitives = { version = "4.0.0-dev", default-features = false, path = "../../../primitives/beefy" }
-sp-api = { version = "4.0.0-dev", default-features = false, path = "../../../primitives/api" }
-sp-runtime = { version = "6.0.0", default-features = false, path = "../../../primitives/runtime" }
+beefy-primitives = { version = "4.0.0-dev", default-features = false, path = "../../../primitives/beefy" , registry = "local" }
+sp-api = { version = "4.0.0-dev", default-features = false, path = "../../../primitives/api" , registry = "local" }
+sp-runtime = { version = "6.0.0", default-features = false, path = "../../../primitives/runtime" , registry = "local" }
 
 [dev-dependencies]
-array-bytes = "4.1"
-env_logger = "0.9"
+array-bytes = { version = "4.1", registry = "local" }
+env_logger = { version = "0.9", registry = "local" }
 
 [features]
 debug = ["array-bytes", "log"]

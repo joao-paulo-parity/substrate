@@ -11,13 +11,13 @@ description = "node-template-release"
 targets = ["x86_64-unknown-linux-gnu"]
 
 [dependencies]
-clap = { version = "4.0.9", features = ["derive"] }
-flate2 = "1.0"
-fs_extra = "1"
-git2 = "0.8"
-glob = "0.2"
-tar = "0.4"
-tempfile = "3"
-toml = "0.4"
+clap = { version = "4.0.9", features = ["derive"] , registry = "local" }
+flate2 = { version = "1.0", registry = "local" }
+fs_extra = { version = "1", registry = "local" }
+git2 = { version = "0.8", registry = "local" }
+glob = { version = "0.2", registry = "local" }
+tar = { version = "0.4", registry = "local" }
+tempfile = { version = "3", registry = "local" }
+toml = { version = "0.4", registry = "local" }
 
 [workspace]

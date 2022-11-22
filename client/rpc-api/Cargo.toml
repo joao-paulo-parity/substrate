@@ -13,19 +13,19 @@ readme = "README.md"
 targets = ["x86_64-unknown-linux-gnu"]
 
 [dependencies]
-codec = { package = "parity-scale-codec", version = "3.0.0" }
-futures = "0.3.21"
-log = "0.4.17"
-parking_lot = "0.12.1"
-scale-info = { version = "2.1.1", default-features = false, features = ["derive"] }
-serde = { version = "1.0.136", features = ["derive"] }
-serde_json = "1.0.85"
-thiserror = "1.0"
-sc-chain-spec = { version = "4.0.0-dev", path = "../chain-spec" }
-sc-transaction-pool-api = { version = "4.0.0-dev", path = "../transaction-pool/api" }
-sp-core = { version = "6.0.0", path = "../../primitives/core" }
-sp-rpc = { version = "6.0.0", path = "../../primitives/rpc" }
-sp-runtime = { version = "6.0.0", path = "../../primitives/runtime" }
-sp-tracing = { version = "5.0.0", path = "../../primitives/tracing" }
-sp-version = { version = "5.0.0", path = "../../primitives/version" }
-jsonrpsee = { version = "0.15.1", features = ["server", "macros"] }
+codec = { package = "parity-scale-codec", version = "3.0.0" , registry = "local" }
+futures = { version = "0.3.21", registry = "local" }
+log = { version = "0.4.17", registry = "local" }
+parking_lot = { version = "0.12.1", registry = "local" }
+scale-info = { version = "2.1.1", default-features = false, features = ["derive"] , registry = "local" }
+serde = { version = "1.0.136", features = ["derive"] , registry = "local" }
+serde_json = { version = "1.0.85", registry = "local" }
+thiserror = { version = "1.0", registry = "local" }
+sc-chain-spec = { version = "4.0.0-dev", path = "../chain-spec" , registry = "local" }
+sc-transaction-pool-api = { version = "4.0.0-dev", path = "../transaction-pool/api" , registry = "local" }
+sp-core = { version = "6.0.0", path = "../../primitives/core" , registry = "local" }
+sp-rpc = { version = "6.0.0", path = "../../primitives/rpc" , registry = "local" }
+sp-runtime = { version = "6.0.0", path = "../../primitives/runtime" , registry = "local" }
+sp-tracing = { version = "5.0.0", path = "../../primitives/tracing" , registry = "local" }
+sp-version = { version = "5.0.0", path = "../../primitives/version" , registry = "local" }
+jsonrpsee = { version = "0.15.1", features = ["server", "macros"] , registry = "local" }

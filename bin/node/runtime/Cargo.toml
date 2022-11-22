@@ -18,99 +18,99 @@ targets = ["x86_64-unknown-linux-gnu"]
 codec = { package = "parity-scale-codec", version = "3.0.0", default-features = false, features = [
 	"derive",
 	"max-encoded-len",
-] }
-scale-info = { version = "2.1.1", default-features = false, features = ["derive"] }
-static_assertions = "1.1.0"
-log = { version = "0.4.17", default-features = false }
+] , registry = "local" }
+scale-info = { version = "2.1.1", default-features = false, features = ["derive"] , registry = "local" }
+static_assertions = { version = "1.1.0", registry = "local" }
+log = { version = "0.4.17", default-features = false , registry = "local" }
 
 # primitives
-sp-authority-discovery = { version = "4.0.0-dev", default-features = false, path = "../../../primitives/authority-discovery" }
-sp-consensus-babe = { version = "0.10.0-dev", default-features = false, path = "../../../primitives/consensus/babe" }
-sp-block-builder = { path = "../../../primitives/block-builder", default-features = false, version = "4.0.0-dev" }
-sp-inherents = { version = "4.0.0-dev", default-features = false, path = "../../../primitives/inherents" }
-node-primitives = { version = "2.0.0", default-features = false, path = "../primitives" }
-sp-offchain = { version = "4.0.0-dev", default-features = false, path = "../../../primitives/offchain" }
-sp-core = { version = "6.0.0", default-features = false, path = "../../../primitives/core" }
+sp-authority-discovery = { version = "4.0.0-dev", default-features = false, path = "../../../primitives/authority-discovery" , registry = "local" }
+sp-consensus-babe = { version = "0.10.0-dev", default-features = false, path = "../../../primitives/consensus/babe" , registry = "local" }
+sp-block-builder = { path = "../../../primitives/block-builder", default-features = false, version = "4.0.0-dev" , registry = "local" }
+sp-inherents = { version = "4.0.0-dev", default-features = false, path = "../../../primitives/inherents" , registry = "local" }
+node-primitives = { version = "2.0.0", default-features = false, path = "../primitives" , registry = "local" }
+sp-offchain = { version = "4.0.0-dev", default-features = false, path = "../../../primitives/offchain" , registry = "local" }
+sp-core = { version = "6.0.0", default-features = false, path = "../../../primitives/core" , registry = "local" }
 sp-std = { version = "7.0.0", default-features = false, path = "../../../primitives/std" , registry = "local" }
-sp-api = { version = "4.0.0-dev", default-features = false, path = "../../../primitives/api" }
-sp-runtime = { version = "6.0.0", default-features = false, path = "../../../primitives/runtime" }
-sp-staking = { version = "4.0.0-dev", default-features = false, path = "../../../primitives/staking" }
-sp-session = { version = "4.0.0-dev", default-features = false, path = "../../../primitives/session" }
-sp-transaction-pool = { version = "4.0.0-dev", default-features = false, path = "../../../primitives/transaction-pool" }
-sp-version = { version = "5.0.0", default-features = false, path = "../../../primitives/version" }
-sp-io = { version = "6.0.0", default-features = false, path = "../../../primitives/io" }
-sp-sandbox = { version = "0.10.0-dev", default-features = false, path = "../../../primitives/sandbox" }
+sp-api = { version = "4.0.0-dev", default-features = false, path = "../../../primitives/api" , registry = "local" }
+sp-runtime = { version = "6.0.0", default-features = false, path = "../../../primitives/runtime" , registry = "local" }
+sp-staking = { version = "4.0.0-dev", default-features = false, path = "../../../primitives/staking" , registry = "local" }
+sp-session = { version = "4.0.0-dev", default-features = false, path = "../../../primitives/session" , registry = "local" }
+sp-transaction-pool = { version = "4.0.0-dev", default-features = false, path = "../../../primitives/transaction-pool" , registry = "local" }
+sp-version = { version = "5.0.0", default-features = false, path = "../../../primitives/version" , registry = "local" }
+sp-io = { version = "6.0.0", default-features = false, path = "../../../primitives/io" , registry = "local" }
+sp-sandbox = { version = "0.10.0-dev", default-features = false, path = "../../../primitives/sandbox" , registry = "local" }
 
 # frame dependencies
-frame-executive = { version = "4.0.0-dev", default-features = false, path = "../../../frame/executive" }
-frame-benchmarking = { version = "4.0.0-dev", default-features = false, path = "../../../frame/benchmarking", optional = true }
-frame-support = { version = "4.0.0-dev", default-features = false, path = "../../../frame/support" }
-frame-system = { version = "4.0.0-dev", default-features = false, path = "../../../frame/system" }
-frame-system-benchmarking = { version = "4.0.0-dev", default-features = false, path = "../../../frame/system/benchmarking", optional = true }
-frame-election-provider-support = { version = "4.0.0-dev", default-features = false, path = "../../../frame/election-provider-support" }
-frame-system-rpc-runtime-api = { version = "4.0.0-dev", default-features = false, path = "../../../frame/system/rpc/runtime-api/" }
-frame-try-runtime = { version = "0.10.0-dev", default-features = false, path = "../../../frame/try-runtime", optional = true }
-pallet-alliance = { version = "4.0.0-dev", default-features = false, path = "../../../frame/alliance" }
-pallet-assets = { version = "4.0.0-dev", default-features = false, path = "../../../frame/assets" }
-pallet-authority-discovery = { version = "4.0.0-dev", default-features = false, path = "../../../frame/authority-discovery" }
-pallet-authorship = { version = "4.0.0-dev", default-features = false, path = "../../../frame/authorship" }
-pallet-babe = { version = "4.0.0-dev", default-features = false, path = "../../../frame/babe" }
-pallet-bags-list = { version = "4.0.0-dev", default-features = false, path = "../../../frame/bags-list" }
-pallet-balances = { version = "4.0.0-dev", default-features = false, path = "../../../frame/balances" }
-pallet-bounties = { version = "4.0.0-dev", default-features = false, path = "../../../frame/bounties" }
-pallet-child-bounties = { version = "4.0.0-dev", default-features = false, path = "../../../frame/child-bounties" }
-pallet-collective = { version = "4.0.0-dev", default-features = false, path = "../../../frame/collective" }
-pallet-contracts = { version = "4.0.0-dev", default-features = false, path = "../../../frame/contracts" }
-pallet-contracts-primitives = { version = "6.0.0", default-features = false, path = "../../../frame/contracts/primitives/" }
-pallet-conviction-voting = { version = "4.0.0-dev", default-features = false, path = "../../../frame/conviction-voting" }
-pallet-democracy = { version = "4.0.0-dev", default-features = false, path = "../../../frame/democracy" }
-pallet-election-provider-multi-phase = { version = "4.0.0-dev", default-features = false, path = "../../../frame/election-provider-multi-phase" }
-pallet-election-provider-support-benchmarking = { version = "4.0.0-dev", default-features = false, path = "../../../frame/election-provider-support/benchmarking", optional = true }
-pallet-elections-phragmen = { version = "5.0.0-dev", default-features = false, path = "../../../frame/elections-phragmen" }
-pallet-fast-unstake = { version = "4.0.0-dev", default-features = false, path = "../../../frame/fast-unstake" }
-pallet-gilt = { version = "4.0.0-dev", default-features = false, path = "../../../frame/gilt" }
-pallet-grandpa = { version = "4.0.0-dev", default-features = false, path = "../../../frame/grandpa" }
-pallet-im-online = { version = "4.0.0-dev", default-features = false, path = "../../../frame/im-online" }
-pallet-indices = { version = "4.0.0-dev", default-features = false, path = "../../../frame/indices" }
-pallet-identity = { version = "4.0.0-dev", default-features = false, path = "../../../frame/identity" }
-pallet-lottery = { version = "4.0.0-dev", default-features = false, path = "../../../frame/lottery" }
-pallet-membership = { version = "4.0.0-dev", default-features = false, path = "../../../frame/membership" }
-pallet-mmr = { version = "4.0.0-dev", default-features = false, path = "../../../frame/merkle-mountain-range" }
-pallet-multisig = { version = "4.0.0-dev", default-features = false, path = "../../../frame/multisig" }
-pallet-nomination-pools = { version = "1.0.0", default-features = false, path = "../../../frame/nomination-pools"}
-pallet-nomination-pools-benchmarking = { version = "1.0.0", default-features = false, optional = true, path = "../../../frame/nomination-pools/benchmarking" }
-pallet-nomination-pools-runtime-api = { version = "1.0.0-dev", default-features = false, path = "../../../frame/nomination-pools/runtime-api" }
-pallet-offences = { version = "4.0.0-dev", default-features = false, path = "../../../frame/offences" }
-pallet-offences-benchmarking = { version = "4.0.0-dev", path = "../../../frame/offences/benchmarking", default-features = false, optional = true }
-pallet-preimage = { version = "4.0.0-dev", default-features = false, path = "../../../frame/preimage" }
-pallet-proxy = { version = "4.0.0-dev", default-features = false, path = "../../../frame/proxy" }
-pallet-randomness-collective-flip = { version = "4.0.0-dev", default-features = false, path = "../../../frame/randomness-collective-flip" }
-pallet-ranked-collective = { version = "4.0.0-dev", default-features = false, path = "../../../frame/ranked-collective" }
-pallet-recovery = { version = "4.0.0-dev", default-features = false, path = "../../../frame/recovery" }
-pallet-referenda = { version = "4.0.0-dev", default-features = false, path = "../../../frame/referenda" }
-pallet-remark = { version = "4.0.0-dev", default-features = false, path = "../../../frame/remark" }
-pallet-session = { version = "4.0.0-dev", features = [ "historical" ], path = "../../../frame/session", default-features = false }
-pallet-session-benchmarking = { version = "4.0.0-dev", path = "../../../frame/session/benchmarking", default-features = false, optional = true }
-pallet-staking = { version = "4.0.0-dev", default-features = false, path = "../../../frame/staking" }
+frame-executive = { version = "4.0.0-dev", default-features = false, path = "../../../frame/executive" , registry = "local" }
+frame-benchmarking = { version = "4.0.0-dev", default-features = false, path = "../../../frame/benchmarking", optional = true , registry = "local" }
+frame-support = { version = "4.0.0-dev", default-features = false, path = "../../../frame/support" , registry = "local" }
+frame-system = { version = "4.0.0-dev", default-features = false, path = "../../../frame/system" , registry = "local" }
+frame-system-benchmarking = { version = "4.0.0-dev", default-features = false, path = "../../../frame/system/benchmarking", optional = true , registry = "local" }
+frame-election-provider-support = { version = "4.0.0-dev", default-features = false, path = "../../../frame/election-provider-support" , registry = "local" }
+frame-system-rpc-runtime-api = { version = "4.0.0-dev", default-features = false, path = "../../../frame/system/rpc/runtime-api/" , registry = "local" }
+frame-try-runtime = { version = "0.10.0-dev", default-features = false, path = "../../../frame/try-runtime", optional = true , registry = "local" }
+pallet-alliance = { version = "4.0.0-dev", default-features = false, path = "../../../frame/alliance" , registry = "local" }
+pallet-assets = { version = "4.0.0-dev", default-features = false, path = "../../../frame/assets" , registry = "local" }
+pallet-authority-discovery = { version = "4.0.0-dev", default-features = false, path = "../../../frame/authority-discovery" , registry = "local" }
+pallet-authorship = { version = "4.0.0-dev", default-features = false, path = "../../../frame/authorship" , registry = "local" }
+pallet-babe = { version = "4.0.0-dev", default-features = false, path = "../../../frame/babe" , registry = "local" }
+pallet-bags-list = { version = "4.0.0-dev", default-features = false, path = "../../../frame/bags-list" , registry = "local" }
+pallet-balances = { version = "4.0.0-dev", default-features = false, path = "../../../frame/balances" , registry = "local" }
+pallet-bounties = { version = "4.0.0-dev", default-features = false, path = "../../../frame/bounties" , registry = "local" }
+pallet-child-bounties = { version = "4.0.0-dev", default-features = false, path = "../../../frame/child-bounties" , registry = "local" }
+pallet-collective = { version = "4.0.0-dev", default-features = false, path = "../../../frame/collective" , registry = "local" }
+pallet-contracts = { version = "4.0.0-dev", default-features = false, path = "../../../frame/contracts" , registry = "local" }
+pallet-contracts-primitives = { version = "6.0.0", default-features = false, path = "../../../frame/contracts/primitives/" , registry = "local" }
+pallet-conviction-voting = { version = "4.0.0-dev", default-features = false, path = "../../../frame/conviction-voting" , registry = "local" }
+pallet-democracy = { version = "4.0.0-dev", default-features = false, path = "../../../frame/democracy" , registry = "local" }
+pallet-election-provider-multi-phase = { version = "4.0.0-dev", default-features = false, path = "../../../frame/election-provider-multi-phase" , registry = "local" }
+pallet-election-provider-support-benchmarking = { version = "4.0.0-dev", default-features = false, path = "../../../frame/election-provider-support/benchmarking", optional = true , registry = "local" }
+pallet-elections-phragmen = { version = "5.0.0-dev", default-features = false, path = "../../../frame/elections-phragmen" , registry = "local" }
+pallet-fast-unstake = { version = "4.0.0-dev", default-features = false, path = "../../../frame/fast-unstake" , registry = "local" }
+pallet-gilt = { version = "4.0.0-dev", default-features = false, path = "../../../frame/gilt" , registry = "local" }
+pallet-grandpa = { version = "4.0.0-dev", default-features = false, path = "../../../frame/grandpa" , registry = "local" }
+pallet-im-online = { version = "4.0.0-dev", default-features = false, path = "../../../frame/im-online" , registry = "local" }
+pallet-indices = { version = "4.0.0-dev", default-features = false, path = "../../../frame/indices" , registry = "local" }
+pallet-identity = { version = "4.0.0-dev", default-features = false, path = "../../../frame/identity" , registry = "local" }
+pallet-lottery = { version = "4.0.0-dev", default-features = false, path = "../../../frame/lottery" , registry = "local" }
+pallet-membership = { version = "4.0.0-dev", default-features = false, path = "../../../frame/membership" , registry = "local" }
+pallet-mmr = { version = "4.0.0-dev", default-features = false, path = "../../../frame/merkle-mountain-range" , registry = "local" }
+pallet-multisig = { version = "4.0.0-dev", default-features = false, path = "../../../frame/multisig" , registry = "local" }
+pallet-nomination-pools = { version = "1.0.0", default-features = false, path = "../../../frame/nomination-pools", registry = "local" }
+pallet-nomination-pools-benchmarking = { version = "1.0.0", default-features = false, optional = true, path = "../../../frame/nomination-pools/benchmarking" , registry = "local" }
+pallet-nomination-pools-runtime-api = { version = "1.0.0-dev", default-features = false, path = "../../../frame/nomination-pools/runtime-api" , registry = "local" }
+pallet-offences = { version = "4.0.0-dev", default-features = false, path = "../../../frame/offences" , registry = "local" }
+pallet-offences-benchmarking = { version = "4.0.0-dev", path = "../../../frame/offences/benchmarking", default-features = false, optional = true , registry = "local" }
+pallet-preimage = { version = "4.0.0-dev", default-features = false, path = "../../../frame/preimage" , registry = "local" }
+pallet-proxy = { version = "4.0.0-dev", default-features = false, path = "../../../frame/proxy" , registry = "local" }
+pallet-randomness-collective-flip = { version = "4.0.0-dev", default-features = false, path = "../../../frame/randomness-collective-flip" , registry = "local" }
+pallet-ranked-collective = { version = "4.0.0-dev", default-features = false, path = "../../../frame/ranked-collective" , registry = "local" }
+pallet-recovery = { version = "4.0.0-dev", default-features = false, path = "../../../frame/recovery" , registry = "local" }
+pallet-referenda = { version = "4.0.0-dev", default-features = false, path = "../../../frame/referenda" , registry = "local" }
+pallet-remark = { version = "4.0.0-dev", default-features = false, path = "../../../frame/remark" , registry = "local" }
+pallet-session = { version = "4.0.0-dev", features = [ "historical" ], path = "../../../frame/session", default-features = false , registry = "local" }
+pallet-session-benchmarking = { version = "4.0.0-dev", path = "../../../frame/session/benchmarking", default-features = false, optional = true , registry = "local" }
+pallet-staking = { version = "4.0.0-dev", default-features = false, path = "../../../frame/staking" , registry = "local" }
 pallet-staking-reward-curve = { version = "7.0.0", default-features = false, path = "../../../frame/staking/reward-curve" , registry = "local" }
-pallet-state-trie-migration = { version = "4.0.0-dev", default-features = false, path = "../../../frame/state-trie-migration" }
-pallet-scheduler = { version = "4.0.0-dev", default-features = false, path = "../../../frame/scheduler" }
-pallet-society = { version = "4.0.0-dev", default-features = false, path = "../../../frame/society" }
-pallet-sudo = { version = "4.0.0-dev", default-features = false, path = "../../../frame/sudo" }
-pallet-timestamp = { version = "4.0.0-dev", default-features = false, path = "../../../frame/timestamp" }
-pallet-tips = { version = "4.0.0-dev", default-features = false, path = "../../../frame/tips" }
-pallet-treasury = { version = "4.0.0-dev", default-features = false, path = "../../../frame/treasury" }
-pallet-utility = { version = "4.0.0-dev", default-features = false, path = "../../../frame/utility" }
-pallet-transaction-payment = { version = "4.0.0-dev", default-features = false, path = "../../../frame/transaction-payment" }
-pallet-transaction-payment-rpc-runtime-api = { version = "4.0.0-dev", default-features = false, path = "../../../frame/transaction-payment/rpc/runtime-api/" }
-pallet-asset-tx-payment = { version = "4.0.0-dev", default-features = false, path = "../../../frame/transaction-payment/asset-tx-payment/" }
-pallet-transaction-storage = { version = "4.0.0-dev", default-features = false, path = "../../../frame/transaction-storage" }
-pallet-uniques = { version = "4.0.0-dev", default-features = false, path = "../../../frame/uniques" }
-pallet-vesting = { version = "4.0.0-dev", default-features = false, path = "../../../frame/vesting" }
-pallet-whitelist = { version = "4.0.0-dev", default-features = false, path = "../../../frame/whitelist" }
+pallet-state-trie-migration = { version = "4.0.0-dev", default-features = false, path = "../../../frame/state-trie-migration" , registry = "local" }
+pallet-scheduler = { version = "4.0.0-dev", default-features = false, path = "../../../frame/scheduler" , registry = "local" }
+pallet-society = { version = "4.0.0-dev", default-features = false, path = "../../../frame/society" , registry = "local" }
+pallet-sudo = { version = "4.0.0-dev", default-features = false, path = "../../../frame/sudo" , registry = "local" }
+pallet-timestamp = { version = "4.0.0-dev", default-features = false, path = "../../../frame/timestamp" , registry = "local" }
+pallet-tips = { version = "4.0.0-dev", default-features = false, path = "../../../frame/tips" , registry = "local" }
+pallet-treasury = { version = "4.0.0-dev", default-features = false, path = "../../../frame/treasury" , registry = "local" }
+pallet-utility = { version = "4.0.0-dev", default-features = false, path = "../../../frame/utility" , registry = "local" }
+pallet-transaction-payment = { version = "4.0.0-dev", default-features = false, path = "../../../frame/transaction-payment" , registry = "local" }
+pallet-transaction-payment-rpc-runtime-api = { version = "4.0.0-dev", default-features = false, path = "../../../frame/transaction-payment/rpc/runtime-api/" , registry = "local" }
+pallet-asset-tx-payment = { version = "4.0.0-dev", default-features = false, path = "../../../frame/transaction-payment/asset-tx-payment/" , registry = "local" }
+pallet-transaction-storage = { version = "4.0.0-dev", default-features = false, path = "../../../frame/transaction-storage" , registry = "local" }
+pallet-uniques = { version = "4.0.0-dev", default-features = false, path = "../../../frame/uniques" , registry = "local" }
+pallet-vesting = { version = "4.0.0-dev", default-features = false, path = "../../../frame/vesting" , registry = "local" }
+pallet-whitelist = { version = "4.0.0-dev", default-features = false, path = "../../../frame/whitelist" , registry = "local" }
 
 [build-dependencies]
-substrate-wasm-builder = { version = "5.0.0-dev", path = "../../../utils/wasm-builder" }
+substrate-wasm-builder = { version = "5.0.0-dev", path = "../../../utils/wasm-builder" , registry = "local" }
 
 [features]
 default = ["std"]

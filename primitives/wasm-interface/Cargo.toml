@@ -14,11 +14,11 @@ readme = "README.md"
 targets = ["x86_64-unknown-linux-gnu"]
 
 [dependencies]
-codec = { package = "parity-scale-codec", version = "3.0.0", default-features = false, features = ["derive"] }
-impl-trait-for-tuples = "0.2.2"
-log = { version = "0.4.17", optional = true }
-wasmi = { version = "0.13", optional = true }
-wasmtime = { version = "1.0.0", default-features = false, optional = true }
+codec = { package = "parity-scale-codec", version = "3.0.0", default-features = false, features = ["derive"] , registry = "local" }
+impl-trait-for-tuples = { version = "0.2.2", registry = "local" }
+log = { version = "0.4.17", optional = true , registry = "local" }
+wasmi = { version = "0.13", optional = true , registry = "local" }
+wasmtime = { version = "1.0.0", default-features = false, optional = true , registry = "local" }
 sp-std = { version = "7.0.0", default-features = false, path = "../std" , registry = "local" }
 
 [features]

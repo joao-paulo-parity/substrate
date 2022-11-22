@@ -12,25 +12,25 @@ description = "FRAME nomination pools pallet tests with the staking pallet"
 targets = ["x86_64-unknown-linux-gnu"]
 
 [dev-dependencies]
-codec = { package = "parity-scale-codec", version = "3.0.0", features = ["derive"] }
-scale-info = { version = "2.0.1", features = ["derive"] }
+codec = { package = "parity-scale-codec", version = "3.0.0", features = ["derive"] , registry = "local" }
+scale-info = { version = "2.0.1", features = ["derive"] , registry = "local" }
 
-sp-runtime = { version = "6.0.0", path = "../../../primitives/runtime" }
-sp-io = { version = "6.0.0", path = "../../../primitives/io" }
+sp-runtime = { version = "6.0.0", path = "../../../primitives/runtime" , registry = "local" }
+sp-io = { version = "6.0.0", path = "../../../primitives/io" , registry = "local" }
 sp-std = { version = "7.0.0", path = "../../../primitives/std" , registry = "local" }
-sp-staking = { version = "4.0.0-dev", path = "../../../primitives/staking" }
-sp-core = { version = "6.0.0", path = "../../../primitives/core" }
+sp-staking = { version = "4.0.0-dev", path = "../../../primitives/staking" , registry = "local" }
+sp-core = { version = "6.0.0", path = "../../../primitives/core" , registry = "local" }
 
-frame-system = { version = "4.0.0-dev", path = "../../system" }
-frame-support = { version = "4.0.0-dev", path = "../../support" }
-frame-election-provider-support = { version = "4.0.0-dev", path = "../../election-provider-support" }
+frame-system = { version = "4.0.0-dev", path = "../../system" , registry = "local" }
+frame-support = { version = "4.0.0-dev", path = "../../support" , registry = "local" }
+frame-election-provider-support = { version = "4.0.0-dev", path = "../../election-provider-support" , registry = "local" }
 
-pallet-timestamp = { version = "4.0.0-dev", path = "../../timestamp" }
-pallet-balances = { version = "4.0.0-dev", path = "../../balances" }
-pallet-staking = { version = "4.0.0-dev", path = "../../staking" }
-pallet-bags-list = { version = "4.0.0-dev", path = "../../bags-list" }
+pallet-timestamp = { version = "4.0.0-dev", path = "../../timestamp" , registry = "local" }
+pallet-balances = { version = "4.0.0-dev", path = "../../balances" , registry = "local" }
+pallet-staking = { version = "4.0.0-dev", path = "../../staking" , registry = "local" }
+pallet-bags-list = { version = "4.0.0-dev", path = "../../bags-list" , registry = "local" }
 pallet-staking-reward-curve = { version = "7.0.0", path = "../../staking/reward-curve" , registry = "local" }
-pallet-nomination-pools = { version = "1.0.0-dev", path = ".." }
+pallet-nomination-pools = { version = "1.0.0-dev", path = ".." , registry = "local" }
 
-sp-tracing = { version = "5.0.0", path = "../../../primitives/tracing" }
-log = { version = "0.4.0" }
+sp-tracing = { version = "5.0.0", path = "../../../primitives/tracing" , registry = "local" }
+log = { version = "0.4.0" , registry = "local" }

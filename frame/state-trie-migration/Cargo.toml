@@ -13,27 +13,27 @@ readme = "README.md"
 targets = ["x86_64-unknown-linux-gnu"]
 
 [dependencies]
-codec = { package = "parity-scale-codec", version = "3.0.0", default-features = false }
-log = { version = "0.4.17", default-features = false }
-scale-info = { version = "2.1.1", default-features = false, features = ["derive"] }
-serde = { version = "1.0.133", optional = true }
-thousands = { version = "0.2.0", optional = true }
-zstd = { version = "0.11.2", default-features = false, optional = true }
-frame-benchmarking = { default-features = false, optional = true, path = "../benchmarking" }
-frame-support = { default-features = false, path = "../support" }
-frame-system = { default-features = false, path = "../system" }
-remote-externalities = { optional = true, path = "../../utils/frame/remote-externalities" }
-sp-core = { default-features = false, path = "../../primitives/core" }
-sp-io = { default-features = false, path = "../../primitives/io" }
-sp-runtime = { default-features = false, path = "../../primitives/runtime" }
+codec = { package = "parity-scale-codec", version = "3.0.0", default-features = false , registry = "local" }
+log = { version = "0.4.17", default-features = false , registry = "local" }
+scale-info = { version = "2.1.1", default-features = false, features = ["derive"] , registry = "local" }
+serde = { version = "1.0.133", optional = true , registry = "local" }
+thousands = { version = "0.2.0", optional = true , registry = "local" }
+zstd = { version = "0.11.2", default-features = false, optional = true , registry = "local" }
+frame-benchmarking = { default-features = false, optional = true, path = "../benchmarking" , registry = "local" }
+frame-support = { default-features = false, path = "../support" , registry = "local" }
+frame-system = { default-features = false, path = "../system" , registry = "local" }
+remote-externalities = { optional = true, path = "../../utils/frame/remote-externalities" , registry = "local" }
+sp-core = { default-features = false, path = "../../primitives/core" , registry = "local" }
+sp-io = { default-features = false, path = "../../primitives/io" , registry = "local" }
+sp-runtime = { default-features = false, path = "../../primitives/runtime" , registry = "local" }
 sp-std = { default-features = false, path = "../../primitives/std" , version = "7.0.0", registry = "local" }
-substrate-state-trie-migration-rpc = { optional = true, path = "../../utils/frame/rpc/state-trie-migration-rpc" }
+substrate-state-trie-migration-rpc = { optional = true, path = "../../utils/frame/rpc/state-trie-migration-rpc" , registry = "local" }
 
 [dev-dependencies]
-parking_lot = "0.12.1"
-tokio = { version = "1.17.0", features = ["macros"] }
-pallet-balances = { path = "../balances" }
-sp-tracing = { path = "../../primitives/tracing" }
+parking_lot = { version = "0.12.1", registry = "local" }
+tokio = { version = "1.17.0", features = ["macros"] , registry = "local" }
+pallet-balances = { path = "../balances" , registry = "local" }
+sp-tracing = { path = "../../primitives/tracing" , registry = "local" }
 
 [features]
 default = ["std"]

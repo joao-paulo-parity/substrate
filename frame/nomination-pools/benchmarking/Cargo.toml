@@ -14,30 +14,30 @@ targets = ["x86_64-unknown-linux-gnu"]
 
 [dependencies]
 # parity
-codec = { package = "parity-scale-codec", version = "3.0.0", default-features = false, features = ["derive"] }
-scale-info = { version = "2.1.1", default-features = false, features = ["derive"] }
+codec = { package = "parity-scale-codec", version = "3.0.0", default-features = false, features = ["derive"] , registry = "local" }
+scale-info = { version = "2.1.1", default-features = false, features = ["derive"] , registry = "local" }
 
 # FRAME
-frame-benchmarking = { version = "4.0.0-dev", default-features = false, path = "../../benchmarking" }
-frame-election-provider-support = { version = "4.0.0-dev", default-features = false, path = "../../election-provider-support" }
-frame-support = { version = "4.0.0-dev", default-features = false, path = "../../support" }
-frame-system = { version = "4.0.0-dev", default-features = false, path = "../../system" }
-pallet-bags-list = { version = "4.0.0-dev", default-features = false, path = "../../bags-list" }
-pallet-staking = { version = "4.0.0-dev", default-features = false, path = "../../staking" }
-pallet-nomination-pools = { version = "1.0.0", default-features = false, path = "../" }
+frame-benchmarking = { version = "4.0.0-dev", default-features = false, path = "../../benchmarking" , registry = "local" }
+frame-election-provider-support = { version = "4.0.0-dev", default-features = false, path = "../../election-provider-support" , registry = "local" }
+frame-support = { version = "4.0.0-dev", default-features = false, path = "../../support" , registry = "local" }
+frame-system = { version = "4.0.0-dev", default-features = false, path = "../../system" , registry = "local" }
+pallet-bags-list = { version = "4.0.0-dev", default-features = false, path = "../../bags-list" , registry = "local" }
+pallet-staking = { version = "4.0.0-dev", default-features = false, path = "../../staking" , registry = "local" }
+pallet-nomination-pools = { version = "1.0.0", default-features = false, path = "../" , registry = "local" }
 
 # Substrate Primitives
-sp-runtime = { version = "6.0.0", default-features = false, path = "../../../primitives/runtime" }
-sp-runtime-interface = { version = "6.0.0", default-features = false, path = "../../../primitives/runtime-interface" }
-sp-staking = { version = "4.0.0-dev", default-features = false, path = "../../../primitives/staking" }
+sp-runtime = { version = "6.0.0", default-features = false, path = "../../../primitives/runtime" , registry = "local" }
+sp-runtime-interface = { version = "6.0.0", default-features = false, path = "../../../primitives/runtime-interface" , registry = "local" }
+sp-staking = { version = "4.0.0-dev", default-features = false, path = "../../../primitives/staking" , registry = "local" }
 sp-std = { version = "7.0.0", default-features = false, path = "../../../primitives/std" , registry = "local" }
 
 [dev-dependencies]
-pallet-balances = { version = "4.0.0-dev", default-features = false, path = "../../balances" }
-pallet-timestamp = { version = "4.0.0-dev", path = "../../timestamp" }
+pallet-balances = { version = "4.0.0-dev", default-features = false, path = "../../balances" , registry = "local" }
+pallet-timestamp = { version = "4.0.0-dev", path = "../../timestamp" , registry = "local" }
 pallet-staking-reward-curve = { version = "7.0.0", path = "../../staking/reward-curve" , registry = "local" }
-sp-core = { version = "6.0.0", path = "../../../primitives/core" }
-sp-io = { version = "6.0.0", path = "../../../primitives/io" }
+sp-core = { version = "6.0.0", path = "../../../primitives/core" , registry = "local" }
+sp-io = { version = "6.0.0", path = "../../../primitives/io" , registry = "local" }
 
 [features]
 default = ["std"]

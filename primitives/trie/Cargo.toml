@@ -18,29 +18,29 @@ name = "bench"
 harness = false
 
 [dependencies]
-ahash = { version = "0.7.6", optional = true }
-codec = { package = "parity-scale-codec", version = "3.0.0", default-features = false }
-hashbrown = { version = "0.12.3", optional = true }
-hash-db = { version = "0.15.2", default-features = false }
-lazy_static = { version = "1.4.0", optional = true }
-lru = { version = "0.8.1", optional = true }
-memory-db = { version = "0.30.0", default-features = false }
-nohash-hasher = { version = "0.2.0", optional = true }
-parking_lot = { version = "0.12.1", optional = true }
-scale-info = { version = "2.1.1", default-features = false, features = ["derive"] }
-thiserror = { version = "1.0.30", optional = true }
-tracing = { version = "0.1.29", optional = true }
-trie-db = { version = "0.24.0", default-features = false }
-trie-root = { version = "0.17.0", default-features = false }
-sp-core = { version = "6.0.0", default-features = false, path = "../core" }
+ahash = { version = "0.7.6", optional = true , registry = "local" }
+codec = { package = "parity-scale-codec", version = "3.0.0", default-features = false , registry = "local" }
+hashbrown = { version = "0.12.3", optional = true , registry = "local" }
+hash-db = { version = "0.15.2", default-features = false , registry = "local" }
+lazy_static = { version = "1.4.0", optional = true , registry = "local" }
+lru = { version = "0.8.1", optional = true , registry = "local" }
+memory-db = { version = "0.30.0", default-features = false , registry = "local" }
+nohash-hasher = { version = "0.2.0", optional = true , registry = "local" }
+parking_lot = { version = "0.12.1", optional = true , registry = "local" }
+scale-info = { version = "2.1.1", default-features = false, features = ["derive"] , registry = "local" }
+thiserror = { version = "1.0.30", optional = true , registry = "local" }
+tracing = { version = "0.1.29", optional = true , registry = "local" }
+trie-db = { version = "0.24.0", default-features = false , registry = "local" }
+trie-root = { version = "0.17.0", default-features = false , registry = "local" }
+sp-core = { version = "6.0.0", default-features = false, path = "../core" , registry = "local" }
 sp-std = { version = "7.0.0", default-features = false, path = "../std" , registry = "local" }
 
 [dev-dependencies]
-array-bytes = "4.1"
-criterion = "0.3.3"
-trie-bench = "0.32.0"
-trie-standardmap = "0.15.2"
-sp-runtime = { version = "6.0.0", path = "../runtime" }
+array-bytes = { version = "4.1", registry = "local" }
+criterion = { version = "0.3.3", registry = "local" }
+trie-bench = { version = "0.32.0", registry = "local" }
+trie-standardmap = { version = "0.15.2", registry = "local" }
+sp-runtime = { version = "6.0.0", path = "../runtime" , registry = "local" }
 
 [features]
 default = ["std"]

@@ -13,41 +13,41 @@ readme = "README.md"
 targets = ["x86_64-unknown-linux-gnu"]
 
 [dependencies]
-static_assertions = "1.1.0"
+static_assertions = { version = "1.1.0", registry = "local" }
 codec = { package = "parity-scale-codec", version = "3.0.0", default-features = false, features = [
 	"derive",
-] }
+] , registry = "local" }
 scale-info = { version = "2.1.1", default-features = false, features = [
 	"derive",
-] }
-log = { version = "0.4.17", default-features = false }
+] , registry = "local" }
+log = { version = "0.4.17", default-features = false , registry = "local" }
 
-frame-support = { version = "4.0.0-dev", default-features = false, path = "../support" }
-frame-system = { version = "4.0.0-dev", default-features = false, path = "../system" }
+frame-support = { version = "4.0.0-dev", default-features = false, path = "../support" , registry = "local" }
+frame-system = { version = "4.0.0-dev", default-features = false, path = "../system" , registry = "local" }
 
-sp-io = { version = "6.0.0", default-features = false, path = "../../primitives/io" }
+sp-io = { version = "6.0.0", default-features = false, path = "../../primitives/io" , registry = "local" }
 sp-std = { version = "7.0.0", default-features = false, path = "../../primitives/std" , registry = "local" }
-sp-core = { version = "6.0.0", default-features = false, path = "../../primitives/core" }
-sp-runtime = { version = "6.0.0", default-features = false, path = "../../primitives/runtime" }
-sp-npos-elections = { version = "4.0.0-dev", default-features = false, path = "../../primitives/npos-elections" }
+sp-core = { version = "6.0.0", default-features = false, path = "../../primitives/core" , registry = "local" }
+sp-runtime = { version = "6.0.0", default-features = false, path = "../../primitives/runtime" , registry = "local" }
+sp-npos-elections = { version = "4.0.0-dev", default-features = false, path = "../../primitives/npos-elections" , registry = "local" }
 sp-arithmetic = { version = "6.0.0", default-features = false, path = "../../primitives/arithmetic" , registry = "local" }
-frame-election-provider-support = { version = "4.0.0-dev", default-features = false, path = "../election-provider-support" }
+frame-election-provider-support = { version = "4.0.0-dev", default-features = false, path = "../election-provider-support" , registry = "local" }
 
 # Optional imports for benchmarking
-frame-benchmarking = { version = "4.0.0-dev", default-features = false, path = "../benchmarking", optional = true }
-pallet-election-provider-support-benchmarking = { version = "4.0.0-dev", default-features = false, path = "../election-provider-support/benchmarking", optional = true }
-rand = { version = "0.7.3", default-features = false, features = ["alloc", "small_rng"], optional = true }
-strum = { version = "0.24.1",  default-features = false, features = ["derive"], optional = true }
+frame-benchmarking = { version = "4.0.0-dev", default-features = false, path = "../benchmarking", optional = true , registry = "local" }
+pallet-election-provider-support-benchmarking = { version = "4.0.0-dev", default-features = false, path = "../election-provider-support/benchmarking", optional = true , registry = "local" }
+rand = { version = "0.7.3", default-features = false, features = ["alloc", "small_rng"], optional = true , registry = "local" }
+strum = { version = "0.24.1",  default-features = false, features = ["derive"], optional = true , registry = "local" }
 
 [dev-dependencies]
-parking_lot = "0.12.1"
-rand = { version = "0.7.3" }
-sp-core = { version = "6.0.0", default-features = false, path = "../../primitives/core" }
-sp-io = { version = "6.0.0", path = "../../primitives/io" }
-sp-npos-elections = { version = "4.0.0-dev", default-features = false, path = "../../primitives/npos-elections" }
-sp-tracing = { version = "5.0.0", path = "../../primitives/tracing" }
-pallet-balances = { version = "4.0.0-dev", path = "../balances" }
-frame-benchmarking = { version = "4.0.0-dev", path = "../benchmarking" }
+parking_lot = { version = "0.12.1", registry = "local" }
+rand = { version = "0.7.3" , registry = "local" }
+sp-core = { version = "6.0.0", default-features = false, path = "../../primitives/core" , registry = "local" }
+sp-io = { version = "6.0.0", path = "../../primitives/io" , registry = "local" }
+sp-npos-elections = { version = "4.0.0-dev", default-features = false, path = "../../primitives/npos-elections" , registry = "local" }
+sp-tracing = { version = "5.0.0", path = "../../primitives/tracing" , registry = "local" }
+pallet-balances = { version = "4.0.0-dev", path = "../balances" , registry = "local" }
+frame-benchmarking = { version = "4.0.0-dev", path = "../benchmarking" , registry = "local" }
 
 [features]
 default = ["std"]

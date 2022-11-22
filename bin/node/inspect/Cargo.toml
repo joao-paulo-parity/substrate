@@ -12,13 +12,13 @@ repository = "https://github.com/paritytech/substrate/"
 targets = ["x86_64-unknown-linux-gnu"]
 
 [dependencies]
-clap = { version = "4.0.9", features = ["derive"] }
-codec = { package = "parity-scale-codec", version = "3.0.0" }
-thiserror = "1.0"
-sc-cli = { version = "0.10.0-dev", path = "../../../client/cli" }
-sc-client-api = { version = "4.0.0-dev", path = "../../../client/api" }
-sc-executor = { version = "0.10.0-dev", path = "../../../client/executor" }
-sc-service = { version = "0.10.0-dev", default-features = false, path = "../../../client/service" }
-sp-blockchain = { version = "4.0.0-dev", path = "../../../primitives/blockchain" }
-sp-core = { version = "6.0.0", path = "../../../primitives/core" }
-sp-runtime = { version = "6.0.0", path = "../../../primitives/runtime" }
+clap = { version = "4.0.9", features = ["derive"] , registry = "local" }
+codec = { package = "parity-scale-codec", version = "3.0.0" , registry = "local" }
+thiserror = { version = "1.0", registry = "local" }
+sc-cli = { version = "0.10.0-dev", path = "../../../client/cli" , registry = "local" }
+sc-client-api = { version = "4.0.0-dev", path = "../../../client/api" , registry = "local" }
+sc-executor = { version = "0.10.0-dev", path = "../../../client/executor" , registry = "local" }
+sc-service = { version = "0.10.0-dev", default-features = false, path = "../../../client/service" , registry = "local" }
+sp-blockchain = { version = "4.0.0-dev", path = "../../../primitives/blockchain" , registry = "local" }
+sp-core = { version = "6.0.0", path = "../../../primitives/core" , registry = "local" }
+sp-runtime = { version = "6.0.0", path = "../../../primitives/runtime" , registry = "local" }
