@@ -29,7 +29,7 @@ sc-transaction-pool = { version = "4.0.0-dev", path = "../../../client/transacti
 sc-transaction-pool-api = { version = "4.0.0-dev", path = "../../../client/transaction-pool/api" , registry = "local" }
 sc-consensus-aura = { version = "0.10.0-dev", path = "../../../client/consensus/aura" , registry = "local" }
 sp-consensus-aura = { version = "0.10.0-dev", path = "../../../primitives/consensus/aura" , registry = "local" }
-sp-consensus = { version = "0.10.0-dev", path = "../../../primitives/consensus/common" , registry = "local" }
+sp-consensus = { version = "0.10.0", path = "../../../primitives/consensus/common" , registry = "local" }
 sc-consensus = { version = "0.10.0-dev", path = "../../../client/consensus/common" , registry = "local" }
 sc-finality-grandpa = { version = "0.10.0-dev", path = "../../../client/finality-grandpa" , registry = "local" }
 sp-finality-grandpa = { version = "4.0.0-dev", path = "../../../primitives/finality-grandpa" , registry = "local" }

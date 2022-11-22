@@ -31,7 +31,7 @@ sc-service = { version = "0.10.0-dev", features = ["test-helpers"], path = "../.
 sc-transaction-pool-api = { version = "4.0.0-dev", path = "../../../client/transaction-pool/api" , registry = "local" }
 sp-api = { version = "4.0.0", path = "../../../primitives/api" , registry = "local" }
 sp-blockchain = { version = "4.0.0-dev", path = "../../../primitives/blockchain" , registry = "local" }
-sp-consensus = { version = "0.10.0-dev", path = "../../../primitives/consensus/common" , registry = "local" }
+sp-consensus = { version = "0.10.0", path = "../../../primitives/consensus/common" , registry = "local" }
 sp-core = { version = "6.0.0", path = "../../../primitives/core" , registry = "local" }
 sp-externalities = { version = "0.12.0", path = "../../../primitives/externalities" , registry = "local" }
 sp-panic-handler = { version = "10.0.0", path = "../../../primitives/panic-handler" , registry = "local" }

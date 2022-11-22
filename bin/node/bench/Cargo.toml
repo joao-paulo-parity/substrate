@@ -28,7 +28,7 @@ kvdb = { version = "0.12.0", registry = "local" }
 kvdb-rocksdb = { version = "0.16.0", registry = "local" }
 sp-trie = { version = "6.0.0", path = "../../../primitives/trie" , registry = "local" }
 sp-core = { version = "6.0.0", path = "../../../primitives/core" , registry = "local" }
-sp-consensus = { version = "0.10.0-dev", path = "../../../primitives/consensus/common" , registry = "local" }
+sp-consensus = { version = "0.10.0", path = "../../../primitives/consensus/common" , registry = "local" }
 sc-basic-authorship = { version = "0.10.0-dev", path = "../../../client/basic-authorship" , registry = "local" }
 sp-inherents = { version = "4.0.0", path = "../../../primitives/inherents" , registry = "local" }
 sp-timestamp = { version = "4.0.0-dev", default-features = false, path = "../../../primitives/timestamp" , registry = "local" }

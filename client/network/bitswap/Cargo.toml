@@ -35,6 +35,6 @@ tokio = { version = "1", features = ["full"] , registry = "local" }
 sc-block-builder = { version = "0.10.0-dev", path = "../../block-builder" , registry = "local" }
 sc-consensus = { version = "0.10.0-dev", path = "../../consensus/common" , registry = "local" }
 sp-core = { version = "6.0.0", path = "../../../primitives/core" , registry = "local" }
-sp-consensus = { version = "0.10.0-dev", path = "../../../primitives/consensus/common" , registry = "local" }
+sp-consensus = { version = "0.10.0", path = "../../../primitives/consensus/common" , registry = "local" }
 substrate-test-runtime = { version = "2.0.0", path = "../../../test-utils/runtime" , registry = "local" }
 substrate-test-runtime-client = { version = "2.0.0", path = "../../../test-utils/runtime/client" , registry = "local" }

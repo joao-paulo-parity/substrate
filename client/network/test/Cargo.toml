@@ -30,7 +30,7 @@ sc-network-light = { version = "0.10.0-dev", path = "../light" , registry = "loc
 sc-network-sync = { version = "0.10.0-dev", path = "../sync" , registry = "local" }
 sc-service = { version = "0.10.0-dev", default-features = false, features = ["test-helpers"], path = "../../service" , registry = "local" }
 sp-blockchain = { version = "4.0.0-dev", path = "../../../primitives/blockchain" , registry = "local" }
-sp-consensus = { version = "0.10.0-dev", path = "../../../primitives/consensus/common" , registry = "local" }
+sp-consensus = { version = "0.10.0", path = "../../../primitives/consensus/common" , registry = "local" }
 sp-consensus-babe = { version = "0.10.0-dev", path = "../../../primitives/consensus/babe" , registry = "local" }
 sp-core = { version = "6.0.0", path = "../../../primitives/core" , registry = "local" }
 sp-runtime = { version = "6.0.0", path = "../../../primitives/runtime" , registry = "local" }

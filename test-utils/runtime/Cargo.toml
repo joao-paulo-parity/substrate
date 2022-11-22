@@ -55,7 +55,7 @@ serde = { version = "1.0.136", optional = true, features = ["derive"] , registry
 [dev-dependencies]
 sc-block-builder = { version = "0.10.0-dev", path = "../../client/block-builder" , registry = "local" }
 sc-executor = { version = "0.10.0-dev", path = "../../client/executor" , registry = "local" }
-sp-consensus = { version = "0.10.0-dev", path = "../../primitives/consensus/common" , registry = "local" }
+sp-consensus = { version = "0.10.0", path = "../../primitives/consensus/common" , registry = "local" }
 substrate-test-runtime-client = { version = "2.0.0", path = "./client" , registry = "local" }
 futures = { version = "0.3.21", registry = "local" }
 
