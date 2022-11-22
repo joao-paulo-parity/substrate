@@ -66,7 +66,7 @@ sc-executor = { version = "0.10.0-dev", path = "../executor" , registry = "local
 sc-transaction-pool = { version = "4.0.0-dev", path = "../transaction-pool" , registry = "local" }
 sp-transaction-pool = { version = "4.0.0-dev", path = "../../primitives/transaction-pool" , registry = "local" }
 sc-transaction-pool-api = { version = "4.0.0-dev", path = "../transaction-pool/api" , registry = "local" }
-sp-transaction-storage-proof = { version = "4.0.0-dev", path = "../../primitives/transaction-storage-proof" , registry = "local" }
+sp-transaction-storage-proof = { version = "4.0.0", path = "../../primitives/transaction-storage-proof" , registry = "local" }
 sc-rpc-server = { version = "5.0.0", path = "../rpc-servers" , registry = "local" }
 sc-rpc = { version = "4.0.0-dev", path = "../rpc" , registry = "local" }
 sc-rpc-spec-v2 = { version = "0.10.0-dev", path = "../rpc-spec-v2" , registry = "local" }
