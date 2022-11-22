@@ -82,7 +82,7 @@ sc-sysinfo = { version = "6.0.0", path = "../../../client/sysinfo" , registry = 
 
 # frame dependencies
 frame-system = { version = "4.0.0-dev", path = "../../../frame/system" , registry = "local" }
-frame-system-rpc-runtime-api = { version = "4.0.0-dev", path = "../../../frame/system/rpc/runtime-api" , registry = "local" }
+frame-system-rpc-runtime-api = { version = "4.0.0", path = "../../../frame/system/rpc/runtime-api" , registry = "local" }
 pallet-transaction-payment = { version = "4.0.0-dev", path = "../../../frame/transaction-payment" , registry = "local" }
 pallet-asset-tx-payment = { version = "4.0.0-dev", path = "../../../frame/transaction-payment/asset-tx-payment/" , registry = "local" }
 pallet-im-online = { version = "4.0.0-dev", default-features = false, path = "../../../frame/im-online" , registry = "local" }

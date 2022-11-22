@@ -18,7 +18,7 @@ codec = { package = "parity-scale-codec", version = "3.0.0" , registry = "local"
 jsonrpsee = { version = "0.15.1", features = ["server"] , registry = "local" }
 futures = { version = "0.3.21", registry = "local" }
 log = { version = "0.4.17", registry = "local" }
-frame-system-rpc-runtime-api = { version = "4.0.0-dev", path = "../../../../frame/system/rpc/runtime-api" , registry = "local" }
+frame-system-rpc-runtime-api = { version = "4.0.0", path = "../../../../frame/system/rpc/runtime-api" , registry = "local" }
 sc-client-api = { version = "4.0.0-dev", path = "../../../../client/api" , registry = "local" }
 sc-rpc-api = { version = "0.10.0-dev", path = "../../../../client/rpc-api" , registry = "local" }
 sc-transaction-pool-api = { version = "4.0.0-dev", path = "../../../../client/transaction-pool/api" , registry = "local" }
