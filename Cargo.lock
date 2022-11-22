@@ -9443,7 +9443,7 @@ dependencies = [
 
 [[package]]
 name = "sp-authorship"
-version = "4.0.0-dev"
+version = "4.0.0"
 dependencies = [
  "async-trait",
  "parity-scale-codec",
