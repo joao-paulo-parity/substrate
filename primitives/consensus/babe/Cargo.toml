@@ -24,7 +24,7 @@ sp-consensus = { version = "0.10.0-dev", optional = true, path = "../common" , r
 sp-consensus-slots = { version = "0.10.0-dev", default-features = false, path = "../slots" , registry = "local" }
 sp-consensus-vrf = { version = "0.10.0", default-features = false, path = "../vrf" , registry = "local" }
 sp-core = { version = "6.0.0", default-features = false, path = "../../core" , registry = "local" }
-sp-inherents = { version = "4.0.0-dev", default-features = false, path = "../../inherents" , registry = "local" }
+sp-inherents = { version = "4.0.0", default-features = false, path = "../../inherents" , registry = "local" }
 sp-keystore = { version = "0.12.0", default-features = false, optional = true, path = "../../keystore" , registry = "local" }
 sp-runtime = { version = "6.0.0", default-features = false, path = "../../runtime" , registry = "local" }
 sp-std = { version = "7.0.0", default-features = false, path = "../../std" , registry = "local" }

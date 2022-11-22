@@ -40,7 +40,7 @@ sp-block-builder = { version = "4.0.0-dev", path = "../../../primitives/block-bu
 sp-blockchain = { version = "4.0.0-dev", path = "../../../primitives/blockchain" , registry = "local" }
 sp-consensus = { version = "0.10.0-dev", path = "../../../primitives/consensus/common" , registry = "local" }
 sp-core = { version = "6.0.0", path = "../../../primitives/core" , registry = "local" }
-sp-inherents = { version = "4.0.0-dev", path = "../../../primitives/inherents" , registry = "local" }
+sp-inherents = { version = "4.0.0", path = "../../../primitives/inherents" , registry = "local" }
 sp-io = { version = "6.0.0", path = "../../../primitives/io" , registry = "local" }
 sp-keyring = { version = "6.0.0", path = "../../../primitives/keyring" , registry = "local" }
 sp-runtime = { version = "6.0.0", path = "../../../primitives/runtime" , registry = "local" }

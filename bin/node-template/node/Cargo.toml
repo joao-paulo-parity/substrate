@@ -36,7 +36,7 @@ sp-finality-grandpa = { version = "4.0.0-dev", path = "../../../primitives/final
 sc-client-api = { version = "4.0.0-dev", path = "../../../client/api" , registry = "local" }
 sp-runtime = { version = "6.0.0", path = "../../../primitives/runtime" , registry = "local" }
 sp-timestamp = { version = "4.0.0-dev", path = "../../../primitives/timestamp" , registry = "local" }
-sp-inherents = { version = "4.0.0-dev", path = "../../../primitives/inherents" , registry = "local" }
+sp-inherents = { version = "4.0.0", path = "../../../primitives/inherents" , registry = "local" }
 sp-keyring = { version = "6.0.0", path = "../../../primitives/keyring" , registry = "local" }
 frame-system = { version = "4.0.0-dev", path = "../../../frame/system" , registry = "local" }
 pallet-transaction-payment = { version = "4.0.0-dev", default-features = false, path = "../../../frame/transaction-payment" , registry = "local" }

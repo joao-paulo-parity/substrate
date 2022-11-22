@@ -23,7 +23,7 @@ futures-timer = { version = "3.0.1", registry = "local" }
 log = { version = "0.4.17", registry = "local" }
 thiserror = { version = "1.0.30", registry = "local" }
 sp-core = { version = "6.0.0", path = "../../core" , registry = "local" }
-sp-inherents = { version = "4.0.0-dev", path = "../../inherents" , registry = "local" }
+sp-inherents = { version = "4.0.0", path = "../../inherents" , registry = "local" }
 sp-runtime = { version = "6.0.0", path = "../../runtime" , registry = "local" }
 sp-state-machine = { version = "0.12.0", path = "../../state-machine" , registry = "local" }
 sp-std = { version = "7.0.0", path = "../../std" , registry = "local" }

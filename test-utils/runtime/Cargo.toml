@@ -21,7 +21,7 @@ sp-consensus-babe = { version = "0.10.0-dev", default-features = false, path = "
 sp-block-builder = { version = "4.0.0-dev", default-features = false, path = "../../primitives/block-builder" , registry = "local" }
 codec = { package = "parity-scale-codec", version = "3.0.0", default-features = false, features = ["derive"] , registry = "local" }
 scale-info = { version = "2.1.1", default-features = false, features = ["derive"] , registry = "local" }
-sp-inherents = { version = "4.0.0-dev", default-features = false, path = "../../primitives/inherents" , registry = "local" }
+sp-inherents = { version = "4.0.0", default-features = false, path = "../../primitives/inherents" , registry = "local" }
 sp-keyring = { version = "6.0.0", optional = true, path = "../../primitives/keyring" , registry = "local" }
 memory-db = { version = "0.30.0", default-features = false , registry = "local" }
 sp-offchain = { version = "4.0.0-dev", default-features = false, path = "../../primitives/offchain" , registry = "local" }

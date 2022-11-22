@@ -28,7 +28,7 @@ sp-blockchain = { version = "4.0.0-dev", path = "../../../primitives/blockchain"
 sp-consensus = { version = "0.10.0-dev", path = "../../../primitives/consensus/common" , registry = "local" }
 sp-consensus-slots = { version = "0.10.0-dev", path = "../../../primitives/consensus/slots" , registry = "local" }
 sp-core = { version = "6.0.0", path = "../../../primitives/core" , registry = "local" }
-sp-inherents = { version = "4.0.0-dev", path = "../../../primitives/inherents" , registry = "local" }
+sp-inherents = { version = "4.0.0", path = "../../../primitives/inherents" , registry = "local" }
 sp-runtime = { version = "6.0.0", path = "../../../primitives/runtime" , registry = "local" }
 sp-state-machine = { version = "0.12.0", path = "../../../primitives/state-machine" , registry = "local" }
 
