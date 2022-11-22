@@ -19,7 +19,7 @@ rand = { version = "0.8", features = ["std", "small_rng"] , registry = "local" }
 
 codec = { package = "parity-scale-codec", version = "3.0.0", default-features = false, features = ["derive"] , registry = "local" }
 scale-info = { version = "2.1.1", default-features = false, features = ["derive"] , registry = "local" }
-frame-election-provider-solution-type = { version = "6.0.0", path = ".." , registry = "local" }
+frame-election-provider-solution-type = { version = "7.0.0", path = ".." , registry = "local" }
 frame-election-provider-support = { version = "4.0.0-dev", path = "../.." , registry = "local" }
 sp-arithmetic = { version = "6.0.0", path = "../../../../primitives/arithmetic" , registry = "local" }
 sp-runtime = { version = "6.0.0", path = "../../../../primitives/runtime" , registry = "local" }
