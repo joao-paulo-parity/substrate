@@ -5077,7 +5077,7 @@ dependencies = [
 
 [[package]]
 name = "pallet-atomic-swap"
-version = "4.0.0-dev"
+version = "4.0.0"
 dependencies = [
  "frame-support",
  "frame-system",
