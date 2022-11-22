@@ -5816,7 +5816,7 @@ dependencies = [
 
 [[package]]
 name = "pallet-nomination-pools-runtime-api"
-version = "1.0.0-dev"
+version = "1.0.0"
 dependencies = [
  "parity-scale-codec",
  "sp-api",
