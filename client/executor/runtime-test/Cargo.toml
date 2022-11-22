@@ -19,7 +19,7 @@ sp-io = { version = "6.0.0", default-features = false, features = ["improved_pan
 sp-runtime = { version = "6.0.0", default-features = false, path = "../../../primitives/runtime" , registry = "local" }
 sp-sandbox = { version = "0.10.0", default-features = false, path = "../../../primitives/sandbox" , registry = "local" }
 sp-std = { version = "7.0.0", default-features = false, path = "../../../primitives/std" , registry = "local" }
-sp-tasks = { version = "4.0.0-dev", default-features = false, path = "../../../primitives/tasks" , registry = "local" }
+sp-tasks = { version = "4.0.0", default-features = false, path = "../../../primitives/tasks" , registry = "local" }
 
 [build-dependencies]
 substrate-wasm-builder = { version = "6.0.0", path = "../../../utils/wasm-builder" , registry = "local" }
