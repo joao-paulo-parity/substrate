@@ -9692,7 +9692,7 @@ dependencies = [
 
 [[package]]
 name = "sp-inherents"
-version = "4.0.0-dev"
+version = "4.0.0"
 dependencies = [
  "async-trait",
  "futures",
