@@ -37,7 +37,7 @@ sc-service = { version = "0.10.0-dev", features = [
 ], path = "../../../client/service" , registry = "local" }
 sp-api = { version = "4.0.0", path = "../../../primitives/api" , registry = "local" }
 sp-block-builder = { version = "4.0.0", path = "../../../primitives/block-builder" , registry = "local" }
-sp-blockchain = { version = "4.0.0-dev", path = "../../../primitives/blockchain" , registry = "local" }
+sp-blockchain = { version = "4.0.0", path = "../../../primitives/blockchain" , registry = "local" }
 sp-consensus = { version = "0.10.0", path = "../../../primitives/consensus/common" , registry = "local" }
 sp-core = { version = "6.0.0", path = "../../../primitives/core" , registry = "local" }
 sp-inherents = { version = "4.0.0", path = "../../../primitives/inherents" , registry = "local" }

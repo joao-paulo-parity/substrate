@@ -21,7 +21,7 @@ thiserror = { version = "1.0", registry = "local" }
 sc-client-api = { version = "4.0.0-dev", path = "../../api" , registry = "local" }
 sc-finality-grandpa = { version = "0.10.0-dev", path = "../" , registry = "local" }
 sc-rpc = { version = "4.0.0-dev", path = "../../rpc" , registry = "local" }
-sp-blockchain = { version = "4.0.0-dev", path = "../../../primitives/blockchain" , registry = "local" }
+sp-blockchain = { version = "4.0.0", path = "../../../primitives/blockchain" , registry = "local" }
 sp-core = { version = "6.0.0", path = "../../../primitives/core" , registry = "local" }
 sp-runtime = { version = "6.0.0", path = "../../../primitives/runtime" , registry = "local" }
 

@@ -35,5 +35,5 @@ serde = { version = "1.0.136", features = ["derive"] , registry = "local" }
 sp-consensus = { version = "0.10.0", path = "../../../primitives/consensus/common" , registry = "local" }
 sp-finality-grandpa = { version = "4.0.0", path = "../../../primitives/finality-grandpa" , registry = "local" }
 sp-runtime = { version = "6.0.0", path = "../../../primitives/runtime" , registry = "local" }
-sp-blockchain = { version = "4.0.0-dev", path = "../../../primitives/blockchain" , registry = "local" }
+sp-blockchain = { version = "4.0.0", path = "../../../primitives/blockchain" , registry = "local" }
 thiserror = { version = "1.0", registry = "local" }

@@ -21,7 +21,7 @@ sc-transaction-pool-api = { version = "4.0.0-dev", path = "../transaction-pool/a
 sp-core = { version = "6.0.0", path = "../../primitives/core" , registry = "local" }
 sp-runtime = { version = "6.0.0", path = "../../primitives/runtime" , registry = "local" }
 sp-api = { version = "4.0.0", path = "../../primitives/api" , registry = "local" }
-sp-blockchain = { version = "4.0.0-dev", path = "../../primitives/blockchain" , registry = "local" }
+sp-blockchain = { version = "4.0.0", path = "../../primitives/blockchain" , registry = "local" }
 codec = { package = "parity-scale-codec", version = "3.0.0" , registry = "local" }
 thiserror = { version = "1.0", registry = "local" }
 serde = { version = "1.0", registry = "local" }

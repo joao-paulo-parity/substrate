@@ -30,7 +30,7 @@ sc-consensus-epochs = { version = "0.10.0-dev", path = "../../consensus/epochs" 
 sc-transaction-pool = { version = "4.0.0-dev", path = "../../transaction-pool" , registry = "local" }
 sc-transaction-pool-api = { version = "4.0.0-dev", path = "../../../client/transaction-pool/api" , registry = "local" }
 sp-api = { version = "4.0.0", path = "../../../primitives/api" , registry = "local" }
-sp-blockchain = { version = "4.0.0-dev", path = "../../../primitives/blockchain" , registry = "local" }
+sp-blockchain = { version = "4.0.0", path = "../../../primitives/blockchain" , registry = "local" }
 sp-consensus = { version = "0.10.0", path = "../../../primitives/consensus/common" , registry = "local" }
 sp-consensus-aura = { version = "0.10.0-dev", path = "../../../primitives/consensus/aura" , registry = "local" }
 sp-consensus-babe = { version = "0.10.0-dev", path = "../../../primitives/consensus/babe" , registry = "local" }

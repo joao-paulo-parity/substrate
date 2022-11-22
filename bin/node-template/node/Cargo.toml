@@ -46,7 +46,7 @@ jsonrpsee = { version = "0.15.1", features = ["server"] , registry = "local" }
 sc-rpc = { version = "4.0.0-dev", path = "../../../client/rpc" , registry = "local" }
 sp-api = { version = "4.0.0", path = "../../../primitives/api" , registry = "local" }
 sc-rpc-api = { version = "0.10.0-dev", path = "../../../client/rpc-api" , registry = "local" }
-sp-blockchain = { version = "4.0.0-dev", path = "../../../primitives/blockchain" , registry = "local" }
+sp-blockchain = { version = "4.0.0", path = "../../../primitives/blockchain" , registry = "local" }
 sp-block-builder = { version = "4.0.0", path = "../../../primitives/block-builder" , registry = "local" }
 sc-basic-authorship = { version = "0.10.0-dev", path = "../../../client/basic-authorship" , registry = "local" }
 substrate-frame-rpc-system = { version = "4.0.0-dev", path = "../../../utils/frame/rpc/system" , registry = "local" }

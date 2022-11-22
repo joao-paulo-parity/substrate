@@ -27,7 +27,7 @@ unsigned-varint = { version = "0.7.1", features = ["futures", "asynchronous_code
 void = { version = "1.0.2", registry = "local" }
 sc-client-api = { version = "4.0.0-dev", path = "../../api" , registry = "local" }
 sc-network-common = { version = "0.10.0-dev", path = "../common" , registry = "local" }
-sp-blockchain = { version = "4.0.0-dev", path = "../../../primitives/blockchain" , registry = "local" }
+sp-blockchain = { version = "4.0.0", path = "../../../primitives/blockchain" , registry = "local" }
 sp-runtime = { version = "6.0.0", path = "../../../primitives/runtime" , registry = "local" }
 
 [dev-dependencies]
