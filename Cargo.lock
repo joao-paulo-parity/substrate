@@ -10531,7 +10531,7 @@ dependencies = [
 
 [[package]]
 name = "substrate-test-utils"
-version = "4.0.0"
+version = "5.0.0"
 dependencies = [
  "futures",
  "sc-service",
@@ -10561,7 +10561,7 @@ dependencies = [
 
 [[package]]
 name = "substrate-wasm-builder"
-version = "5.0.0"
+version = "6.0.0"
 dependencies = [
  "ansi_term",
  "build-helper",
