@@ -23,7 +23,7 @@ sp-std = { version = "7.0.0", default-features = false, path = "../std" , regist
 
 [dev-dependencies]
 rand = { version = "0.7.3", registry = "local" }
-substrate-test-utils = { version = "4.0.0-dev", path = "../../test-utils" , registry = "local" }
+substrate-test-utils = { version = "5.0.0", path = "../../test-utils" , registry = "local" }
 
 [features]
 default = ["std"]

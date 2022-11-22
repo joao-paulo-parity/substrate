@@ -44,7 +44,7 @@ pallet-balances = { version = "4.0.0-dev", path = "../balances" , registry = "lo
 pallet-timestamp = { version = "4.0.0-dev", path = "../timestamp" , registry = "local" }
 pallet-staking-reward-curve = { version = "8.0.0", path = "../staking/reward-curve" , registry = "local" }
 pallet-bags-list = { version = "4.0.0-dev", path = "../bags-list" , registry = "local" }
-substrate-test-utils = { version = "4.0.0-dev", path = "../../test-utils" , registry = "local" }
+substrate-test-utils = { version = "5.0.0", path = "../../test-utils" , registry = "local" }
 frame-benchmarking = { version = "4.0.0-dev", path = "../benchmarking" , registry = "local" }
 frame-election-provider-support = { version = "4.0.0-dev", path = "../election-provider-support" , registry = "local" }
 rand_chacha = { version = "0.2" , registry = "local" }
