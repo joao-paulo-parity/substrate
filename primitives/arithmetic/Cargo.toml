@@ -26,12 +26,6 @@ static_assertions = { version = "1.1.0", registry = "local" }
 sp-debug-derive = { version = "9.0.0", default-features = false, path = "../debug-derive" , registry = "local" }
 sp-std = { version = "7.0.0", default-features = false, path = "../std" , registry = "local" }
 
-[dev-dependencies]
-criterion = { version = "0.3", registry = "local" }
-primitive-types = { version = "0.12.0", registry = "local" }
-sp-core = { version = "6.0.0", features = ["full_crypto"], path = "../core" , registry = "local" }
-rand = { version = "0.7.2", registry = "local" }
-
 [features]
 default = ["std"]
 std = [
