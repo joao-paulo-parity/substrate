@@ -47,7 +47,7 @@ rand = { version = "0.8", registry = "local" }
 sp-authority-discovery = { version = "4.0.0-dev", path = "../../../primitives/authority-discovery" , registry = "local" }
 sp-consensus-babe = { version = "0.10.0-dev", path = "../../../primitives/consensus/babe" , registry = "local" }
 grandpa-primitives = { version = "4.0.0-dev", package = "sp-finality-grandpa", path = "../../../primitives/finality-grandpa" , registry = "local" }
-sp-api = { version = "4.0.0-dev", path = "../../../primitives/api" , registry = "local" }
+sp-api = { version = "4.0.0", path = "../../../primitives/api" , registry = "local" }
 sp-core = { version = "6.0.0", path = "../../../primitives/core" , registry = "local" }
 sp-runtime = { version = "6.0.0", path = "../../../primitives/runtime" , registry = "local" }
 sp-timestamp = { version = "4.0.0-dev", path = "../../../primitives/timestamp" , registry = "local" }

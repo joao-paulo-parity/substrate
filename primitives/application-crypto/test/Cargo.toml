@@ -13,7 +13,7 @@ repository = "https://github.com/paritytech/substrate/"
 targets = ["x86_64-unknown-linux-gnu"]
 
 [dependencies]
-sp-api = { version = "4.0.0-dev", path = "../../api" , registry = "local" }
+sp-api = { version = "4.0.0", path = "../../api" , registry = "local" }
 sp-application-crypto = { version = "6.0.0", path = "../" , registry = "local" }
 sp-core = { version = "6.0.0", default-features = false, path = "../../core" , registry = "local" }
 sp-keystore = { version = "0.12.0", default-features = false, path = "../../keystore" , registry = "local" }

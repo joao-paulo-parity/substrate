@@ -16,7 +16,7 @@ targets = ["x86_64-unknown-linux-gnu"]
 async-trait = { version = "0.1.57", optional = true , registry = "local" }
 codec = { package = "parity-scale-codec", version = "3.0.0", default-features = false , registry = "local" }
 scale-info = { version = "2.1.1", default-features = false, features = ["derive"] , registry = "local" }
-sp-api = { version = "4.0.0-dev", default-features = false, path = "../../api" , registry = "local" }
+sp-api = { version = "4.0.0", default-features = false, path = "../../api" , registry = "local" }
 sp-application-crypto = { version = "6.0.0", default-features = false, path = "../../application-crypto" , registry = "local" }
 sp-consensus = { version = "0.10.0-dev", optional = true, path = "../common" , registry = "local" }
 sp-consensus-slots = { version = "0.10.0-dev", default-features = false, path = "../slots" , registry = "local" }

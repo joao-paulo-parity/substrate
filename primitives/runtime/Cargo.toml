@@ -35,7 +35,7 @@ sp-weights = { version = "4.0.0", default-features = false, path = "../weights" 
 rand = { version = "0.7.2", registry = "local" }
 serde_json = { version = "1.0.85", registry = "local" }
 zstd = { version = "0.11.2", default-features = false , registry = "local" }
-sp-api = { version = "4.0.0-dev", path = "../api" , registry = "local" }
+sp-api = { version = "4.0.0", path = "../api" , registry = "local" }
 sp-state-machine = { version = "0.12.0", path = "../state-machine" , registry = "local" }
 sp-tracing = { version = "6.0.0", path = "../../primitives/tracing" , registry = "local" }
 substrate-test-runtime-client = { version = "2.0.0", path = "../../test-utils/runtime/client" , registry = "local" }

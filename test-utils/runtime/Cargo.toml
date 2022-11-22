@@ -32,7 +32,7 @@ sp-io = { version = "6.0.0", default-features = false, path = "../../primitives/
 frame-support = { version = "4.0.0-dev", default-features = false, path = "../../frame/support" , registry = "local" }
 sp-version = { version = "5.0.0", default-features = false, path = "../../primitives/version" , registry = "local" }
 sp-session = { version = "4.0.0-dev", default-features = false, path = "../../primitives/session" , registry = "local" }
-sp-api = { version = "4.0.0-dev", default-features = false, path = "../../primitives/api" , registry = "local" }
+sp-api = { version = "4.0.0", default-features = false, path = "../../primitives/api" , registry = "local" }
 sp-runtime = { version = "6.0.0", default-features = false, path = "../../primitives/runtime" , registry = "local" }
 pallet-babe = { version = "4.0.0-dev", default-features = false, path = "../../frame/babe" , registry = "local" }
 frame-system = { version = "4.0.0-dev", default-features = false, path = "../../frame/system" , registry = "local" }

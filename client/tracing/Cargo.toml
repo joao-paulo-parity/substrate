@@ -31,7 +31,7 @@ tracing-subscriber = { version = "0.2.25", features = ["parking_lot"] , registry
 sc-client-api = { version = "4.0.0-dev", path = "../api" , registry = "local" }
 sc-rpc-server = { version = "5.0.0", path = "../rpc-servers" , registry = "local" }
 sc-tracing-proc-macro = { version = "8.0.0", path = "./proc-macro" , registry = "local" }
-sp-api = { version = "4.0.0-dev", path = "../../primitives/api" , registry = "local" }
+sp-api = { version = "4.0.0", path = "../../primitives/api" , registry = "local" }
 sp-blockchain = { version = "4.0.0-dev", path = "../../primitives/blockchain" , registry = "local" }
 sp-core = { version = "6.0.0", path = "../../primitives/core" , registry = "local" }
 sp-rpc = { version = "6.0.0", path = "../../primitives/rpc" , registry = "local" }

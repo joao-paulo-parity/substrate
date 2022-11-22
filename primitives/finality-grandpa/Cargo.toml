@@ -19,7 +19,7 @@ grandpa = { package = "finality-grandpa", version = "0.16.0", default-features =
 log = { version = "0.4.17", optional = true , registry = "local" }
 scale-info = { version = "2.1.1", default-features = false, features = ["derive"] , registry = "local" }
 serde = { version = "1.0.136", features = ["derive"], optional = true , registry = "local" }
-sp-api = { version = "4.0.0-dev", default-features = false, path = "../api" , registry = "local" }
+sp-api = { version = "4.0.0", default-features = false, path = "../api" , registry = "local" }
 sp-application-crypto = { version = "6.0.0", default-features = false, path = "../application-crypto" , registry = "local" }
 sp-core = { version = "6.0.0", default-features = false, path = "../core" , registry = "local" }
 sp-keystore = { version = "0.12.0", default-features = false, optional = true, path = "../keystore" , registry = "local" }

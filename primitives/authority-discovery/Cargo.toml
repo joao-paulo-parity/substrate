@@ -15,7 +15,7 @@ targets = ["x86_64-unknown-linux-gnu"]
 [dependencies]
 codec = { package = "parity-scale-codec", version = "3.0.0", default-features = false , registry = "local" }
 scale-info = { version = "2.1.1", default-features = false, features = ["derive"] , registry = "local" }
-sp-api = { version = "4.0.0-dev", default-features = false, path = "../api" , registry = "local" }
+sp-api = { version = "4.0.0", default-features = false, path = "../api" , registry = "local" }
 sp-application-crypto = { version = "6.0.0", default-features = false, path = "../application-crypto" , registry = "local" }
 sp-runtime = { version = "6.0.0", default-features = false, path = "../runtime" , registry = "local" }
 sp-std = { version = "7.0.0", default-features = false, path = "../std" , registry = "local" }

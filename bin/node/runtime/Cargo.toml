@@ -32,7 +32,7 @@ node-primitives = { version = "2.0.0", default-features = false, path = "../prim
 sp-offchain = { version = "4.0.0-dev", default-features = false, path = "../../../primitives/offchain" , registry = "local" }
 sp-core = { version = "6.0.0", default-features = false, path = "../../../primitives/core" , registry = "local" }
 sp-std = { version = "7.0.0", default-features = false, path = "../../../primitives/std" , registry = "local" }
-sp-api = { version = "4.0.0-dev", default-features = false, path = "../../../primitives/api" , registry = "local" }
+sp-api = { version = "4.0.0", default-features = false, path = "../../../primitives/api" , registry = "local" }
 sp-runtime = { version = "6.0.0", default-features = false, path = "../../../primitives/runtime" , registry = "local" }
 sp-staking = { version = "4.0.0", default-features = false, path = "../../../primitives/staking" , registry = "local" }
 sp-session = { version = "4.0.0-dev", default-features = false, path = "../../../primitives/session" , registry = "local" }

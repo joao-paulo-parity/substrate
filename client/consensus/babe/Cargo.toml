@@ -34,7 +34,7 @@ sc-consensus-epochs = { version = "0.10.0-dev", path = "../epochs" , registry = 
 sc-consensus-slots = { version = "0.10.0-dev", path = "../slots" , registry = "local" }
 sc-keystore = { version = "4.0.0", path = "../../keystore" , registry = "local" }
 sc-telemetry = { version = "8.0.0", path = "../../telemetry" , registry = "local" }
-sp-api = { version = "4.0.0-dev", path = "../../../primitives/api" , registry = "local" }
+sp-api = { version = "4.0.0", path = "../../../primitives/api" , registry = "local" }
 sp-application-crypto = { version = "6.0.0", path = "../../../primitives/application-crypto" , registry = "local" }
 sp-block-builder = { version = "4.0.0-dev", path = "../../../primitives/block-builder" , registry = "local" }
 sp-blockchain = { version = "4.0.0-dev", path = "../../../primitives/blockchain" , registry = "local" }
