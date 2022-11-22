@@ -5758,7 +5758,7 @@ dependencies = [
 
 [[package]]
 name = "pallet-node-authorization"
-version = "4.0.0-dev"
+version = "4.0.0"
 dependencies = [
  "frame-support",
  "frame-system",
