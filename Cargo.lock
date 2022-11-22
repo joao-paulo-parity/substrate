@@ -9962,7 +9962,7 @@ dependencies = [
 
 [[package]]
 name = "sp-session"
-version = "4.0.0-dev"
+version = "4.0.0"
 dependencies = [
  "parity-scale-codec",
  "scale-info",

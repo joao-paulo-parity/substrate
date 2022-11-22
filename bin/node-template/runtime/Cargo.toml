@@ -34,7 +34,7 @@ sp-core = { version = "6.0.0", default-features = false, path = "../../../primit
 sp-inherents = { version = "4.0.0", default-features = false, path = "../../../primitives/inherents", registry = "local" }
 sp-offchain = { version = "4.0.0", default-features = false, path = "../../../primitives/offchain" , registry = "local" }
 sp-runtime = { version = "6.0.0", default-features = false, path = "../../../primitives/runtime" , registry = "local" }
-sp-session = { version = "4.0.0-dev", default-features = false, path = "../../../primitives/session" , registry = "local" }
+sp-session = { version = "4.0.0", default-features = false, path = "../../../primitives/session" , registry = "local" }
 sp-std = { version = "7.0.0", default-features = false, path = "../../../primitives/std" , registry = "local" }
 sp-transaction-pool = { version = "4.0.0", default-features = false, path = "../../../primitives/transaction-pool" , registry = "local" }
 sp-version = { version = "5.0.0", default-features = false, path = "../../../primitives/version" , registry = "local" }

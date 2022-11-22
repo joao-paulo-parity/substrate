@@ -26,7 +26,7 @@ sp-core = { version = "6.0.0", default-features = false, path = "../../primitive
 sp-finality-grandpa = { version = "4.0.0", default-features = false, path = "../../primitives/finality-grandpa" , registry = "local" }
 sp-io = { version = "6.0.0", default-features = false, path = "../../primitives/io" , registry = "local" }
 sp-runtime = { version = "6.0.0", default-features = false, path = "../../primitives/runtime" , registry = "local" }
-sp-session = { version = "4.0.0-dev", default-features = false, path = "../../primitives/session" , registry = "local" }
+sp-session = { version = "4.0.0", default-features = false, path = "../../primitives/session" , registry = "local" }
 sp-staking = { version = "4.0.0", default-features = false, path = "../../primitives/staking" , registry = "local" }
 sp-std = { version = "7.0.0", default-features = false, path = "../../primitives/std" , registry = "local" }
 
