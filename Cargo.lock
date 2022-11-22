@@ -9405,15 +9405,11 @@ dependencies = [
 name = "sp-arithmetic"
 version = "6.0.0"
 dependencies = [
- "criterion",
  "integer-sqrt",
  "num-traits",
  "parity-scale-codec",
- "primitive-types",
- "rand 0.7.3",
  "scale-info",
  "serde",
- "sp-core",
  "sp-debug-derive",
  "sp-std",
  "static_assertions",
