@@ -23,7 +23,7 @@ lru = { version = "0.8.1", registry = "local" }
 tracing = { version = "0.1.29", registry = "local" }
 prometheus-endpoint = { package = "substrate-prometheus-endpoint", version = "0.16.0", path = "../../utils/prometheus" , registry = "local" }
 sc-network-common = { version = "0.10.0-dev", path = "../network/common" , registry = "local" }
-sc-peerset = { version = "5.0.0", path = "../peerset" , registry = "local" }
+sc-peerset = { version = "6.0.0", path = "../peerset" , registry = "local" }
 sp-runtime = { version = "6.0.0", path = "../../primitives/runtime" , registry = "local" }
 
 [dev-dependencies]
