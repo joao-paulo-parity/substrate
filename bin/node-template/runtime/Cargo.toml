@@ -36,7 +36,7 @@ sp-offchain = { version = "4.0.0-dev", default-features = false, path = "../../.
 sp-runtime = { version = "6.0.0", default-features = false, path = "../../../primitives/runtime" , registry = "local" }
 sp-session = { version = "4.0.0-dev", default-features = false, path = "../../../primitives/session" , registry = "local" }
 sp-std = { version = "7.0.0", default-features = false, path = "../../../primitives/std" , registry = "local" }
-sp-transaction-pool = { version = "4.0.0-dev", default-features = false, path = "../../../primitives/transaction-pool" , registry = "local" }
+sp-transaction-pool = { version = "4.0.0", default-features = false, path = "../../../primitives/transaction-pool" , registry = "local" }
 sp-version = { version = "5.0.0", default-features = false, path = "../../../primitives/version" , registry = "local" }
 
 # Used for the node template's RPCs

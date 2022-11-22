@@ -32,7 +32,7 @@ sp-blockchain = { version = "4.0.0-dev", path = "../../primitives/blockchain" , 
 sp-core = { version = "6.0.0", path = "../../primitives/core" , registry = "local" }
 sp-runtime = { version = "6.0.0", path = "../../primitives/runtime" , registry = "local" }
 sp-tracing = { version = "6.0.0", path = "../../primitives/tracing" , registry = "local" }
-sp-transaction-pool = { version = "4.0.0-dev", path = "../../primitives/transaction-pool" , registry = "local" }
+sp-transaction-pool = { version = "4.0.0", path = "../../primitives/transaction-pool" , registry = "local" }
 
 [dev-dependencies]
 array-bytes = { version = "4.1", registry = "local" }

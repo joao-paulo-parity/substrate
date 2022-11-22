@@ -40,7 +40,7 @@ frame-system-rpc-runtime-api = { version = "4.0.0", default-features = false, pa
 pallet-timestamp = { version = "4.0.0-dev", default-features = false, path = "../../frame/timestamp" , registry = "local" }
 sp-finality-grandpa = { version = "4.0.0-dev", default-features = false, path = "../../primitives/finality-grandpa" , registry = "local" }
 sp-trie = { version = "6.0.0", default-features = false, path = "../../primitives/trie" , registry = "local" }
-sp-transaction-pool = { version = "4.0.0-dev", default-features = false, path = "../../primitives/transaction-pool" , registry = "local" }
+sp-transaction-pool = { version = "4.0.0", default-features = false, path = "../../primitives/transaction-pool" , registry = "local" }
 trie-db = { version = "0.24.0", default-features = false , registry = "local" }
 parity-util-mem = { version = "0.12.0", default-features = false, features = ["primitive-types"] , registry = "local" }
 sc-service = { version = "0.10.0-dev", default-features = false, optional = true, features = ["test-helpers"], path = "../../client/service" , registry = "local" }
