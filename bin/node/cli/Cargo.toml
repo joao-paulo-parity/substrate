@@ -64,7 +64,7 @@ sc-client-api = { version = "4.0.0-dev", path = "../../../client/api" , registry
 sc-chain-spec = { version = "4.0.0-dev", path = "../../../client/chain-spec" , registry = "local" }
 sc-consensus = { version = "0.10.0-dev", path = "../../../client/consensus/common" , registry = "local" }
 sc-transaction-pool = { version = "4.0.0-dev", path = "../../../client/transaction-pool" , registry = "local" }
-sc-transaction-pool-api = { version = "4.0.0-dev", path = "../../../client/transaction-pool/api" , registry = "local" }
+sc-transaction-pool-api = { version = "4.0.0", path = "../../../client/transaction-pool/api" , registry = "local" }
 sc-network = { version = "0.10.0-dev", path = "../../../client/network" , registry = "local" }
 sc-network-common = { version = "0.10.0-dev", path = "../../../client/network/common" , registry = "local" }
 sc-consensus-slots = { version = "0.10.0-dev", path = "../../../client/consensus/slots" , registry = "local" }

@@ -28,7 +28,7 @@ sc-executor = { version = "0.10.0", path = "../../executor" , registry = "local"
 sc-network = { version = "0.10.0-dev", path = "../../network" , registry = "local" }
 sc-network-common = { version = "0.10.0-dev", path = "../../network/common" , registry = "local" }
 sc-service = { version = "0.10.0-dev", features = ["test-helpers"], path = "../../service" , registry = "local" }
-sc-transaction-pool-api = { version = "4.0.0-dev", path = "../../../client/transaction-pool/api" , registry = "local" }
+sc-transaction-pool-api = { version = "4.0.0", path = "../../../client/transaction-pool/api" , registry = "local" }
 sp-api = { version = "4.0.0", path = "../../../primitives/api" , registry = "local" }
 sp-blockchain = { version = "4.0.0", path = "../../../primitives/blockchain" , registry = "local" }
 sp-consensus = { version = "0.10.0", path = "../../../primitives/consensus/common" , registry = "local" }

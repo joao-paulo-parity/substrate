@@ -17,7 +17,7 @@ futures = { version = "0.3.21", registry = "local" }
 parking_lot = { version = "0.12.1", registry = "local" }
 thiserror = { version = "1.0", registry = "local" }
 sc-transaction-pool = { version = "4.0.0-dev", path = "../../../client/transaction-pool" , registry = "local" }
-sc-transaction-pool-api = { version = "4.0.0-dev", path = "../../../client/transaction-pool/api" , registry = "local" }
+sc-transaction-pool-api = { version = "4.0.0", path = "../../../client/transaction-pool/api" , registry = "local" }
 sp-blockchain = { version = "4.0.0", path = "../../../primitives/blockchain" , registry = "local" }
 sp-runtime = { version = "6.0.0", path = "../../../primitives/runtime" , registry = "local" }
 substrate-test-runtime-client = { version = "2.0.0", path = "../client" , registry = "local" }

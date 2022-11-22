@@ -41,5 +41,5 @@ lazy_static = { version = "1.4.0", registry = "local" }
 parity-util-mem = { version = "0.12.0", default-features = false, features = ["primitive-types"] , registry = "local" }
 parity-db = { version = "0.4.2", registry = "local" }
 sc-transaction-pool = { version = "4.0.0-dev", path = "../../../client/transaction-pool" , registry = "local" }
-sc-transaction-pool-api = { version = "4.0.0-dev", path = "../../../client/transaction-pool/api" , registry = "local" }
+sc-transaction-pool-api = { version = "4.0.0", path = "../../../client/transaction-pool/api" , registry = "local" }
 futures = { version = "0.3.21", features = ["thread-pool"] , registry = "local" }

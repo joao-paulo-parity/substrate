@@ -22,7 +22,7 @@ serde = { version = "1.0.136", features = ["derive"] , registry = "local" }
 serde_json = { version = "1.0.85", registry = "local" }
 thiserror = { version = "1.0", registry = "local" }
 sc-chain-spec = { version = "4.0.0-dev", path = "../chain-spec" , registry = "local" }
-sc-transaction-pool-api = { version = "4.0.0-dev", path = "../transaction-pool/api" , registry = "local" }
+sc-transaction-pool-api = { version = "4.0.0", path = "../transaction-pool/api" , registry = "local" }
 sp-core = { version = "6.0.0", path = "../../primitives/core" , registry = "local" }
 sp-rpc = { version = "6.0.0", path = "../../primitives/rpc" , registry = "local" }
 sp-runtime = { version = "6.0.0", path = "../../primitives/runtime" , registry = "local" }

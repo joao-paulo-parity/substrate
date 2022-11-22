@@ -17,7 +17,7 @@ jsonrpsee = { version = "0.15.1", features = ["server", "macros"] , registry = "
 # Internal chain structures for "chain_spec".
 sc-chain-spec = { version = "4.0.0-dev", path = "../chain-spec" , registry = "local" }
 # Pool for submitting extrinsics required by "transaction"
-sc-transaction-pool-api = { version = "4.0.0-dev", path = "../transaction-pool/api" , registry = "local" }
+sc-transaction-pool-api = { version = "4.0.0", path = "../transaction-pool/api" , registry = "local" }
 sp-core = { version = "6.0.0", path = "../../primitives/core" , registry = "local" }
 sp-runtime = { version = "6.0.0", path = "../../primitives/runtime" , registry = "local" }
 sp-api = { version = "4.0.0", path = "../../primitives/api" , registry = "local" }
