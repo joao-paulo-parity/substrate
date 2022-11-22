@@ -19,7 +19,7 @@ codec = { package = "parity-scale-codec", version = "3.0.0" , registry = "local"
 futures = { version = "0.3.21", registry = "local" }
 jsonrpsee = { version = "0.15.1", features = ["jsonrpsee-types"] , registry = "local" }
 serde = { version = "1", registry = "local" }
-frame-support = { version = "4.0.0-dev", path = "../../../../frame/support" , registry = "local" }
+frame-support = { version = "4.0.0", path = "../../../../frame/support" , registry = "local" }
 sc-rpc-api = { version = "0.10.0-dev", path = "../../../../client/rpc-api" , registry = "local" }
 sp-storage = { version = "6.0.0", path = "../../../../primitives/storage" , registry = "local" }
 

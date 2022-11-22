@@ -21,7 +21,7 @@ impl-trait-for-tuples = { version = "0.2.2", registry = "local" }
 scale-info = { version = "2.1.1", default-features = false, features = ["derive"] , registry = "local" }
 serde = { version = "1.0.136", features = ["derive"], optional = true , registry = "local" }
 frame-benchmarking = { version = "4.0.0-dev", default-features = false, optional = true, path = "../benchmarking" , registry = "local" }
-frame-support = { version = "4.0.0-dev", default-features = false, path = "../support" , registry = "local" }
+frame-support = { version = "4.0.0", default-features = false, path = "../support" , registry = "local" }
 frame-system = { version = "4.0.0-dev", default-features = false, path = "../system" , registry = "local" }
 pallet-balances = { version = "4.0.0-dev", default-features = false, path = "../balances" , registry = "local" }
 sp-runtime = { version = "6.0.0", default-features = false, path = "../../primitives/runtime" , registry = "local" }

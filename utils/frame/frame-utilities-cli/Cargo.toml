@@ -12,7 +12,7 @@ readme = "README.md"
 
 [dependencies]
 clap = { version = "4.0.9", features = ["derive"] , registry = "local" }
-frame-support = { version = "4.0.0-dev", path = "../../../frame/support" , registry = "local" }
+frame-support = { version = "4.0.0", path = "../../../frame/support" , registry = "local" }
 frame-system = { version = "4.0.0-dev", path = "../../../frame/system" , registry = "local" }
 sc-cli = { version = "0.10.0-dev", path = "../../../client/cli" , registry = "local" }
 sp-core = { version = "6.0.0", path = "../../../primitives/core" , registry = "local" }

@@ -18,7 +18,7 @@ pallet-staking = { path = "../../staking", version = "4.0.0-dev" , registry = "l
 pallet-bags-list = { path = "../../bags-list", version = "4.0.0-dev" , registry = "local" }
 frame-election-provider-support = { path = "../../election-provider-support", version = "4.0.0-dev" , registry = "local" }
 frame-system = { path = "../../system", version = "4.0.0-dev" , registry = "local" }
-frame-support = { path = "../../support", version = "4.0.0-dev" , registry = "local" }
+frame-support = { path = "../../support", version = "4.0.0", registry = "local" }
 
 # core
 sp-storage = { path = "../../../primitives/storage", version = "6.0.0", registry = "local" }

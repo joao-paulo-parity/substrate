@@ -36,7 +36,7 @@ tempfile = { version = "3.2.0", registry = "local" }
 thiserror = { version = "1.0.30", registry = "local" }
 thousands = { version = "0.2.0", registry = "local" }
 frame-benchmarking = { version = "4.0.0-dev", path = "../../../frame/benchmarking" , registry = "local" }
-frame-support = { version = "4.0.0-dev", path = "../../../frame/support" , registry = "local" }
+frame-support = { version = "4.0.0", path = "../../../frame/support" , registry = "local" }
 frame-system = { version = "4.0.0-dev", path = "../../../frame/system" , registry = "local" }
 sc-block-builder = { version = "0.10.0-dev", path = "../../../client/block-builder" , registry = "local" }
 sc-cli = { version = "0.10.0-dev", default-features = false, path = "../../../client/cli" , registry = "local" }

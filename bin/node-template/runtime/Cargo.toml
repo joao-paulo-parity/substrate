@@ -18,7 +18,7 @@ scale-info = { version = "2.1.1", default-features = false, features = ["derive"
 
 pallet-aura = { version = "4.0.0-dev", default-features = false, path = "../../../frame/aura" , registry = "local" }
 pallet-balances = { version = "4.0.0-dev", default-features = false, path = "../../../frame/balances" , registry = "local" }
-frame-support = { version = "4.0.0-dev", default-features = false, path = "../../../frame/support" , registry = "local" }
+frame-support = { version = "4.0.0", default-features = false, path = "../../../frame/support" , registry = "local" }
 pallet-grandpa = { version = "4.0.0-dev", default-features = false, path = "../../../frame/grandpa" , registry = "local" }
 pallet-randomness-collective-flip = { version = "4.0.0-dev", default-features = false, path = "../../../frame/randomness-collective-flip" , registry = "local" }
 pallet-sudo = { version = "4.0.0-dev", default-features = false, path = "../../../frame/sudo" , registry = "local" }

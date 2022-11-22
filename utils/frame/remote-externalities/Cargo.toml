@@ -18,7 +18,7 @@ env_logger = { version = "0.9", registry = "local" }
 log = { version = "0.4.17", registry = "local" }
 serde = { version = "1.0.136", registry = "local" }
 serde_json = { version = "1.0", registry = "local" }
-frame-support = { version = "4.0.0-dev", optional = true, path = "../../../frame/support" , registry = "local" }
+frame-support = { version = "4.0.0", optional = true, path = "../../../frame/support" , registry = "local" }
 sp-core = { version = "6.0.0", path = "../../../primitives/core" , registry = "local" }
 sp-io = { version = "6.0.0", path = "../../../primitives/io" , registry = "local" }
 sp-runtime = { version = "6.0.0", path = "../../../primitives/runtime" , registry = "local" }
@@ -27,7 +27,7 @@ substrate-rpc-client = { path = "../rpc/client" , registry = "local" }
 
 [dev-dependencies]
 tokio = { version = "1.17.0", features = ["macros", "rt-multi-thread"] , registry = "local" }
-frame-support = { version = "4.0.0-dev", path = "../../../frame/support" , registry = "local" }
+frame-support = { version = "4.0.0", path = "../../../frame/support" , registry = "local" }
 pallet-elections-phragmen = { version = "5.0.0-dev", path = "../../../frame/elections-phragmen" , registry = "local" }
 
 [features]

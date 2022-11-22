@@ -19,7 +19,7 @@ pallet-session = { version = "4.0.0-dev", features = [ "historical" ], path = ".
 pallet-staking = { version = "4.0.0-dev", default-features = false, path = "../../frame/staking" , registry = "local" }
 pallet-offences = { version = "4.0.0-dev", default-features = false, path = "../../frame/offences" , registry = "local" }
 
-frame-support = { version = "4.0.0-dev", default-features = false, path = "../support" , registry = "local" }
+frame-support = { version = "4.0.0", default-features = false, path = "../support" , registry = "local" }
 frame-system = { version = "4.0.0-dev", default-features = false, path = "../system" , registry = "local" }
 sp-runtime = { version = "6.0.0", path = "../../primitives/runtime" , registry = "local" }
 sp-staking = { version = "4.0.0", default-features = false, path = "../../primitives/staking" , registry = "local" }

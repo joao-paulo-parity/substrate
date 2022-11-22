@@ -17,7 +17,7 @@ codec = { package = "parity-scale-codec", version = "3.0.0", default-features = 
 scale-info = { version = "2.0.0", default-features = false, features = ["derive"] , registry = "local" }
 frame-benchmarking = { version = "4.0.0-dev", default-features = false, path = "../../benchmarking" , registry = "local" }
 frame-election-provider-support = { version = "4.0.0-dev", default-features = false, path = "../../election-provider-support" , registry = "local" }
-frame-support = { version = "4.0.0-dev", default-features = false, path = "../../support" , registry = "local" }
+frame-support = { version = "4.0.0", default-features = false, path = "../../support" , registry = "local" }
 frame-system = { version = "4.0.0-dev", default-features = false, path = "../../system" , registry = "local" }
 pallet-babe = { version = "4.0.0-dev", default-features = false, path = "../../babe" , registry = "local" }
 pallet-balances = { version = "4.0.0-dev", default-features = false, path = "../../balances" , registry = "local" }
