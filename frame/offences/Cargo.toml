@@ -21,7 +21,7 @@ frame-support = { version = "4.0.0-dev", default-features = false, path = "../su
 frame-system = { version = "4.0.0-dev", default-features = false, path = "../system" , registry = "local" }
 pallet-balances = { version = "4.0.0-dev", default-features = false, path = "../balances" , registry = "local" }
 sp-runtime = { version = "6.0.0", default-features = false, path = "../../primitives/runtime" , registry = "local" }
-sp-staking = { version = "4.0.0-dev", default-features = false, path = "../../primitives/staking" , registry = "local" }
+sp-staking = { version = "4.0.0", default-features = false, path = "../../primitives/staking" , registry = "local" }
 sp-std = { version = "7.0.0", default-features = false, path = "../../primitives/std" , registry = "local" }
 
 [dev-dependencies]

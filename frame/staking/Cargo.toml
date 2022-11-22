@@ -21,7 +21,7 @@ scale-info = { version = "2.1.1", default-features = false, features = ["derive"
 sp-std = { version = "7.0.0", default-features = false, path = "../../primitives/std" , registry = "local" }
 sp-io = { version = "6.0.0", default-features = false, path = "../../primitives/io" , registry = "local" }
 sp-runtime = { version = "6.0.0", default-features = false, path = "../../primitives/runtime" , registry = "local" }
-sp-staking = { version = "4.0.0-dev", default-features = false, path = "../../primitives/staking" , registry = "local" }
+sp-staking = { version = "4.0.0", default-features = false, path = "../../primitives/staking" , registry = "local" }
 frame-support = { version = "4.0.0-dev", default-features = false, path = "../support" , registry = "local" }
 frame-system = { version = "4.0.0-dev", default-features = false, path = "../system" , registry = "local" }
 pallet-session = { version = "4.0.0-dev", default-features = false, features = [

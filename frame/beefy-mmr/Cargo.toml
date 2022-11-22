@@ -28,7 +28,7 @@ sp-std = { version = "7.0.0", default-features = false, path = "../../primitives
 
 [dev-dependencies]
 array-bytes = { version = "4.1", registry = "local" }
-sp-staking = { version = "4.0.0-dev", path = "../../primitives/staking" , registry = "local" }
+sp-staking = { version = "4.0.0", path = "../../primitives/staking" , registry = "local" }
 
 [features]
 default = ["std"]

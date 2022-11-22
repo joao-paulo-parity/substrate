@@ -28,7 +28,7 @@ sp-consensus-vrf = { version = "0.10.0-dev", default-features = false, path = ".
 sp-io = { version = "6.0.0", default-features = false, path = "../../primitives/io" , registry = "local" }
 sp-runtime = { version = "6.0.0", default-features = false, path = "../../primitives/runtime" , registry = "local" }
 sp-session = { version = "4.0.0-dev", default-features = false, path = "../../primitives/session" , registry = "local" }
-sp-staking = { version = "4.0.0-dev", default-features = false, path = "../../primitives/staking" , registry = "local" }
+sp-staking = { version = "4.0.0", default-features = false, path = "../../primitives/staking" , registry = "local" }
 sp-std = { version = "7.0.0", default-features = false, path = "../../primitives/std" , registry = "local" }
 
 [dev-dependencies]
