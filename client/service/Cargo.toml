@@ -39,7 +39,7 @@ sc-keystore = { version = "4.0.0-dev", path = "../keystore" , registry = "local"
 sp-runtime = { version = "6.0.0", path = "../../primitives/runtime" , registry = "local" }
 sp-trie = { version = "6.0.0", path = "../../primitives/trie" , registry = "local" }
 sp-externalities = { version = "0.12.0", path = "../../primitives/externalities" , registry = "local" }
-sc-utils = { version = "12.0.0", path = "../utils" , registry = "local" }
+sc-utils = { version = "13.0.0", path = "../utils" , registry = "local" }
 sp-version = { version = "5.0.0", path = "../../primitives/version" , registry = "local" }
 sp-blockchain = { version = "4.0.0-dev", path = "../../primitives/blockchain" , registry = "local" }
 sp-core = { version = "6.0.0", path = "../../primitives/core" , registry = "local" }

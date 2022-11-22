@@ -19,7 +19,7 @@ thiserror = { version = "1.0", registry = "local" }
 beefy-gadget = { version = "4.0.0-dev", path = "../." , registry = "local" }
 beefy-primitives = { version = "4.0.0-dev", path = "../../../primitives/beefy" , registry = "local" }
 sc-rpc = { version = "4.0.0-dev", path = "../../rpc" , registry = "local" }
-sc-utils = { version = "12.0.0", path = "../../utils" , registry = "local" }
+sc-utils = { version = "13.0.0", path = "../../utils" , registry = "local" }
 sp-core = { version = "6.0.0", path = "../../../primitives/core" , registry = "local" }
 sp-runtime = { version = "6.0.0", path = "../../../primitives/runtime" , registry = "local" }
 
