@@ -9539,7 +9539,7 @@ dependencies = [
 
 [[package]]
 name = "sp-consensus-pow"
-version = "0.10.0-dev"
+version = "0.10.0"
 dependencies = [
  "parity-scale-codec",
  "sp-api",
