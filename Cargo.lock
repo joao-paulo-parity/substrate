@@ -9940,7 +9940,7 @@ dependencies = [
 
 [[package]]
 name = "sp-sandbox"
-version = "0.10.0-dev"
+version = "0.10.0"
 dependencies = [
  "assert_matches",
  "log",
