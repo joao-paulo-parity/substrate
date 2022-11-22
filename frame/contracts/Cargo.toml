@@ -37,7 +37,7 @@ frame-benchmarking = { version = "4.0.0-dev", default-features = false, path = "
 frame-support = { version = "4.0.0-dev", default-features = false, path = "../support" , registry = "local" }
 frame-system = { version = "4.0.0-dev", default-features = false, path = "../system" , registry = "local" }
 pallet-contracts-primitives = { version = "6.0.0", default-features = false, path = "primitives" , registry = "local" }
-pallet-contracts-proc-macro = { version = "7.0.0", path = "proc-macro" , registry = "local" }
+pallet-contracts-proc-macro = { version = "8.0.0", path = "proc-macro" , registry = "local" }
 sp-api = { version = "4.0.0-dev", default-features = false, path = "../../primitives/api" , registry = "local" }
 sp-core = { version = "6.0.0", default-features = false, path = "../../primitives/core" , registry = "local" }
 sp-io = { version = "6.0.0", default-features = false, path = "../../primitives/io" , registry = "local" }
