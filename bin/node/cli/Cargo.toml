@@ -44,7 +44,7 @@ log = { version = "0.4.17", registry = "local" }
 rand = { version = "0.8", registry = "local" }
 
 # primitives
-sp-authority-discovery = { version = "4.0.0-dev", path = "../../../primitives/authority-discovery" , registry = "local" }
+sp-authority-discovery = { version = "4.0.0", path = "../../../primitives/authority-discovery" , registry = "local" }
 sp-consensus-babe = { version = "0.10.0-dev", path = "../../../primitives/consensus/babe" , registry = "local" }
 grandpa-primitives = { version = "4.0.0-dev", package = "sp-finality-grandpa", path = "../../../primitives/finality-grandpa" , registry = "local" }
 sp-api = { version = "4.0.0", path = "../../../primitives/api" , registry = "local" }
