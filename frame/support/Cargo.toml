@@ -43,7 +43,7 @@ k256 = { version = "0.11.5", default-features = false, features = ["ecdsa"] , re
 serde_json = { version = "1.0.85", registry = "local" }
 assert_matches = { version = "1.3.0", registry = "local" }
 pretty_assertions = { version = "1.2.1", registry = "local" }
-frame-system = { version = "4.0.0-dev", path = "../system" , registry = "local" }
+frame-system = { version = "4.0.0", path = "../system" , registry = "local" }
 parity-util-mem = { version = "0.12.0", default-features = false, features = ["primitive-types"] , registry = "local" }
 
 [features]

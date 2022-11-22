@@ -13,7 +13,7 @@ readme = "README.md"
 # FRAME
 frame-support = { version = "4.0.0", path = "../../../frame/support" , registry = "local" }
 frame-election-provider-support = { version = "4.0.0-dev", path = "../../../frame/election-provider-support" , registry = "local" }
-frame-system = { version = "4.0.0-dev", path = "../../../frame/system" , registry = "local" }
+frame-system = { version = "4.0.0", path = "../../../frame/system" , registry = "local" }
 pallet-staking = { version = "4.0.0-dev", path = "../../../frame/staking" , registry = "local" }
 
 # primitives

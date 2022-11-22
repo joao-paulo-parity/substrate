@@ -29,7 +29,7 @@ criterion = { version = "0.3.0", registry = "local" }
 futures = { version = "0.3.21", registry = "local" }
 wat = { version = "1.0", registry = "local" }
 frame-support = { version = "4.0.0", path = "../../../frame/support" , registry = "local" }
-frame-system = { version = "4.0.0-dev", path = "../../../frame/system" , registry = "local" }
+frame-system = { version = "4.0.0", path = "../../../frame/system" , registry = "local" }
 node-testing = { version = "3.0.0-dev", path = "../testing" , registry = "local" }
 pallet-balances = { version = "4.0.0-dev", path = "../../../frame/balances" , registry = "local" }
 pallet-contracts = { version = "4.0.0-dev", path = "../../../frame/contracts" , registry = "local" }

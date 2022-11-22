@@ -19,7 +19,7 @@ codec = { package = "parity-scale-codec", version = "3.0.0", default-features = 
 scale-info = { version = "2.1.1", default-features = false, features = ["derive"] , registry = "local" }
 frame-benchmarking = { version = "4.0.0-dev", default-features = false, optional = true, path = "../../../../frame/benchmarking" , registry = "local" }
 frame-support = { version = "4.0.0", default-features = false, path = "../../../../frame/support" , registry = "local" }
-frame-system = { version = "4.0.0-dev", default-features = false, path = "../../../../frame/system" , registry = "local" }
+frame-system = { version = "4.0.0", default-features = false, path = "../../../../frame/system" , registry = "local" }
 
 [dev-dependencies]
 sp-core = { version = "6.0.0", default-features = false, path = "../../../../primitives/core" , registry = "local" }

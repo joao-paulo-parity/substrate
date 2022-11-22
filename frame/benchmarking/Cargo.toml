@@ -20,7 +20,7 @@ paste = { version = "1.0", registry = "local" }
 scale-info = { version = "2.1.1", default-features = false, features = ["derive"] , registry = "local" }
 serde = { version = "1.0.136", optional = true , registry = "local" }
 frame-support = { version = "4.0.0", default-features = false, path = "../support" , registry = "local" }
-frame-system = { version = "4.0.0-dev", default-features = false, path = "../system" , registry = "local" }
+frame-system = { version = "4.0.0", default-features = false, path = "../system" , registry = "local" }
 sp-api = { version = "4.0.0", default-features = false, path = "../../primitives/api" , registry = "local" }
 sp-application-crypto = { version = "6.0.0", default-features = false, path = "../../primitives/application-crypto" , registry = "local" }
 sp-core = { version = "6.0.0", default-features = false, path = "../../primitives/core" , registry = "local" }

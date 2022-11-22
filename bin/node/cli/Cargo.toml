@@ -81,7 +81,7 @@ sc-sync-state-rpc = { version = "0.10.0-dev", path = "../../../client/sync-state
 sc-sysinfo = { version = "6.0.0", path = "../../../client/sysinfo" , registry = "local" }
 
 # frame dependencies
-frame-system = { version = "4.0.0-dev", path = "../../../frame/system" , registry = "local" }
+frame-system = { version = "4.0.0", path = "../../../frame/system" , registry = "local" }
 frame-system-rpc-runtime-api = { version = "4.0.0", path = "../../../frame/system/rpc/runtime-api" , registry = "local" }
 pallet-transaction-payment = { version = "4.0.0-dev", path = "../../../frame/transaction-payment" , registry = "local" }
 pallet-asset-tx-payment = { version = "4.0.0-dev", path = "../../../frame/transaction-payment/asset-tx-payment/" , registry = "local" }

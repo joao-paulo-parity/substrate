@@ -27,7 +27,7 @@ sp-runtime = { version = "6.0.0", default-features = false, path = "../../primit
 
 frame-benchmarking = { version = "4.0.0-dev", default-features = false, path = "../benchmarking", optional = true , registry = "local" }
 frame-support = { version = "4.0.0", default-features = false, path = "../support" , registry = "local" }
-frame-system = { version = "4.0.0-dev", default-features = false, path = "../system" , registry = "local" }
+frame-system = { version = "4.0.0", default-features = false, path = "../system" , registry = "local" }
 
 pallet-identity = { version = "4.0.0-dev", path = "../identity", default-features = false , registry = "local" }
 pallet-collective = { version = "4.0.0-dev", path = "../collective", default-features = false, optional = true , registry = "local" }

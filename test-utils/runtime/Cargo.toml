@@ -35,7 +35,7 @@ sp-session = { version = "4.0.0", default-features = false, path = "../../primit
 sp-api = { version = "4.0.0", default-features = false, path = "../../primitives/api" , registry = "local" }
 sp-runtime = { version = "6.0.0", default-features = false, path = "../../primitives/runtime" , registry = "local" }
 pallet-babe = { version = "4.0.0-dev", default-features = false, path = "../../frame/babe" , registry = "local" }
-frame-system = { version = "4.0.0-dev", default-features = false, path = "../../frame/system" , registry = "local" }
+frame-system = { version = "4.0.0", default-features = false, path = "../../frame/system" , registry = "local" }
 frame-system-rpc-runtime-api = { version = "4.0.0", default-features = false, path = "../../frame/system/rpc/runtime-api" , registry = "local" }
 pallet-timestamp = { version = "4.0.0-dev", default-features = false, path = "../../frame/timestamp" , registry = "local" }
 sp-finality-grandpa = { version = "4.0.0", default-features = false, path = "../../primitives/finality-grandpa" , registry = "local" }

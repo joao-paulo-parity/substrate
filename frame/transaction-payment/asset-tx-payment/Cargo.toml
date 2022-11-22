@@ -20,7 +20,7 @@ sp-runtime = { version = "6.0.0", default-features = false, path = "../../../pri
 sp-std = { version = "7.0.0", default-features = false, path = "../../../primitives/std" , registry = "local" }
 
 frame-support = { version = "4.0.0", default-features = false, path = "../../support" , registry = "local" }
-frame-system = { version = "4.0.0-dev", default-features = false, path = "../../system" , registry = "local" }
+frame-system = { version = "4.0.0", default-features = false, path = "../../system" , registry = "local" }
 pallet-transaction-payment = { version = "4.0.0-dev", default-features = false, path = ".." , registry = "local" }
 
 # Other dependencies

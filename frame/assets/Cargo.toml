@@ -21,7 +21,7 @@ sp-runtime = { version = "6.0.0", default-features = false, path = "../../primit
 # Needed for type-safe access to storage DB.
 frame-support = { version = "4.0.0", default-features = false, path = "../support" , registry = "local" }
 # `system` module provides us with all sorts of useful stuff and macros depend on it being around.
-frame-system = { version = "4.0.0-dev", default-features = false, path = "../system" , registry = "local" }
+frame-system = { version = "4.0.0", default-features = false, path = "../system" , registry = "local" }
 frame-benchmarking = { version = "4.0.0-dev", default-features = false, path = "../benchmarking", optional = true , registry = "local" }
 
 [dev-dependencies]

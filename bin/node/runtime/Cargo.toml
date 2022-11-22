@@ -45,7 +45,7 @@ sp-sandbox = { version = "0.10.0", default-features = false, path = "../../../pr
 frame-executive = { version = "4.0.0-dev", default-features = false, path = "../../../frame/executive" , registry = "local" }
 frame-benchmarking = { version = "4.0.0-dev", default-features = false, path = "../../../frame/benchmarking", optional = true , registry = "local" }
 frame-support = { version = "4.0.0", default-features = false, path = "../../../frame/support" , registry = "local" }
-frame-system = { version = "4.0.0-dev", default-features = false, path = "../../../frame/system" , registry = "local" }
+frame-system = { version = "4.0.0", default-features = false, path = "../../../frame/system" , registry = "local" }
 frame-system-benchmarking = { version = "4.0.0-dev", default-features = false, path = "../../../frame/system/benchmarking", optional = true , registry = "local" }
 frame-election-provider-support = { version = "4.0.0-dev", default-features = false, path = "../../../frame/election-provider-support" , registry = "local" }
 frame-system-rpc-runtime-api = { version = "4.0.0", default-features = false, path = "../../../frame/system/rpc/runtime-api/" , registry = "local" }

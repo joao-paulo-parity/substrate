@@ -23,7 +23,7 @@ sp-io = { version = "6.0.0", default-features = false, path = "../../primitives/
 sp-runtime = { version = "6.0.0", default-features = false, path = "../../primitives/runtime" , registry = "local" }
 sp-staking = { version = "4.0.0", default-features = false, path = "../../primitives/staking" , registry = "local" }
 frame-support = { version = "4.0.0", default-features = false, path = "../support" , registry = "local" }
-frame-system = { version = "4.0.0-dev", default-features = false, path = "../system" , registry = "local" }
+frame-system = { version = "4.0.0", default-features = false, path = "../system" , registry = "local" }
 pallet-session = { version = "4.0.0-dev", default-features = false, features = [
 	"historical",
 ], path = "../session" , registry = "local" }

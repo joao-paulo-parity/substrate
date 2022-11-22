@@ -16,7 +16,7 @@ codec = { package = "parity-scale-codec", version = "3.0.0", default-features = 
 	"derive",
 ] , registry = "local" }
 scale-info = { version = "2.1.1", default-features = false, features = ["derive"] , registry = "local" }
-frame-system = { version = "4.0.0-dev", default-features = false, path = "../../../frame/system" , registry = "local" }
+frame-system = { version = "4.0.0", default-features = false, path = "../../../frame/system" , registry = "local" }
 sp-application-crypto = { version = "6.0.0", default-features = false, path = "../../../primitives/application-crypto" , registry = "local" }
 sp-core = { version = "6.0.0", default-features = false, path = "../../../primitives/core" , registry = "local" }
 sp-runtime = { version = "6.0.0", default-features = false, path = "../../../primitives/runtime" , registry = "local" }

@@ -22,7 +22,7 @@ frame-support = { version = "4.0.0", default-features = false, path = "../../../
 pallet-grandpa = { version = "4.0.0-dev", default-features = false, path = "../../../frame/grandpa" , registry = "local" }
 pallet-randomness-collective-flip = { version = "4.0.0-dev", default-features = false, path = "../../../frame/randomness-collective-flip" , registry = "local" }
 pallet-sudo = { version = "4.0.0-dev", default-features = false, path = "../../../frame/sudo" , registry = "local" }
-frame-system = { version = "4.0.0-dev", default-features = false, path = "../../../frame/system" , registry = "local" }
+frame-system = { version = "4.0.0", default-features = false, path = "../../../frame/system" , registry = "local" }
 frame-try-runtime = { version = "0.10.0-dev", default-features = false, path = "../../../frame/try-runtime", optional = true , registry = "local" }
 pallet-timestamp = { version = "4.0.0-dev", default-features = false, path = "../../../frame/timestamp" , registry = "local" }
 pallet-transaction-payment = { version = "4.0.0-dev", default-features = false, path = "../../../frame/transaction-payment" , registry = "local" }

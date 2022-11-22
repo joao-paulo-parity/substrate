@@ -23,7 +23,7 @@ sp-std = { version = "7.0.0", default-features = false, path = "../../primitives
 
 # FRAME
 frame-support = { version = "4.0.0", default-features = false, path = "../support" , registry = "local" }
-frame-system = { version = "4.0.0-dev", default-features = false, path = "../system" , registry = "local" }
+frame-system = { version = "4.0.0", default-features = false, path = "../system" , registry = "local" }
 frame-election-provider-support = { version = "4.0.0-dev", default-features = false, path = "../election-provider-support" , registry = "local" }
 
 # third party

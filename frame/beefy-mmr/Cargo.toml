@@ -17,7 +17,7 @@ serde = { version = "1.0.136", optional = true , registry = "local" }
 beefy-merkle-tree = { version = "4.0.0-dev", default-features = false, path = "./primitives" , registry = "local" }
 beefy-primitives = { version = "4.0.0", default-features = false, path = "../../primitives/beefy" , registry = "local" }
 frame-support = { version = "4.0.0", default-features = false, path = "../support" , registry = "local" }
-frame-system = { version = "4.0.0-dev", default-features = false, path = "../system" , registry = "local" }
+frame-system = { version = "4.0.0", default-features = false, path = "../system" , registry = "local" }
 pallet-beefy = { version = "4.0.0-dev", default-features = false, path = "../beefy" , registry = "local" }
 pallet-mmr = { version = "4.0.0-dev", default-features = false, path = "../merkle-mountain-range" , registry = "local" }
 pallet-session = { version = "4.0.0-dev", default-features = false, path = "../session" , registry = "local" }

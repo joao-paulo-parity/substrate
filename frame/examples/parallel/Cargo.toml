@@ -15,7 +15,7 @@ targets = ["x86_64-unknown-linux-gnu"]
 codec = { package = "parity-scale-codec", version = "3.0.0", default-features = false , registry = "local" }
 scale-info = { version = "2.1.1", default-features = false, features = ["derive"] , registry = "local" }
 frame-support = { version = "4.0.0", default-features = false, path = "../../support" , registry = "local" }
-frame-system = { version = "4.0.0-dev", default-features = false, path = "../../system" , registry = "local" }
+frame-system = { version = "4.0.0", default-features = false, path = "../../system" , registry = "local" }
 sp-core = { version = "6.0.0", default-features = false, path = "../../../primitives/core" , registry = "local" }
 sp-io = { version = "6.0.0", default-features = false, path = "../../../primitives/io" , registry = "local" }
 sp-runtime = { version = "6.0.0", default-features = false, path = "../../../primitives/runtime" , registry = "local" }

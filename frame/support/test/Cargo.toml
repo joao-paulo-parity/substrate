@@ -26,7 +26,7 @@ sp-version = { version = "5.0.0", default-features = false, path = "../../../pri
 trybuild = { version = "1.0.60", features = [ "diff" ] , registry = "local" }
 pretty_assertions = { version = "1.2.1", registry = "local" }
 rustversion = { version = "1.0.6", registry = "local" }
-frame-system = { version = "4.0.0-dev", default-features = false, path = "../../system" , registry = "local" }
+frame-system = { version = "4.0.0", default-features = false, path = "../../system" , registry = "local" }
 # The "std" feature for this pallet is never activated on purpose, in order to test construct_runtime error message
 test-pallet = { package = "frame-support-test-pallet", default-features = false, path = "pallet" , registry = "local" }
 

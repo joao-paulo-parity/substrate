@@ -29,4 +29,4 @@ jsonrpsee = { version = "0.15.1", features = ["ws-client", "jsonrpsee-types"] , 
 tokio = { version = "1.17.0", registry = "local" }
 sp-core = { version = "6.0.0", path = "../../../../primitives/core" , registry = "local" }
 sp-runtime = { version = "6.0.0", path = "../../../../primitives/runtime" , registry = "local" }
-frame-system = { version = "4.0.0-dev", path = "../../../../frame/system" , registry = "local" }
+frame-system = { version = "4.0.0", path = "../../../../frame/system" , registry = "local" }

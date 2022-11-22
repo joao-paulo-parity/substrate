@@ -18,7 +18,7 @@ fs_extra = { version = "1", registry = "local" }
 futures = { version = "0.3.21", registry = "local" }
 log = { version = "0.4.17", registry = "local" }
 tempfile = { version = "3.1.0", registry = "local" }
-frame-system = { version = "4.0.0-dev", path = "../../../frame/system" , registry = "local" }
+frame-system = { version = "4.0.0", path = "../../../frame/system" , registry = "local" }
 node-executor = { version = "3.0.0-dev", path = "../executor" , registry = "local" }
 node-primitives = { version = "2.0.0", path = "../primitives" , registry = "local" }
 kitchensink-runtime = { version = "3.0.0-dev", path = "../runtime" , registry = "local" }

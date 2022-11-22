@@ -17,7 +17,7 @@ mmr-lib = { package = "ckb-merkle-mountain-range", version = "0.5.2", default-fe
 scale-info = { version = "2.1.1", default-features = false, features = ["derive"] , registry = "local" }
 frame-benchmarking = { version = "4.0.0-dev", default-features = false, optional = true, path = "../benchmarking" , registry = "local" }
 frame-support = { version = "4.0.0", default-features = false, path = "../support" , registry = "local" }
-frame-system = { version = "4.0.0-dev", default-features = false, path = "../system" , registry = "local" }
+frame-system = { version = "4.0.0", default-features = false, path = "../system" , registry = "local" }
 sp-core = { version = "6.0.0", default-features = false, path = "../../primitives/core" , registry = "local" }
 sp-io = { version = "6.0.0", default-features = false, path = "../../primitives/io" , registry = "local" }
 sp-mmr-primitives = { version = "4.0.0", default-features = false, path = "../../primitives/merkle-mountain-range" , registry = "local" }
