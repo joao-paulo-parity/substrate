@@ -44,5 +44,5 @@ sp-inherents = { version = "4.0.0", path = "../../../primitives/inherents" , reg
 sp-io = { version = "6.0.0", path = "../../../primitives/io" , registry = "local" }
 sp-keyring = { version = "6.0.0", path = "../../../primitives/keyring" , registry = "local" }
 sp-runtime = { version = "6.0.0", path = "../../../primitives/runtime" , registry = "local" }
-sp-timestamp = { version = "4.0.0-dev", default-features = false, path = "../../../primitives/timestamp" , registry = "local" }
+sp-timestamp = { version = "4.0.0", default-features = false, path = "../../../primitives/timestamp" , registry = "local" }
 substrate-test-client = { version = "2.0.0", path = "../../../test-utils/client" , registry = "local" }

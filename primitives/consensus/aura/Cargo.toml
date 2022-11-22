@@ -23,7 +23,7 @@ sp-consensus-slots = { version = "0.10.0-dev", default-features = false, path = 
 sp-inherents = { version = "4.0.0", default-features = false, path = "../../inherents" , registry = "local" }
 sp-runtime = { version = "6.0.0", default-features = false, path = "../../runtime" , registry = "local" }
 sp-std = { version = "7.0.0", default-features = false, path = "../../std" , registry = "local" }
-sp-timestamp = { version = "4.0.0-dev", default-features = false, path = "../../timestamp" , registry = "local" }
+sp-timestamp = { version = "4.0.0", default-features = false, path = "../../timestamp" , registry = "local" }
 
 [features]
 default = ["std"]

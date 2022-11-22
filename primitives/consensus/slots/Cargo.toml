@@ -19,7 +19,7 @@ serde = { version = "1.0", features = ["derive"], optional = true , registry = "
 sp-arithmetic = { version = "6.0.0", default-features = false, path = "../../arithmetic" , registry = "local" }
 sp-runtime = { version = "6.0.0", default-features = false, path = "../../runtime" , registry = "local" }
 sp-std = { version = "7.0.0", default-features = false, path = "../../std" , registry = "local" }
-sp-timestamp = { version = "4.0.0-dev", default-features = false, path = "../../timestamp" , registry = "local" }
+sp-timestamp = { version = "4.0.0", default-features = false, path = "../../timestamp" , registry = "local" }
 
 [features]
 default = ["std"]

@@ -31,7 +31,7 @@ sp-core = { version = "6.0.0", path = "../../../primitives/core" , registry = "l
 sp-consensus = { version = "0.10.0", path = "../../../primitives/consensus/common" , registry = "local" }
 sc-basic-authorship = { version = "0.10.0-dev", path = "../../../client/basic-authorship" , registry = "local" }
 sp-inherents = { version = "4.0.0", path = "../../../primitives/inherents" , registry = "local" }
-sp-timestamp = { version = "4.0.0-dev", default-features = false, path = "../../../primitives/timestamp" , registry = "local" }
+sp-timestamp = { version = "4.0.0", default-features = false, path = "../../../primitives/timestamp" , registry = "local" }
 sp-tracing = { version = "6.0.0", path = "../../../primitives/tracing" , registry = "local" }
 hash-db = { version = "0.15.2", registry = "local" }
 tempfile = { version = "3.1.0", registry = "local" }
