@@ -32,7 +32,7 @@ sp-api = { version = "4.0.0", path = "../../primitives/api" , registry = "local"
 sp-blockchain = { version = "4.0.0-dev", path = "../../primitives/blockchain" , registry = "local" }
 sp-core = { version = "6.0.0", path = "../../primitives/core" , registry = "local" }
 sp-keystore = { version = "0.12.0", path = "../../primitives/keystore" , registry = "local" }
-sp-offchain = { version = "4.0.0-dev", path = "../../primitives/offchain" , registry = "local" }
+sp-offchain = { version = "4.0.0", path = "../../primitives/offchain" , registry = "local" }
 sp-rpc = { version = "6.0.0", path = "../../primitives/rpc" , registry = "local" }
 sp-runtime = { version = "6.0.0", path = "../../primitives/runtime" , registry = "local" }
 sp-session = { version = "4.0.0-dev", path = "../../primitives/session" , registry = "local" }
