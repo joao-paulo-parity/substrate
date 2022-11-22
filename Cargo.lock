@@ -10145,7 +10145,7 @@ dependencies = [
 
 [[package]]
 name = "sp-version-proc-macro"
-version = "8.0.0"
+version = "9.0.0"
 dependencies = [
  "parity-scale-codec",
  "proc-macro2",
