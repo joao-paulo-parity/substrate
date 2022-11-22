@@ -47,7 +47,7 @@ tempfile = { version = "3.1.0", registry = "local" }
 tokio = { version = "1.17.0", registry = "local" }
 sc-block-builder = { version = "0.10.0-dev", path = "../block-builder" , registry = "local" }
 sc-network-test = { version = "0.8.0", path = "../network/test" , registry = "local" }
-sp-finality-grandpa = { version = "4.0.0-dev", path = "../../primitives/finality-grandpa" , registry = "local" }
+sp-finality-grandpa = { version = "4.0.0", path = "../../primitives/finality-grandpa" , registry = "local" }
 sp-keyring = { version = "6.0.0", path = "../../primitives/keyring" , registry = "local" }
 sp-tracing = { version = "6.0.0", path = "../../primitives/tracing" , registry = "local" }
 substrate-test-runtime-client = { version = "2.0.0", path = "../../test-utils/runtime/client" , registry = "local" }

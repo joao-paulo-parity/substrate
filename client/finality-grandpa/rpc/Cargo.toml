@@ -31,7 +31,7 @@ sc-rpc = { version = "4.0.0-dev", features = [
 	"test-helpers",
 ], path = "../../rpc" , registry = "local" }
 sp-core = { version = "6.0.0", path = "../../../primitives/core" , registry = "local" }
-sp-finality-grandpa = { version = "4.0.0-dev", path = "../../../primitives/finality-grandpa" , registry = "local" }
+sp-finality-grandpa = { version = "4.0.0", path = "../../../primitives/finality-grandpa" , registry = "local" }
 sp-keyring = { version = "6.0.0", path = "../../../primitives/keyring" , registry = "local" }
 substrate-test-runtime-client = { version = "2.0.0", path = "../../../test-utils/runtime/client" , registry = "local" }
 tokio = { version = "1.17.0", features = ["macros"] , registry = "local" }

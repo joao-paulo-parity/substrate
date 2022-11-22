@@ -9674,7 +9674,7 @@ dependencies = [
 
 [[package]]
 name = "sp-finality-grandpa"
-version = "4.0.0-dev"
+version = "4.0.0"
 dependencies = [
  "finality-grandpa",
  "log",
