@@ -15,7 +15,7 @@ targets = ["x86_64-unknown-linux-gnu"]
 tracing = { version = "0.1.29", registry = "local" }
 tracing-core = { version = "0.1.28", registry = "local" }
 sc-executor = { version = "0.10.0-dev", path = "../../../client/executor" , registry = "local" }
-sc-executor-common = { version = "0.10.0-dev", path = "../../../client/executor/common" , registry = "local" }
+sc-executor-common = { version = "0.10.0", path = "../../../client/executor/common" , registry = "local" }
 sp-io = { version = "6.0.0", path = "../../io" , registry = "local" }
 sp-runtime = { version = "6.0.0", path = "../../runtime" , registry = "local" }
 sp-runtime-interface = { version = "6.0.0", path = "../" , registry = "local" }

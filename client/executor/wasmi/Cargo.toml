@@ -18,7 +18,7 @@ codec = { package = "parity-scale-codec", version = "3.0.0" , registry = "local"
 log = { version = "0.4.17", registry = "local" }
 wasmi = { version = "0.13", registry = "local" }
 sc-allocator = { version = "4.1.0", path = "../../allocator" , registry = "local" }
-sc-executor-common = { version = "0.10.0-dev", path = "../common" , registry = "local" }
+sc-executor-common = { version = "0.10.0", path = "../common" , registry = "local" }
 sp-runtime-interface = { version = "6.0.0", path = "../../../primitives/runtime-interface" , registry = "local" }
 sp-sandbox = { version = "0.10.0", path = "../../../primitives/sandbox" , registry = "local" }
 sp-wasm-interface = { version = "7.0.0", path = "../../../primitives/wasm-interface" , registry = "local" }
