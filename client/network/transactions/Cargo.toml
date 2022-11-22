@@ -23,6 +23,6 @@ log = { version = "0.4.17", registry = "local" }
 pin-project = { version = "1.0.12", registry = "local" }
 prometheus-endpoint = { package = "substrate-prometheus-endpoint", version = "0.17.0", path = "../../../utils/prometheus" , registry = "local" }
 sc-network-common = { version = "0.10.0-dev", path = "../common" , registry = "local" }
-sc-peerset = { version = "6.0.0", path = "../../peerset" , registry = "local" }
+sc-peerset = { version = "7.0.0", path = "../../peerset" , registry = "local" }
 sp-runtime = { version = "6.0.0", path = "../../../primitives/runtime" , registry = "local" }
 sp-consensus = { version = "0.10.0-dev", path = "../../../primitives/consensus/common" , registry = "local" }

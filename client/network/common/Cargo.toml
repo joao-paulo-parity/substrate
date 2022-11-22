@@ -30,7 +30,7 @@ linked_hash_set = { version = "0.1.3", registry = "local" }
 prometheus-endpoint = { package = "substrate-prometheus-endpoint", version = "0.17.0", path = "../../../utils/prometheus" , registry = "local" }
 smallvec = { version = "1.8.0", registry = "local" }
 sc-consensus = { version = "0.10.0-dev", path = "../../consensus/common" , registry = "local" }
-sc-peerset = { version = "6.0.0", path = "../../peerset" , registry = "local" }
+sc-peerset = { version = "7.0.0", path = "../../peerset" , registry = "local" }
 serde = { version = "1.0.136", features = ["derive"] , registry = "local" }
 sp-consensus = { version = "0.10.0-dev", path = "../../../primitives/consensus/common" , registry = "local" }
 sp-finality-grandpa = { version = "4.0.0-dev", path = "../../../primitives/finality-grandpa" , registry = "local" }
