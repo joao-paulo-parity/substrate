@@ -8025,7 +8025,7 @@ dependencies = [
 
 [[package]]
 name = "sc-executor"
-version = "0.10.0-dev"
+version = "0.10.0"
 dependencies = [
  "array-bytes",
  "criterion",
