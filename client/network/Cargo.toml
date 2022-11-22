@@ -41,7 +41,7 @@ smallvec = { version = "1.8.0", registry = "local" }
 thiserror = { version = "1.0", registry = "local" }
 unsigned-varint = { version = "0.7.1", features = ["futures", "asynchronous_codec"] , registry = "local" }
 zeroize = { version = "1.4.3", registry = "local" }
-fork-tree = { version = "6.0.0", path = "../../utils/fork-tree" , registry = "local" }
+fork-tree = { version = "7.0.0", path = "../../utils/fork-tree" , registry = "local" }
 prometheus-endpoint = { package = "substrate-prometheus-endpoint", version = "0.16.0", path = "../../utils/prometheus" , registry = "local" }
 sc-block-builder = { version = "0.10.0-dev", path = "../block-builder" , registry = "local" }
 sc-client-api = { version = "4.0.0-dev", path = "../api" , registry = "local" }

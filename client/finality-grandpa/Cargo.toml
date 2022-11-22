@@ -27,7 +27,7 @@ parking_lot = { version = "0.12.1", registry = "local" }
 rand = { version = "0.8.4", registry = "local" }
 serde_json = { version = "1.0.85", registry = "local" }
 thiserror = { version = "1.0", registry = "local" }
-fork-tree = { version = "6.0.0", path = "../../utils/fork-tree" , registry = "local" }
+fork-tree = { version = "7.0.0", path = "../../utils/fork-tree" , registry = "local" }
 prometheus-endpoint = { package = "substrate-prometheus-endpoint", version = "0.16.0", path = "../../utils/prometheus" , registry = "local" }
 sc-block-builder = { version = "0.10.0-dev", path = "../block-builder" , registry = "local" }
 sc-chain-spec = { version = "4.0.0-dev", path = "../../client/chain-spec" , registry = "local" }
