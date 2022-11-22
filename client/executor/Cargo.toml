@@ -29,7 +29,7 @@ sp-core = { version = "6.0.0", path = "../../primitives/core" , registry = "loca
 sp-core-hashing-proc-macro = { version = "5.0.0", path = "../../primitives/core/hashing/proc-macro" , registry = "local" }
 sp-externalities = { version = "0.12.0", path = "../../primitives/externalities" , registry = "local" }
 sp-io = { version = "6.0.0", path = "../../primitives/io" , registry = "local" }
-sp-panic-handler = { version = "9.0.0", path = "../../primitives/panic-handler" , registry = "local" }
+sp-panic-handler = { version = "10.0.0", path = "../../primitives/panic-handler" , registry = "local" }
 sp-runtime-interface = { version = "6.0.0", path = "../../primitives/runtime-interface" , registry = "local" }
 sp-tasks = { version = "4.0.0-dev", path = "../../primitives/tasks" , registry = "local" }
 sp-trie = { version = "6.0.0", path = "../../primitives/trie" , registry = "local" }
@@ -43,7 +43,7 @@ sc-runtime-test = { version = "2.0.0", path = "runtime-test" , registry = "local
 substrate-test-runtime = { version = "2.0.0", path = "../../test-utils/runtime" , registry = "local" }
 sp-state-machine = { version = "0.12.0", path = "../../primitives/state-machine" , registry = "local" }
 sp-runtime = { version = "6.0.0", path = "../../primitives/runtime" , registry = "local" }
-sp-maybe-compressed-blob = { version = "7.0.0", path = "../../primitives/maybe-compressed-blob" , registry = "local" }
+sp-maybe-compressed-blob = { version = "8.0.0", path = "../../primitives/maybe-compressed-blob" , registry = "local" }
 sc-tracing = { version = "4.0.0-dev", path = "../tracing" , registry = "local" }
 tracing-subscriber = { version = "0.2.19", registry = "local" }
 paste = { version = "1.0", registry = "local" }

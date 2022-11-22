@@ -20,6 +20,6 @@ strum = { version = "0.24.1", features = ["derive"] , registry = "local" }
 tempfile = { version = "3.1.0", registry = "local" }
 toml = { version = "0.5.4", registry = "local" }
 walkdir = { version = "2.3.2", registry = "local" }
-sp-maybe-compressed-blob = { version = "7.0.0", path = "../../primitives/maybe-compressed-blob" , registry = "local" }
+sp-maybe-compressed-blob = { version = "8.0.0", path = "../../primitives/maybe-compressed-blob" , registry = "local" }
 filetime = { version = "0.2.16", registry = "local" }
 wasm-opt = { version = "0.110", registry = "local" }
