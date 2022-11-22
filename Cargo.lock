@@ -8824,7 +8824,7 @@ dependencies = [
 
 [[package]]
 name = "sc-tracing-proc-macro"
-version = "7.0.0"
+version = "8.0.0"
 dependencies = [
  "proc-macro-crate",
  "proc-macro2",
@@ -9347,7 +9347,7 @@ dependencies = [
 
 [[package]]
 name = "sp-api-proc-macro"
-version = "7.0.0"
+version = "8.0.0"
 dependencies = [
  "blake2",
  "proc-macro-crate",

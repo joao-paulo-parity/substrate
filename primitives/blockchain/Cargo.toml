@@ -22,6 +22,6 @@ parking_lot = { version = "0.12.1", registry = "local" }
 thiserror = { version = "1.0.30", registry = "local" }
 sp-api = { version = "4.0.0-dev", path = "../api" , registry = "local" }
 sp-consensus = { version = "0.10.0-dev", path = "../consensus/common" , registry = "local" }
-sp-database = { version = "7.0.0", path = "../database" , registry = "local" }
+sp-database = { version = "8.0.0", path = "../database" , registry = "local" }
 sp-runtime = { version = "6.0.0", path = "../runtime" , registry = "local" }
 sp-state-machine = { version = "0.12.0", path = "../state-machine" , registry = "local" }

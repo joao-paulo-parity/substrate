@@ -30,7 +30,7 @@ sp-api = { version = "4.0.0-dev", path = "../../primitives/api" , registry = "lo
 sp-blockchain = { version = "4.0.0-dev", path = "../../primitives/blockchain" , registry = "local" }
 sp-consensus = { version = "0.10.0-dev", path = "../../primitives/consensus/common" , registry = "local" }
 sp-core = { version = "6.0.0", default-features = false, path = "../../primitives/core" , registry = "local" }
-sp-database = { version = "7.0.0", path = "../../primitives/database" , registry = "local" }
+sp-database = { version = "8.0.0", path = "../../primitives/database" , registry = "local" }
 sp-externalities = { version = "0.12.0", path = "../../primitives/externalities" , registry = "local" }
 sp-keystore = { version = "0.12.0", default-features = false, path = "../../primitives/keystore" , registry = "local" }
 sp-runtime = { version = "6.0.0", default-features = false, path = "../../primitives/runtime" , registry = "local" }
