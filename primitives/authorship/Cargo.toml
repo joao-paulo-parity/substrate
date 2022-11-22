@@ -1,6 +1,6 @@
 [package]
 name = "sp-authorship"
-version = "4.0.0-dev"
+version = "4.0.0"
 authors = ["Parity Technologies <admin@parity.io>"]
 description = "Authorship primitives"
 edition = "2021"
