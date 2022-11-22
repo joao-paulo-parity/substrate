@@ -9783,7 +9783,7 @@ dependencies = [
 
 [[package]]
 name = "sp-npos-elections"
-version = "4.0.0-dev"
+version = "4.0.0"
 dependencies = [
  "parity-scale-codec",
  "rand 0.7.3",
