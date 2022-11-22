@@ -9329,7 +9329,7 @@ dependencies = [
 
 [[package]]
 name = "sp-api"
-version = "4.0.0-dev"
+version = "4.0.0"
 dependencies = [
  "hash-db",
  "log",
