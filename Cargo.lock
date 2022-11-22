@@ -8490,7 +8490,7 @@ dependencies = [
 
 [[package]]
 name = "sc-peerset"
-version = "6.0.0"
+version = "7.0.0"
 dependencies = [
  "futures",
  "libp2p",

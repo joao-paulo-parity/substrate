@@ -20,7 +20,7 @@ log = { version = "0.4.17", registry = "local" }
 prometheus-endpoint = { package = "substrate-prometheus-endpoint", version = "0.17.0", path = "../../utils/prometheus" , registry = "local" }
 sc-block-builder = { version = "0.10.0-dev", path = "../block-builder" , registry = "local" }
 sc-client-api = { version = "4.0.0-dev", path = "../api" , registry = "local" }
-sc-proposer-metrics = { version = "0.10.0-dev", path = "../proposer-metrics" , registry = "local" }
+sc-proposer-metrics = { version = "0.11.0", path = "../proposer-metrics" , registry = "local" }
 sc-telemetry = { version = "8.0.0", path = "../telemetry" , registry = "local" }
 sc-transaction-pool-api = { version = "4.0.0-dev", path = "../../client/transaction-pool/api" , registry = "local" }
 sp-api = { version = "4.0.0-dev", path = "../../primitives/api" , registry = "local" }
