@@ -18,7 +18,7 @@ codec = { package = "parity-scale-codec", version = "3.0.0", default-features = 
 frame-benchmarking = { version = "4.0.0-dev", default-features = false, optional = true, path = "../../benchmarking" , registry = "local" }
 frame-election-provider-support = { version = "4.0.0-dev", default-features = false, path = ".." , registry = "local" }
 frame-system = { version = "4.0.0-dev", default-features = false, path = "../../system" , registry = "local" }
-sp-npos-elections = { version = "4.0.0-dev", default-features = false, path = "../../../primitives/npos-elections" , registry = "local" }
+sp-npos-elections = { version = "4.0.0", default-features = false, path = "../../../primitives/npos-elections" , registry = "local" }
 sp-runtime = { version = "6.0.0", default-features = false, path = "../../../primitives/runtime" , registry = "local" }
 
 [features]
