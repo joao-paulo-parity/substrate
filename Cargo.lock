@@ -2308,7 +2308,7 @@ dependencies = [
 
 [[package]]
 name = "frame-support"
-version = "4.0.0-dev"
+version = "4.0.0"
 dependencies = [
  "assert_matches",
  "bitflags",
