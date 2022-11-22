@@ -6052,7 +6052,7 @@ dependencies = [
 
 [[package]]
 name = "pallet-scored-pool"
-version = "4.0.0-dev"
+version = "4.0.0"
 dependencies = [
  "frame-support",
  "frame-system",
