@@ -28,7 +28,7 @@ sp-inherents = { version = "4.0.0", default-features = false, path = "../../prim
 sp-staking = { version = "4.0.0", default-features = false, path = "../../primitives/staking" , registry = "local" }
 sp-weights = { version = "4.0.0", default-features = false, path = "../../primitives/weights" , registry = "local" }
 tt-call = { version = "1.0.8", registry = "local" }
-frame-support-procedural = { version = "4.0.0-dev", default-features = false, path = "./procedural" , registry = "local" }
+frame-support-procedural = { version = "4.0.0", default-features = false, path = "./procedural" , registry = "local" }
 paste = { version = "1.0", registry = "local" }
 once_cell = { version = "1", default-features = false, optional = true , registry = "local" }
 sp-state-machine = { version = "0.12.0", default-features = false, optional = true, path = "../../primitives/state-machine" , registry = "local" }

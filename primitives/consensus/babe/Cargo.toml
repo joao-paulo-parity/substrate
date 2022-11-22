@@ -21,7 +21,7 @@ serde = { version = "1.0.136", features = ["derive"], optional = true , registry
 sp-api = { version = "4.0.0", default-features = false, path = "../../api" , registry = "local" }
 sp-application-crypto = { version = "6.0.0", default-features = false, path = "../../application-crypto" , registry = "local" }
 sp-consensus = { version = "0.10.0", optional = true, path = "../common" , registry = "local" }
-sp-consensus-slots = { version = "0.10.0-dev", default-features = false, path = "../slots" , registry = "local" }
+sp-consensus-slots = { version = "0.10.0", default-features = false, path = "../slots" , registry = "local" }
 sp-consensus-vrf = { version = "0.10.0", default-features = false, path = "../vrf" , registry = "local" }
 sp-core = { version = "6.0.0", default-features = false, path = "../../core" , registry = "local" }
 sp-inherents = { version = "4.0.0", default-features = false, path = "../../inherents" , registry = "local" }
