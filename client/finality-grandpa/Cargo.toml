@@ -33,7 +33,7 @@ sc-block-builder = { version = "0.10.0-dev", path = "../block-builder" , registr
 sc-chain-spec = { version = "4.0.0-dev", path = "../../client/chain-spec" , registry = "local" }
 sc-client-api = { version = "4.0.0-dev", path = "../api" , registry = "local" }
 sc-consensus = { version = "0.10.0-dev", path = "../consensus/common" , registry = "local" }
-sc-keystore = { version = "4.0.0-dev", path = "../keystore" , registry = "local" }
+sc-keystore = { version = "4.0.0", path = "../keystore" , registry = "local" }
 sc-network = { version = "0.10.0-dev", path = "../network" , registry = "local" }
 sc-network-gossip = { version = "0.10.0-dev", path = "../network-gossip" , registry = "local" }
 sc-network-common = { version = "0.10.0-dev", path = "../network/common" , registry = "local" }

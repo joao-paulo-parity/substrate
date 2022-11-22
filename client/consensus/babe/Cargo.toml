@@ -32,7 +32,7 @@ sc-client-api = { version = "4.0.0-dev", path = "../../api" , registry = "local"
 sc-consensus = { version = "0.10.0-dev", path = "../../../client/consensus/common" , registry = "local" }
 sc-consensus-epochs = { version = "0.10.0-dev", path = "../epochs" , registry = "local" }
 sc-consensus-slots = { version = "0.10.0-dev", path = "../slots" , registry = "local" }
-sc-keystore = { version = "4.0.0-dev", path = "../../keystore" , registry = "local" }
+sc-keystore = { version = "4.0.0", path = "../../keystore" , registry = "local" }
 sc-telemetry = { version = "8.0.0", path = "../../telemetry" , registry = "local" }
 sp-api = { version = "4.0.0-dev", path = "../../../primitives/api" , registry = "local" }
 sp-application-crypto = { version = "6.0.0", path = "../../../primitives/application-crypto" , registry = "local" }

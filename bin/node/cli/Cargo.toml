@@ -111,7 +111,7 @@ sp-trie = { version = "6.0.0", default-features = false, path = "../../../primit
 ] , registry = "local" }
 
 [dev-dependencies]
-sc-keystore = { version = "4.0.0-dev", path = "../../../client/keystore" , registry = "local" }
+sc-keystore = { version = "4.0.0", path = "../../../client/keystore" , registry = "local" }
 sc-client-db = { version = "0.10.0-dev", path = "../../../client/db" , registry = "local" }
 sc-consensus = { version = "0.10.0-dev", path = "../../../client/consensus/common" , registry = "local" }
 sc-consensus-babe = { version = "0.10.0-dev", path = "../../../client/consensus/babe" , registry = "local" }

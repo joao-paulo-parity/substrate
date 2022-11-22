@@ -24,7 +24,7 @@ sp-core = { version = "6.0.0", path = "../../../primitives/core" , registry = "l
 sc-executor = { version = "0.10.0-dev", path = "../../../client/executor", features = ["wasmtime"] , registry = "local" }
 sc-service = { version = "0.10.0-dev", path = "../../../client/service", features = ["wasmtime"] , registry = "local" }
 sc-telemetry = { version = "8.0.0", path = "../../../client/telemetry" , registry = "local" }
-sc-keystore = { version = "4.0.0-dev", path = "../../../client/keystore" , registry = "local" }
+sc-keystore = { version = "4.0.0", path = "../../../client/keystore" , registry = "local" }
 sc-transaction-pool = { version = "4.0.0-dev", path = "../../../client/transaction-pool" , registry = "local" }
 sc-transaction-pool-api = { version = "4.0.0-dev", path = "../../../client/transaction-pool/api" , registry = "local" }
 sc-consensus-aura = { version = "0.10.0-dev", path = "../../../client/consensus/aura" , registry = "local" }

@@ -39,7 +39,7 @@ sp-runtime = { version = "6.0.0", path = "../../../primitives/runtime" , registr
 [dev-dependencies]
 parking_lot = { version = "0.12.1", registry = "local" }
 tempfile = { version = "3.1.0", registry = "local" }
-sc-keystore = { version = "4.0.0-dev", path = "../../keystore" , registry = "local" }
+sc-keystore = { version = "4.0.0", path = "../../keystore" , registry = "local" }
 sc-network = { version = "0.10.0-dev", path = "../../network" , registry = "local" }
 sc-network-test = { version = "0.8.0", path = "../../network/test" , registry = "local" }
 sp-keyring = { version = "6.0.0", path = "../../../primitives/keyring" , registry = "local" }

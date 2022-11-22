@@ -35,7 +35,7 @@ pin-project = { version = "1.0.12", registry = "local" }
 hash-db = { version = "0.15.2", registry = "local" }
 serde = { version = "1.0.136", registry = "local" }
 serde_json = { version = "1.0.85", registry = "local" }
-sc-keystore = { version = "4.0.0-dev", path = "../keystore" , registry = "local" }
+sc-keystore = { version = "4.0.0", path = "../keystore" , registry = "local" }
 sp-runtime = { version = "6.0.0", path = "../../primitives/runtime" , registry = "local" }
 sp-trie = { version = "6.0.0", path = "../../primitives/trie" , registry = "local" }
 sp-externalities = { version = "0.12.0", path = "../../primitives/externalities" , registry = "local" }
