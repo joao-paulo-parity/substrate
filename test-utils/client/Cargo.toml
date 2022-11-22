@@ -23,7 +23,7 @@ sc-client-db = { version = "0.10.0-dev", default-features = false, features = [
 	"test-helpers",
 ], path = "../../client/db" , registry = "local" }
 sc-consensus = { version = "0.10.0-dev", path = "../../client/consensus/common" , registry = "local" }
-sc-executor = { version = "0.10.0-dev", path = "../../client/executor" , registry = "local" }
+sc-executor = { version = "0.10.0", path = "../../client/executor" , registry = "local" }
 sc-offchain = { version = "4.0.0-dev", path = "../../client/offchain" , registry = "local" }
 sc-service = { version = "0.10.0-dev", default-features = false, features = [
 	"test-helpers",

@@ -17,7 +17,7 @@ scale-info = { version = "2.1.1", features = ["derive"] , registry = "local" }
 frame-benchmarking = { version = "4.0.0-dev", path = "../../../frame/benchmarking" , registry = "local" }
 node-primitives = { version = "2.0.0", path = "../primitives" , registry = "local" }
 kitchensink-runtime = { version = "3.0.0-dev", path = "../runtime" , registry = "local" }
-sc-executor = { version = "0.10.0-dev", path = "../../../client/executor" , registry = "local" }
+sc-executor = { version = "0.10.0", path = "../../../client/executor" , registry = "local" }
 sp-core = { version = "6.0.0", path = "../../../primitives/core" , registry = "local" }
 sp-keystore = { version = "0.12.0", path = "../../../primitives/keystore" , registry = "local" }
 sp-state-machine = { version = "0.12.0", path = "../../../primitives/state-machine" , registry = "local" }

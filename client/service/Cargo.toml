@@ -62,7 +62,7 @@ sc-client-api = { version = "4.0.0-dev", path = "../api" , registry = "local" }
 sp-api = { version = "4.0.0", path = "../../primitives/api" , registry = "local" }
 sc-client-db = { version = "0.10.0-dev", default-features = false, path = "../db" , registry = "local" }
 codec = { package = "parity-scale-codec", version = "3.0.0" , registry = "local" }
-sc-executor = { version = "0.10.0-dev", path = "../executor" , registry = "local" }
+sc-executor = { version = "0.10.0", path = "../executor" , registry = "local" }
 sc-transaction-pool = { version = "4.0.0-dev", path = "../transaction-pool" , registry = "local" }
 sp-transaction-pool = { version = "4.0.0", path = "../../primitives/transaction-pool" , registry = "local" }
 sc-transaction-pool-api = { version = "4.0.0-dev", path = "../transaction-pool/api" , registry = "local" }
