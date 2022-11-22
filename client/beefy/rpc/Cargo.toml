@@ -17,7 +17,7 @@ parking_lot = { version = "0.12.1", registry = "local" }
 serde = { version = "1.0.136", features = ["derive"] , registry = "local" }
 thiserror = { version = "1.0", registry = "local" }
 beefy-gadget = { version = "4.0.0-dev", path = "../." , registry = "local" }
-beefy-primitives = { version = "4.0.0-dev", path = "../../../primitives/beefy" , registry = "local" }
+beefy-primitives = { version = "4.0.0", path = "../../../primitives/beefy" , registry = "local" }
 sc-rpc = { version = "4.0.0-dev", path = "../../rpc" , registry = "local" }
 sc-utils = { version = "13.0.0", path = "../../utils" , registry = "local" }
 sp-core = { version = "6.0.0", path = "../../../primitives/core" , registry = "local" }

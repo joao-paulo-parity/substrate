@@ -12,7 +12,7 @@ homepage = "https://substrate.io"
 codec = { package = "parity-scale-codec", version = "3.0.0", default-features = false, features = ["derive"] , registry = "local" }
 scale-info = { version = "2.1.1", default-features = false, features = ["derive"] , registry = "local" }
 serde = { version = "1.0.136", optional = true , registry = "local" }
-beefy-primitives = { version = "4.0.0-dev", default-features = false, path = "../../primitives/beefy" , registry = "local" }
+beefy-primitives = { version = "4.0.0", default-features = false, path = "../../primitives/beefy" , registry = "local" }
 frame-support = { version = "4.0.0", default-features = false, path = "../support" , registry = "local" }
 frame-system = { version = "4.0.0-dev", default-features = false, path = "../system" , registry = "local" }
 pallet-session = { version = "4.0.0-dev", default-features = false, path = "../session" , registry = "local" }
