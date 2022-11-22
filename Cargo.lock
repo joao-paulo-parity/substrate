@@ -8082,7 +8082,7 @@ dependencies = [
 
 [[package]]
 name = "sc-executor-wasmi"
-version = "0.10.0-dev"
+version = "0.10.0"
 dependencies = [
  "log",
  "parity-scale-codec",
