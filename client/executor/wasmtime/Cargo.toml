@@ -29,7 +29,7 @@ wasmtime = { version = "1.0.0", default-features = false, features = [
 	"memory-init-cow",
 	"pooling-allocator",
 ] , registry = "local" }
-sc-allocator = { version = "4.1.0-dev", path = "../../allocator" , registry = "local" }
+sc-allocator = { version = "4.1.0", path = "../../allocator" , registry = "local" }
 sc-executor-common = { version = "0.10.0-dev", path = "../common" , registry = "local" }
 sp-runtime-interface = { version = "6.0.0", path = "../../../primitives/runtime-interface" , registry = "local" }
 sp-sandbox = { version = "0.10.0-dev", path = "../../../primitives/sandbox" , registry = "local" }
