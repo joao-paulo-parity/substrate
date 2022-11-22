@@ -23,7 +23,7 @@ wasmi = { version = "0.13", registry = "local" }
 codec = { package = "parity-scale-codec", version = "3.0.0" , registry = "local" }
 sc-executor-common = { version = "0.10.0", path = "common" , registry = "local" }
 sc-executor-wasmi = { version = "0.10.0", path = "wasmi" , registry = "local" }
-sc-executor-wasmtime = { version = "0.10.0-dev", path = "wasmtime", optional = true , registry = "local" }
+sc-executor-wasmtime = { version = "0.10.0", path = "wasmtime", optional = true , registry = "local" }
 sp-api = { version = "4.0.0-dev", path = "../../primitives/api" , registry = "local" }
 sp-core = { version = "6.0.0", path = "../../primitives/core" , registry = "local" }
 sp-core-hashing-proc-macro = { version = "5.0.0", path = "../../primitives/core/hashing/proc-macro" , registry = "local" }
