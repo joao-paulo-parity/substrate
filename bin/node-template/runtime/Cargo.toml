@@ -20,7 +20,7 @@ pallet-aura = { version = "4.0.0-dev", default-features = false, path = "../../.
 pallet-balances = { version = "4.0.0-dev", default-features = false, path = "../../../frame/balances" , registry = "local" }
 frame-support = { version = "4.0.0", default-features = false, path = "../../../frame/support" , registry = "local" }
 pallet-grandpa = { version = "4.0.0-dev", default-features = false, path = "../../../frame/grandpa" , registry = "local" }
-pallet-randomness-collective-flip = { version = "4.0.0-dev", default-features = false, path = "../../../frame/randomness-collective-flip" , registry = "local" }
+pallet-randomness-collective-flip = { version = "4.0.0", default-features = false, path = "../../../frame/randomness-collective-flip" , registry = "local" }
 pallet-sudo = { version = "4.0.0-dev", default-features = false, path = "../../../frame/sudo" , registry = "local" }
 frame-system = { version = "4.0.0", default-features = false, path = "../../../frame/system" , registry = "local" }
 frame-try-runtime = { version = "0.10.0", default-features = false, path = "../../../frame/try-runtime", optional = true , registry = "local" }

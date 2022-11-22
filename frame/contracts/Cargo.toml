@@ -55,7 +55,7 @@ wat = { version = "1", registry = "local" }
 # Substrate Dependencies
 pallet-balances = { version = "4.0.0-dev", path = "../balances" , registry = "local" }
 pallet-timestamp = { version = "4.0.0-dev", path = "../timestamp" , registry = "local" }
-pallet-randomness-collective-flip = { version = "4.0.0-dev", path = "../randomness-collective-flip" , registry = "local" }
+pallet-randomness-collective-flip = { version = "4.0.0", path = "../randomness-collective-flip" , registry = "local" }
 pallet-utility = { version = "4.0.0-dev", path = "../utility" , registry = "local" }
 sp-keystore = { version = "0.12.0", path = "../../primitives/keystore" , registry = "local" }
 

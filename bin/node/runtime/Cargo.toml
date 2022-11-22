@@ -84,7 +84,7 @@ pallet-offences = { version = "4.0.0-dev", default-features = false, path = "../
 pallet-offences-benchmarking = { version = "4.0.0-dev", path = "../../../frame/offences/benchmarking", default-features = false, optional = true , registry = "local" }
 pallet-preimage = { version = "4.0.0-dev", default-features = false, path = "../../../frame/preimage" , registry = "local" }
 pallet-proxy = { version = "4.0.0-dev", default-features = false, path = "../../../frame/proxy" , registry = "local" }
-pallet-randomness-collective-flip = { version = "4.0.0-dev", default-features = false, path = "../../../frame/randomness-collective-flip" , registry = "local" }
+pallet-randomness-collective-flip = { version = "4.0.0", default-features = false, path = "../../../frame/randomness-collective-flip" , registry = "local" }
 pallet-ranked-collective = { version = "4.0.0-dev", default-features = false, path = "../../../frame/ranked-collective" , registry = "local" }
 pallet-recovery = { version = "4.0.0-dev", default-features = false, path = "../../../frame/recovery" , registry = "local" }
 pallet-referenda = { version = "4.0.0-dev", default-features = false, path = "../../../frame/referenda" , registry = "local" }
