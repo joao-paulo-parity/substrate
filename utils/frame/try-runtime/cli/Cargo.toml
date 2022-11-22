@@ -31,7 +31,7 @@ sp-runtime = { version = "6.0.0", path = "../../../../primitives/runtime" , regi
 sp-state-machine = { version = "0.12.0", path = "../../../../primitives/state-machine" , registry = "local" }
 sp-version = { version = "5.0.0", path = "../../../../primitives/version" , registry = "local" }
 sp-weights = { version = "4.0.0", path = "../../../../primitives/weights" , registry = "local" }
-frame-try-runtime = { optional = true, path = "../../../../frame/try-runtime" , registry = "local" , version = "0.10.0" }
+frame-try-runtime = { optional = true, path = "../../../../frame/try-runtime" , registry = "local", version = "0.10.0" }
 substrate-rpc-client = { path = "../../rpc/client" , registry = "local" }
 
 [dev-dependencies]

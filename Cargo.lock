@@ -2465,7 +2465,7 @@ dependencies = [
 
 [[package]]
 name = "frame-try-runtime"
-version = "0.10.0-dev"
+version = "0.10.0"
 dependencies = [
  "frame-support",
  "parity-scale-codec",
