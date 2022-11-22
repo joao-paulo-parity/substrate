@@ -5378,7 +5378,7 @@ dependencies = [
 
 [[package]]
 name = "pallet-contracts-proc-macro"
-version = "7.0.0"
+version = "8.0.0"
 dependencies = [
  "proc-macro2",
  "quote",
@@ -6157,7 +6157,7 @@ dependencies = [
 
 [[package]]
 name = "pallet-staking-reward-curve"
-version = "7.0.0"
+version = "8.0.0"
 dependencies = [
  "proc-macro-crate",
  "proc-macro2",
@@ -7670,7 +7670,7 @@ dependencies = [
 
 [[package]]
 name = "sc-chain-spec-derive"
-version = "7.0.0"
+version = "8.0.0"
 dependencies = [
  "proc-macro-crate",
  "proc-macro2",
@@ -8776,7 +8776,7 @@ dependencies = [
 
 [[package]]
 name = "sc-telemetry"
-version = "7.0.0"
+version = "8.0.0"
 dependencies = [
  "chrono",
  "futures",

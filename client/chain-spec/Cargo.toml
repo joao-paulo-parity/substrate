@@ -18,8 +18,8 @@ impl-trait-for-tuples = { version = "0.2.2", registry = "local" }
 memmap2 = { version = "0.5.0", registry = "local" }
 serde = { version = "1.0.136", features = ["derive"] , registry = "local" }
 serde_json = { version = "1.0.85", registry = "local" }
-sc-chain-spec-derive = { version = "7.0.0", path = "./derive" , registry = "local" }
+sc-chain-spec-derive = { version = "8.0.0", path = "./derive" , registry = "local" }
 sc-network-common = { version = "0.10.0-dev", path = "../network/common" , registry = "local" }
-sc-telemetry = { version = "7.0.0", path = "../telemetry" , registry = "local" }
+sc-telemetry = { version = "8.0.0", path = "../telemetry" , registry = "local" }
 sp-core = { version = "6.0.0", path = "../../primitives/core" , registry = "local" }
 sp-runtime = { version = "6.0.0", path = "../../primitives/runtime" , registry = "local" }

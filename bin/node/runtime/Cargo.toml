@@ -92,7 +92,7 @@ pallet-remark = { version = "4.0.0-dev", default-features = false, path = "../..
 pallet-session = { version = "4.0.0-dev", features = [ "historical" ], path = "../../../frame/session", default-features = false , registry = "local" }
 pallet-session-benchmarking = { version = "4.0.0-dev", path = "../../../frame/session/benchmarking", default-features = false, optional = true , registry = "local" }
 pallet-staking = { version = "4.0.0-dev", default-features = false, path = "../../../frame/staking" , registry = "local" }
-pallet-staking-reward-curve = { version = "7.0.0", default-features = false, path = "../../../frame/staking/reward-curve" , registry = "local" }
+pallet-staking-reward-curve = { version = "8.0.0", default-features = false, path = "../../../frame/staking/reward-curve" , registry = "local" }
 pallet-state-trie-migration = { version = "4.0.0-dev", default-features = false, path = "../../../frame/state-trie-migration" , registry = "local" }
 pallet-scheduler = { version = "4.0.0-dev", default-features = false, path = "../../../frame/scheduler" , registry = "local" }
 pallet-society = { version = "4.0.0-dev", default-features = false, path = "../../../frame/society" , registry = "local" }

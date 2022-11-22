@@ -22,7 +22,7 @@ rand_pcg = { version = "0.2.1", registry = "local" }
 regex = { version = "1", registry = "local" }
 serde = { version = "1.0.136", features = ["derive"] , registry = "local" }
 serde_json = { version = "1.0.85", registry = "local" }
-sc-telemetry = { version = "7.0.0", path = "../telemetry" , registry = "local" }
+sc-telemetry = { version = "8.0.0", path = "../telemetry" , registry = "local" }
 sp-core = { version = "6.0.0", path = "../../primitives/core" , registry = "local" }
 sp-io = { version = "6.0.0", path = "../../primitives/io" , registry = "local" }
 sp-std = { version = "7.0.0", path = "../../primitives/std" , registry = "local" }

@@ -42,7 +42,7 @@ sp-core = { version = "6.0.0", path = "../../primitives/core" , registry = "loca
 sp-npos-elections = { version = "4.0.0-dev", path = "../../primitives/npos-elections" , registry = "local" }
 pallet-balances = { version = "4.0.0-dev", path = "../balances" , registry = "local" }
 pallet-timestamp = { version = "4.0.0-dev", path = "../timestamp" , registry = "local" }
-pallet-staking-reward-curve = { version = "7.0.0", path = "../staking/reward-curve" , registry = "local" }
+pallet-staking-reward-curve = { version = "8.0.0", path = "../staking/reward-curve" , registry = "local" }
 pallet-bags-list = { version = "4.0.0-dev", path = "../bags-list" , registry = "local" }
 substrate-test-utils = { version = "4.0.0-dev", path = "../../test-utils" , registry = "local" }
 frame-benchmarking = { version = "4.0.0-dev", path = "../benchmarking" , registry = "local" }

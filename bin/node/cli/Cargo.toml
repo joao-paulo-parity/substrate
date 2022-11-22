@@ -74,7 +74,7 @@ grandpa = { version = "0.10.0-dev", package = "sc-finality-grandpa", path = "../
 sc-rpc = { version = "4.0.0-dev", path = "../../../client/rpc" , registry = "local" }
 sc-basic-authorship = { version = "0.10.0-dev", path = "../../../client/basic-authorship" , registry = "local" }
 sc-service = { version = "0.10.0-dev", default-features = false, path = "../../../client/service" , registry = "local" }
-sc-telemetry = { version = "7.0.0", path = "../../../client/telemetry" , registry = "local" }
+sc-telemetry = { version = "8.0.0", path = "../../../client/telemetry" , registry = "local" }
 sc-executor = { version = "0.10.0-dev", path = "../../../client/executor" , registry = "local" }
 sc-authority-discovery = { version = "0.10.0-dev", path = "../../../client/authority-discovery" , registry = "local" }
 sc-sync-state-rpc = { version = "0.10.0-dev", path = "../../../client/sync-state-rpc" , registry = "local" }

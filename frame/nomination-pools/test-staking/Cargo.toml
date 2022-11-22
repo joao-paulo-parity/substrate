@@ -29,7 +29,7 @@ pallet-timestamp = { version = "4.0.0-dev", path = "../../timestamp" , registry 
 pallet-balances = { version = "4.0.0-dev", path = "../../balances" , registry = "local" }
 pallet-staking = { version = "4.0.0-dev", path = "../../staking" , registry = "local" }
 pallet-bags-list = { version = "4.0.0-dev", path = "../../bags-list" , registry = "local" }
-pallet-staking-reward-curve = { version = "7.0.0", path = "../../staking/reward-curve" , registry = "local" }
+pallet-staking-reward-curve = { version = "8.0.0", path = "../../staking/reward-curve" , registry = "local" }
 pallet-nomination-pools = { version = "1.0.0-dev", path = ".." , registry = "local" }
 
 sp-tracing = { version = "5.0.0", path = "../../../primitives/tracing" , registry = "local" }
