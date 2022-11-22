@@ -21,7 +21,7 @@ log = { version = "0.4.17", registry = "local" }
 parking_lot = { version = "0.12.1", registry = "local" }
 serde = { version = "1.0", features = ["derive"] , registry = "local" }
 thiserror = { version = "1.0.30", registry = "local" }
-prometheus-endpoint = { package = "substrate-prometheus-endpoint", version = "0.16.0", path = "../../../utils/prometheus" , registry = "local" }
+prometheus-endpoint = { package = "substrate-prometheus-endpoint", version = "0.17.0", path = "../../../utils/prometheus" , registry = "local" }
 sc-client-api = { version = "4.0.0-dev", path = "../../api" , registry = "local" }
 sc-utils = { version = "13.0.0", path = "../../utils" , registry = "local" }
 sp-api = { version = "4.0.0-dev", path = "../../../primitives/api" , registry = "local" }

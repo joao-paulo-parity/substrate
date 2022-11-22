@@ -20,7 +20,7 @@ parking_lot = { version = "0.12.1", registry = "local" }
 thiserror = { version = "1.0", registry = "local" }
 wasm-timer = { version = "0.2.5", registry = "local" }
 beefy-primitives = { version = "4.0.0-dev", path = "../../primitives/beefy" , registry = "local" }
-prometheus = { package = "substrate-prometheus-endpoint", version = "0.16.0", path = "../../utils/prometheus" , registry = "local" }
+prometheus = { package = "substrate-prometheus-endpoint", version = "0.17.0", path = "../../utils/prometheus" , registry = "local" }
 sc-chain-spec = { version = "4.0.0-dev", path = "../../client/chain-spec" , registry = "local" }
 sc-client-api = { version = "4.0.0-dev", path = "../api" , registry = "local" }
 sc-consensus = { version = "0.10.0-dev", path = "../consensus/common" , registry = "local" }
