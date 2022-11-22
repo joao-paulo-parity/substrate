@@ -10316,7 +10316,7 @@ dependencies = [
 
 [[package]]
 name = "substrate-build-script-utils"
-version = "7.0.0"
+version = "8.0.0"
 dependencies = [
  "platforms",
 ]
@@ -10378,7 +10378,7 @@ dependencies = [
 
 [[package]]
 name = "substrate-prometheus-endpoint"
-version = "0.16.0"
+version = "0.17.0"
 dependencies = [
  "futures-util",
  "hyper",
@@ -10542,7 +10542,7 @@ dependencies = [
 
 [[package]]
 name = "substrate-test-utils-derive"
-version = "0.13.0"
+version = "0.14.0"
 dependencies = [
  "proc-macro-crate",
  "proc-macro2",
