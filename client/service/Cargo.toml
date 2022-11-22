@@ -71,7 +71,7 @@ sc-rpc-server = { version = "5.0.0", path = "../rpc-servers" , registry = "local
 sc-rpc = { version = "4.0.0-dev", path = "../rpc" , registry = "local" }
 sc-rpc-spec-v2 = { version = "0.10.0-dev", path = "../rpc-spec-v2" , registry = "local" }
 sc-block-builder = { version = "0.10.0-dev", path = "../block-builder" , registry = "local" }
-sp-block-builder = { version = "4.0.0-dev", path = "../../primitives/block-builder" , registry = "local" }
+sp-block-builder = { version = "4.0.0", path = "../../primitives/block-builder" , registry = "local" }
 sc-informant = { version = "0.10.0-dev", path = "../informant" , registry = "local" }
 sc-telemetry = { version = "8.0.0", path = "../telemetry" , registry = "local" }
 sc-offchain = { version = "4.0.0-dev", path = "../offchain" , registry = "local" }

@@ -26,7 +26,7 @@ log = { version = "0.4.17", default-features = false , registry = "local" }
 # primitives
 sp-authority-discovery = { version = "4.0.0", default-features = false, path = "../../../primitives/authority-discovery" , registry = "local" }
 sp-consensus-babe = { version = "0.10.0-dev", default-features = false, path = "../../../primitives/consensus/babe" , registry = "local" }
-sp-block-builder = { path = "../../../primitives/block-builder", default-features = false, version = "4.0.0-dev" , registry = "local" }
+sp-block-builder = { path = "../../../primitives/block-builder", default-features = false, version = "4.0.0", registry = "local" }
 sp-inherents = { version = "4.0.0", default-features = false, path = "../../../primitives/inherents" , registry = "local" }
 node-primitives = { version = "2.0.0", default-features = false, path = "../primitives" , registry = "local" }
 sp-offchain = { version = "4.0.0", default-features = false, path = "../../../primitives/offchain" , registry = "local" }

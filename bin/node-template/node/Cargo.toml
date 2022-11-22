@@ -47,7 +47,7 @@ sc-rpc = { version = "4.0.0-dev", path = "../../../client/rpc" , registry = "loc
 sp-api = { version = "4.0.0", path = "../../../primitives/api" , registry = "local" }
 sc-rpc-api = { version = "0.10.0-dev", path = "../../../client/rpc-api" , registry = "local" }
 sp-blockchain = { version = "4.0.0-dev", path = "../../../primitives/blockchain" , registry = "local" }
-sp-block-builder = { version = "4.0.0-dev", path = "../../../primitives/block-builder" , registry = "local" }
+sp-block-builder = { version = "4.0.0", path = "../../../primitives/block-builder" , registry = "local" }
 sc-basic-authorship = { version = "0.10.0-dev", path = "../../../client/basic-authorship" , registry = "local" }
 substrate-frame-rpc-system = { version = "4.0.0-dev", path = "../../../utils/frame/rpc/system" , registry = "local" }
 pallet-transaction-payment-rpc = { version = "4.0.0-dev", path = "../../../frame/transaction-payment/rpc/" , registry = "local" }
