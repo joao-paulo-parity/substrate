@@ -522,7 +522,7 @@ dependencies = [
 
 [[package]]
 name = "beefy-primitives"
-version = "4.0.0-dev"
+version = "4.0.0"
 dependencies = [
  "array-bytes",
  "parity-scale-codec",
