@@ -29,7 +29,7 @@ sp-tracing = { version = "6.0.0", default-features = false, path = "../../primit
 [dev-dependencies]
 array-bytes = { version = "4.1", registry = "local" }
 pallet-balances = { version = "4.0.0-dev", path = "../balances" , registry = "local" }
-pallet-transaction-payment = { version = "4.0.0-dev", path = "../transaction-payment" , registry = "local" }
+pallet-transaction-payment = { version = "4.0.0", path = "../transaction-payment" , registry = "local" }
 sp-core = { version = "6.0.0", path = "../../primitives/core" , registry = "local" }
 sp-inherents = { version = "4.0.0", path = "../../primitives/inherents" , registry = "local" }
 sp-io = { version = "6.0.0", path = "../../primitives/io" , registry = "local" }

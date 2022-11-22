@@ -25,7 +25,7 @@ pallet-sudo = { version = "4.0.0", default-features = false, path = "../../../fr
 frame-system = { version = "4.0.0", default-features = false, path = "../../../frame/system" , registry = "local" }
 frame-try-runtime = { version = "0.10.0", default-features = false, path = "../../../frame/try-runtime", optional = true , registry = "local" }
 pallet-timestamp = { version = "4.0.0-dev", default-features = false, path = "../../../frame/timestamp" , registry = "local" }
-pallet-transaction-payment = { version = "4.0.0-dev", default-features = false, path = "../../../frame/transaction-payment" , registry = "local" }
+pallet-transaction-payment = { version = "4.0.0", default-features = false, path = "../../../frame/transaction-payment" , registry = "local" }
 frame-executive = { version = "4.0.0-dev", default-features = false, path = "../../../frame/executive" , registry = "local" }
 sp-api = { version = "4.0.0", default-features = false, path = "../../../primitives/api" , registry = "local" }
 sp-block-builder = { version = "4.0.0", default-features = false, path = "../../../primitives/block-builder", registry = "local" }

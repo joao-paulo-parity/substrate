@@ -23,7 +23,7 @@ node-executor = { version = "3.0.0-dev", path = "../executor" , registry = "loca
 node-primitives = { version = "2.0.0", path = "../primitives" , registry = "local" }
 kitchensink-runtime = { version = "3.0.0-dev", path = "../runtime" , registry = "local" }
 pallet-asset-tx-payment = { version = "4.0.0-dev", path = "../../../frame/transaction-payment/asset-tx-payment" , registry = "local" }
-pallet-transaction-payment = { version = "4.0.0-dev", path = "../../../frame/transaction-payment" , registry = "local" }
+pallet-transaction-payment = { version = "4.0.0", path = "../../../frame/transaction-payment" , registry = "local" }
 sc-block-builder = { version = "0.10.0-dev", path = "../../../client/block-builder" , registry = "local" }
 sc-client-api = { version = "4.0.0-dev", path = "../../../client/api" , registry = "local" }
 sc-client-db = { version = "0.10.0-dev", features = ["rocksdb"], path = "../../../client/db" , registry = "local" }

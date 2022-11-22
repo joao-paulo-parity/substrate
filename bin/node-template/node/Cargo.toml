@@ -39,7 +39,7 @@ sp-timestamp = { version = "4.0.0", path = "../../../primitives/timestamp" , reg
 sp-inherents = { version = "4.0.0", path = "../../../primitives/inherents" , registry = "local" }
 sp-keyring = { version = "6.0.0", path = "../../../primitives/keyring" , registry = "local" }
 frame-system = { version = "4.0.0", path = "../../../frame/system" , registry = "local" }
-pallet-transaction-payment = { version = "4.0.0-dev", default-features = false, path = "../../../frame/transaction-payment" , registry = "local" }
+pallet-transaction-payment = { version = "4.0.0", default-features = false, path = "../../../frame/transaction-payment" , registry = "local" }
 
 # These dependencies are used for the node template's RPCs
 jsonrpsee = { version = "0.15.1", features = ["server"] , registry = "local" }

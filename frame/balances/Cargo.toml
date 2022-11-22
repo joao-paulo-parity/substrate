@@ -23,7 +23,7 @@ sp-runtime = { version = "6.0.0", default-features = false, path = "../../primit
 sp-std = { version = "7.0.0", default-features = false, path = "../../primitives/std" , registry = "local" }
 
 [dev-dependencies]
-pallet-transaction-payment = { version = "4.0.0-dev", path = "../transaction-payment" , registry = "local" }
+pallet-transaction-payment = { version = "4.0.0", path = "../transaction-payment" , registry = "local" }
 sp-core = { version = "6.0.0", path = "../../primitives/core" , registry = "local" }
 sp-io = { version = "6.0.0", path = "../../primitives/io" , registry = "local" }
 
