@@ -23,7 +23,7 @@ serde = { version = "1.0", features = ["derive"] , registry = "local" }
 thiserror = { version = "1.0.30", registry = "local" }
 prometheus-endpoint = { package = "substrate-prometheus-endpoint", version = "0.16.0", path = "../../../utils/prometheus" , registry = "local" }
 sc-client-api = { version = "4.0.0-dev", path = "../../api" , registry = "local" }
-sc-utils = { version = "11.0.0", path = "../../utils" , registry = "local" }
+sc-utils = { version = "12.0.0", path = "../../utils" , registry = "local" }
 sp-api = { version = "4.0.0-dev", path = "../../../primitives/api" , registry = "local" }
 sp-blockchain = { version = "4.0.0-dev", path = "../../../primitives/blockchain" , registry = "local" }
 sp-consensus = { version = "0.10.0-dev", path = "../../../primitives/consensus/common" , registry = "local" }
