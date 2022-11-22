@@ -2422,7 +2422,7 @@ dependencies = [
 
 [[package]]
 name = "frame-system"
-version = "4.0.0-dev"
+version = "4.0.0"
 dependencies = [
  "criterion",
  "frame-support",
