@@ -44,7 +44,7 @@ sc-client-api = { version = "4.0.0-dev", path = "../../../client/api" , registry
 sc-client-db = { version = "0.10.0-dev", default-features = false, path = "../../../client/db" , registry = "local" }
 sc-executor = { version = "0.10.0-dev", path = "../../../client/executor" , registry = "local" }
 sc-service = { version = "0.10.0-dev", default-features = false, path = "../../../client/service" , registry = "local" }
-sc-sysinfo = { version = "6.0.0-dev", path = "../../../client/sysinfo" , registry = "local" }
+sc-sysinfo = { version = "6.0.0", path = "../../../client/sysinfo" , registry = "local" }
 sp-api = { version = "4.0.0-dev", path = "../../../primitives/api" , registry = "local" }
 sp-blockchain = { version = "4.0.0-dev", path = "../../../primitives/blockchain" , registry = "local" }
 sp-core = { version = "6.0.0", path = "../../../primitives/core" , registry = "local" }

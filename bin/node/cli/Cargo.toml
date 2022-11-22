@@ -78,7 +78,7 @@ sc-telemetry = { version = "8.0.0", path = "../../../client/telemetry" , registr
 sc-executor = { version = "0.10.0-dev", path = "../../../client/executor" , registry = "local" }
 sc-authority-discovery = { version = "0.10.0-dev", path = "../../../client/authority-discovery" , registry = "local" }
 sc-sync-state-rpc = { version = "0.10.0-dev", path = "../../../client/sync-state-rpc" , registry = "local" }
-sc-sysinfo = { version = "6.0.0-dev", path = "../../../client/sysinfo" , registry = "local" }
+sc-sysinfo = { version = "6.0.0", path = "../../../client/sysinfo" , registry = "local" }
 
 # frame dependencies
 frame-system = { version = "4.0.0-dev", path = "../../../frame/system" , registry = "local" }

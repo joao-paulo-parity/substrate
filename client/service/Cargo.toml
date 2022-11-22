@@ -78,7 +78,7 @@ sc-offchain = { version = "4.0.0-dev", path = "../offchain" , registry = "local"
 prometheus-endpoint = { package = "substrate-prometheus-endpoint", path = "../../utils/prometheus", version = "0.17.0", registry = "local" }
 sc-tracing = { version = "4.0.0-dev", path = "../tracing" , registry = "local" }
 sp-tracing = { version = "6.0.0", path = "../../primitives/tracing" , registry = "local" }
-sc-sysinfo = { version = "6.0.0-dev", path = "../sysinfo" , registry = "local" }
+sc-sysinfo = { version = "6.0.0", path = "../sysinfo" , registry = "local" }
 tracing = { version = "0.1.29", registry = "local" }
 tracing-futures = { version = "0.2.4" , registry = "local" }
 parity-util-mem = { version = "0.12.0", default-features = false, features = [
