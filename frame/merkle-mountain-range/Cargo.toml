@@ -20,7 +20,7 @@ frame-support = { version = "4.0.0-dev", default-features = false, path = "../su
 frame-system = { version = "4.0.0-dev", default-features = false, path = "../system" , registry = "local" }
 sp-core = { version = "6.0.0", default-features = false, path = "../../primitives/core" , registry = "local" }
 sp-io = { version = "6.0.0", default-features = false, path = "../../primitives/io" , registry = "local" }
-sp-mmr-primitives = { version = "4.0.0-dev", default-features = false, path = "../../primitives/merkle-mountain-range" , registry = "local" }
+sp-mmr-primitives = { version = "4.0.0", default-features = false, path = "../../primitives/merkle-mountain-range" , registry = "local" }
 sp-runtime = { version = "6.0.0", default-features = false, path = "../../primitives/runtime" , registry = "local" }
 sp-std = { version = "7.0.0", default-features = false, path = "../../primitives/std" , registry = "local" }
 

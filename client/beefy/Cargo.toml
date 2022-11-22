@@ -37,7 +37,7 @@ sp-blockchain = { version = "4.0.0-dev", path = "../../primitives/blockchain" , 
 sp-consensus = { version = "0.10.0", path = "../../primitives/consensus/common" , registry = "local" }
 sp-core = { version = "6.0.0", path = "../../primitives/core" , registry = "local" }
 sp-keystore = { version = "0.12.0", path = "../../primitives/keystore" , registry = "local" }
-sp-mmr-primitives = { version = "4.0.0-dev", path = "../../primitives/merkle-mountain-range" , registry = "local" }
+sp-mmr-primitives = { version = "4.0.0", path = "../../primitives/merkle-mountain-range" , registry = "local" }
 sp-runtime = { version = "6.0.0", path = "../../primitives/runtime" , registry = "local" }
 
 [dev-dependencies]
