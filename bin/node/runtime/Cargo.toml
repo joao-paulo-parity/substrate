@@ -39,7 +39,7 @@ sp-session = { version = "4.0.0-dev", default-features = false, path = "../../..
 sp-transaction-pool = { version = "4.0.0-dev", default-features = false, path = "../../../primitives/transaction-pool" , registry = "local" }
 sp-version = { version = "5.0.0", default-features = false, path = "../../../primitives/version" , registry = "local" }
 sp-io = { version = "6.0.0", default-features = false, path = "../../../primitives/io" , registry = "local" }
-sp-sandbox = { version = "0.10.0-dev", default-features = false, path = "../../../primitives/sandbox" , registry = "local" }
+sp-sandbox = { version = "0.10.0", default-features = false, path = "../../../primitives/sandbox" , registry = "local" }
 
 # frame dependencies
 frame-executive = { version = "4.0.0-dev", default-features = false, path = "../../../frame/executive" , registry = "local" }

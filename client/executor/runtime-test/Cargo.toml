@@ -17,7 +17,7 @@ paste = { version = "1.0.6", registry = "local" }
 sp-core = { version = "6.0.0", default-features = false, path = "../../../primitives/core" , registry = "local" }
 sp-io = { version = "6.0.0", default-features = false, features = ["improved_panic_error_reporting"], path = "../../../primitives/io" , registry = "local" }
 sp-runtime = { version = "6.0.0", default-features = false, path = "../../../primitives/runtime" , registry = "local" }
-sp-sandbox = { version = "0.10.0-dev", default-features = false, path = "../../../primitives/sandbox" , registry = "local" }
+sp-sandbox = { version = "0.10.0", default-features = false, path = "../../../primitives/sandbox" , registry = "local" }
 sp-std = { version = "7.0.0", default-features = false, path = "../../../primitives/std" , registry = "local" }
 sp-tasks = { version = "4.0.0-dev", default-features = false, path = "../../../primitives/tasks" , registry = "local" }
 
