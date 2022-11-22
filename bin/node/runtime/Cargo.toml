@@ -95,7 +95,7 @@ pallet-staking = { version = "4.0.0-dev", default-features = false, path = "../.
 pallet-staking-reward-curve = { version = "8.0.0", default-features = false, path = "../../../frame/staking/reward-curve" , registry = "local" }
 pallet-state-trie-migration = { version = "4.0.0-dev", default-features = false, path = "../../../frame/state-trie-migration" , registry = "local" }
 pallet-scheduler = { version = "4.0.0-dev", default-features = false, path = "../../../frame/scheduler" , registry = "local" }
-pallet-society = { version = "4.0.0-dev", default-features = false, path = "../../../frame/society" , registry = "local" }
+pallet-society = { version = "4.0.0", default-features = false, path = "../../../frame/society" , registry = "local" }
 pallet-sudo = { version = "4.0.0-dev", default-features = false, path = "../../../frame/sudo" , registry = "local" }
 pallet-timestamp = { version = "4.0.0-dev", default-features = false, path = "../../../frame/timestamp" , registry = "local" }
 pallet-tips = { version = "4.0.0-dev", default-features = false, path = "../../../frame/tips" , registry = "local" }
