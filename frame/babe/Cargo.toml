@@ -24,7 +24,7 @@ pallet-session = { version = "4.0.0-dev", default-features = false, path = "../s
 pallet-timestamp = { version = "4.0.0-dev", default-features = false, path = "../timestamp" , registry = "local" }
 sp-application-crypto = { version = "6.0.0", default-features = false, path = "../../primitives/application-crypto" , registry = "local" }
 sp-consensus-babe = { version = "0.10.0-dev", default-features = false, path = "../../primitives/consensus/babe" , registry = "local" }
-sp-consensus-vrf = { version = "0.10.0-dev", default-features = false, path = "../../primitives/consensus/vrf" , registry = "local" }
+sp-consensus-vrf = { version = "0.10.0", default-features = false, path = "../../primitives/consensus/vrf" , registry = "local" }
 sp-io = { version = "6.0.0", default-features = false, path = "../../primitives/io" , registry = "local" }
 sp-runtime = { version = "6.0.0", default-features = false, path = "../../primitives/runtime" , registry = "local" }
 sp-session = { version = "4.0.0-dev", default-features = false, path = "../../primitives/session" , registry = "local" }

@@ -1,6 +1,6 @@
 [package]
 name = "sp-consensus-vrf"
-version = "0.10.0-dev"
+version = "0.10.0"
 authors = ["Parity Technologies <admin@parity.io>"]
 description = "Primitives for VRF based consensus"
 edition = "2021"
