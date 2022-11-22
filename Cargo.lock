@@ -9766,7 +9766,7 @@ dependencies = [
 
 [[package]]
 name = "sp-mmr-primitives"
-version = "4.0.0-dev"
+version = "4.0.0"
 dependencies = [
  "array-bytes",
  "log",
