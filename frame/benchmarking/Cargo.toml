@@ -28,7 +28,7 @@ sp-io = { version = "6.0.0", default-features = false, path = "../../primitives/
 sp-runtime = { version = "6.0.0", default-features = false, path = "../../primitives/runtime" , registry = "local" }
 sp-runtime-interface = { version = "6.0.0", default-features = false, path = "../../primitives/runtime-interface" , registry = "local" }
 sp-std = { version = "7.0.0", default-features = false, path = "../../primitives/std" , registry = "local" }
-sp-storage = { version = "6.0.0", default-features = false, path = "../../primitives/storage" , registry = "local" }
+sp-storage = { version = "7.0.0", default-features = false, path = "../../primitives/storage" , registry = "local" }
 
 [dev-dependencies]
 array-bytes = { version = "4.1", registry = "local" }

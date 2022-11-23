@@ -55,7 +55,7 @@ sp-keystore = { version = "0.12.0", path = "../../../primitives/keystore" , regi
 sp-runtime = { version = "6.0.0", path = "../../../primitives/runtime" , registry = "local" }
 sp-state-machine = { version = "0.12.0", path = "../../../primitives/state-machine" , registry = "local" }
 sp-std = { version = "7.0.0", path = "../../../primitives/std" , registry = "local" }
-sp-storage = { version = "6.0.0", path = "../../../primitives/storage" , registry = "local" }
+sp-storage = { version = "7.0.0", path = "../../../primitives/storage" , registry = "local" }
 sp-trie = { version = "6.0.0", path = "../../../primitives/trie" , registry = "local" }
 gethostname = { version = "0.2.3", registry = "local" }
 

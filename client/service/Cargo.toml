@@ -50,7 +50,7 @@ sp-application-crypto = { version = "6.0.0", path = "../../primitives/applicatio
 sp-consensus = { version = "0.10.0", path = "../../primitives/consensus/common" , registry = "local" }
 sc-consensus = { version = "0.10.0-dev", path = "../../client/consensus/common" , registry = "local" }
 sp-inherents = { version = "4.0.0", path = "../../primitives/inherents" , registry = "local" }
-sp-storage = { version = "6.0.0", path = "../../primitives/storage" , registry = "local" }
+sp-storage = { version = "7.0.0", path = "../../primitives/storage" , registry = "local" }
 sc-network = { version = "0.10.0-dev", path = "../network" , registry = "local" }
 sc-network-bitswap = { version = "0.10.0-dev", path = "../network/bitswap" , registry = "local" }
 sc-network-common = { version = "0.10.0-dev", path = "../network/common" , registry = "local" }

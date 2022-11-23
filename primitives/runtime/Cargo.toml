@@ -25,7 +25,7 @@ rand = { version = "0.7.2", optional = true , registry = "local" }
 scale-info = { version = "2.1.1", default-features = false, features = ["derive"] , registry = "local" }
 serde = { version = "1.0.136", features = ["derive"], optional = true , registry = "local" }
 sp-application-crypto = { version = "6.0.0", default-features = false, path = "../application-crypto" , registry = "local" }
-sp-arithmetic = { version = "6.0.0", default-features = false, path = "../arithmetic" , registry = "local" }
+sp-arithmetic = { version = "7.0.0", default-features = false, path = "../arithmetic" , registry = "local" }
 sp-core = { version = "6.0.0", default-features = false, path = "../core" , registry = "local" }
 sp-io = { version = "6.0.0", default-features = false, path = "../io" , registry = "local" }
 sp-std = { version = "7.0.0", default-features = false, path = "../std" , registry = "local" }

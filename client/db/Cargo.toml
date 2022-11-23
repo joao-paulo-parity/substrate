@@ -26,7 +26,7 @@ parity-db = { version = "0.4.2", registry = "local" }
 parking_lot = { version = "0.12.1", registry = "local" }
 sc-client-api = { version = "4.0.0-dev", path = "../api" , registry = "local" }
 sc-state-db = { version = "0.10.0-dev", path = "../state-db" , registry = "local" }
-sp-arithmetic = { version = "6.0.0", path = "../../primitives/arithmetic" , registry = "local" }
+sp-arithmetic = { version = "7.0.0", path = "../../primitives/arithmetic" , registry = "local" }
 sp-blockchain = { version = "4.0.0", path = "../../primitives/blockchain" , registry = "local" }
 sp-core = { version = "6.0.0", path = "../../primitives/core" , registry = "local" }
 sp-database = { version = "8.0.0", path = "../../primitives/database" , registry = "local" }

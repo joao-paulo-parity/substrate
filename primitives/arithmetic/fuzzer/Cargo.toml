@@ -16,7 +16,7 @@ targets = ["x86_64-unknown-linux-gnu"]
 honggfuzz = { version = "0.5.49", registry = "local" }
 num-bigint = { version = "0.4.3", registry = "local" }
 primitive-types = { version = "0.12.0", registry = "local" }
-sp-arithmetic = { version = "6.0.0", path = ".." , registry = "local" }
+sp-arithmetic = { version = "7.0.0", path = ".." , registry = "local" }
 
 [[bin]]
 name = "biguint"

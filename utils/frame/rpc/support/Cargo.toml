@@ -21,7 +21,7 @@ jsonrpsee = { version = "0.15.1", features = ["jsonrpsee-types"] , registry = "l
 serde = { version = "1", registry = "local" }
 frame-support = { version = "4.0.0", path = "../../../../frame/support" , registry = "local" }
 sc-rpc-api = { version = "0.10.0-dev", path = "../../../../client/rpc-api" , registry = "local" }
-sp-storage = { version = "6.0.0", path = "../../../../primitives/storage" , registry = "local" }
+sp-storage = { version = "7.0.0", path = "../../../../primitives/storage" , registry = "local" }
 
 [dev-dependencies]
 scale-info = { version = "2.1.1", registry = "local" }

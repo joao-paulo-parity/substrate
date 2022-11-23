@@ -18,7 +18,7 @@ impl-trait-for-tuples = { version = "0.2.2", registry = "local" }
 scale-info = { version = "2.1.1", default-features = false, features = ["derive"] , registry = "local" }
 serde = { version = "1.0.136", optional = true, features = ["derive"] , registry = "local" }
 smallvec = { version = "1.8.0", registry = "local" }
-sp-arithmetic = { version = "6.0.0", default-features = false, path = "../arithmetic" , registry = "local" }
+sp-arithmetic = { version = "7.0.0", default-features = false, path = "../arithmetic" , registry = "local" }
 sp-core = { version = "6.0.0", default-features = false, path = "../core" , registry = "local" }
 sp-debug-derive = { version = "10.0.0", default-features = false, path = "../debug-derive" , registry = "local" }
 sp-std = { version = "7.0.0", default-features = false, path = "../std" , registry = "local" }

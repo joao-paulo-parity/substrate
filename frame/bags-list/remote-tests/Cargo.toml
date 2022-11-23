@@ -21,7 +21,7 @@ frame-system = { path = "../../system", version = "4.0.0", registry = "local" }
 frame-support = { path = "../../support", version = "4.0.0", registry = "local" }
 
 # core
-sp-storage = { path = "../../../primitives/storage", version = "6.0.0", registry = "local" }
+sp-storage = { path = "../../../primitives/storage", version = "7.0.0", registry = "local" }
 sp-core = { path = "../../../primitives/core", version = "6.0.0", registry = "local" }
 sp-tracing = { path = "../../../primitives/tracing", version = "6.0.0", registry = "local" }
 sp-runtime = { path = "../../../primitives/runtime", version = "6.0.0", registry = "local" }

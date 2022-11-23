@@ -41,7 +41,7 @@ sc-telemetry = { version = "8.0.0", path = "../telemetry" , registry = "local" }
 sc-utils = { version = "13.0.0", path = "../utils" , registry = "local" }
 sp-api = { version = "4.0.0", path = "../../primitives/api" , registry = "local" }
 sp-application-crypto = { version = "6.0.0", path = "../../primitives/application-crypto" , registry = "local" }
-sp-arithmetic = { version = "6.0.0", path = "../../primitives/arithmetic" , registry = "local" }
+sp-arithmetic = { version = "7.0.0", path = "../../primitives/arithmetic" , registry = "local" }
 sp-blockchain = { version = "4.0.0", path = "../../primitives/blockchain" , registry = "local" }
 sp-consensus = { version = "0.10.0", path = "../../primitives/consensus/common" , registry = "local" }
 sp-core = { version = "6.0.0", path = "../../primitives/core" , registry = "local" }
