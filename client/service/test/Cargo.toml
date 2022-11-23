@@ -33,7 +33,7 @@ sp-api = { version = "4.0.0", path = "../../../primitives/api" , registry = "loc
 sp-blockchain = { version = "4.0.0", path = "../../../primitives/blockchain" , registry = "local" }
 sp-consensus = { version = "0.10.0", path = "../../../primitives/consensus/common" , registry = "local" }
 sp-core = { version = "6.0.0", path = "../../../primitives/core" , registry = "local" }
-sp-externalities = { version = "0.12.0", path = "../../../primitives/externalities" , registry = "local" }
+sp-externalities = { version = "0.13.0", path = "../../../primitives/externalities" , registry = "local" }
 sp-panic-handler = { version = "10.0.0", path = "../../../primitives/panic-handler" , registry = "local" }
 sp-runtime = { version = "6.0.0", path = "../../../primitives/runtime" , registry = "local" }
 sp-state-machine = { version = "0.12.0", path = "../../../primitives/state-machine" , registry = "local" }
