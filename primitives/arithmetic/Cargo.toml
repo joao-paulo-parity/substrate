@@ -23,7 +23,7 @@ num-traits = { version = "0.2.8", default-features = false , registry = "local" 
 scale-info = { version = "2.1.1", default-features = false, features = ["derive"] , registry = "local" }
 serde = { version = "1.0.136", features = ["derive"], optional = true , registry = "local" }
 static_assertions = { version = "1.1.0", registry = "local" }
-sp-debug-derive = { version = "9.0.0", default-features = false, path = "../debug-derive" , registry = "local" }
+sp-debug-derive = { version = "10.0.0", default-features = false, path = "../debug-derive" , registry = "local" }
 sp-std = { version = "7.0.0", default-features = false, path = "../std" , registry = "local" }
 
 [features]

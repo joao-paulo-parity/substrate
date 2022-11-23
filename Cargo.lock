@@ -9347,7 +9347,7 @@ dependencies = [
 
 [[package]]
 name = "sp-api-proc-macro"
-version = "8.0.0"
+version = "9.0.0"
 dependencies = [
  "blake2",
  "proc-macro-crate",
@@ -9651,7 +9651,7 @@ dependencies = [
 
 [[package]]
 name = "sp-debug-derive"
-version = "9.0.0"
+version = "10.0.0"
 dependencies = [
  "proc-macro2",
  "quote",
@@ -9885,7 +9885,7 @@ dependencies = [
 
 [[package]]
 name = "sp-runtime-interface-proc-macro"
-version = "9.0.0"
+version = "10.0.0"
 dependencies = [
  "Inflector",
  "proc-macro-crate",
